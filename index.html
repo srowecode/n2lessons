@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JLPT N2 Grammar Mastery</title>
+    <style>
+        :root {
+            /* N2 Theme: Professional Teal & Charcoal */
+            --primary: #0f766e;       
+            --primary-light: #14b8a6; 
+            --bg-color: #f1f5f9;      
+            --card-bg: #ffffff;
+            --text-dark: #334155;     
+            --text-light: #64748b;    
+            --border: #cbd5e1;
+            --accent: #f59e0b;        
+            --success: #059669;       
+            --error: #e11d48;         
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-dark);
+            line-height: 1.7;
+            margin: 0;
+            padding: 0;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* --- NEW HERO SECTION --- */
+        .hero {
+            position: relative;
+            width: 100%;
+            min-height: 600px;
+            background: linear-gradient(to right, #f4f4f5 50%, #ff4b5a 50%, #ff8f70 100%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            overflow: hidden;
+            padding-top: 40px;
+            padding-bottom: 60px;
+        }
+
+        /* Center Image Container - PERFECT SQUARE PREVENTS SQUISHING */
+        .hero-image-container {
+            position: relative;
+            z-index: 10;
+            width: 350px; 
+            height: 350px;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Crops the image proportionally */
+            border-radius: 50%; 
+            border: 8px solid white;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.3);
+            position: relative;
+        }
+
+        /* Split-Color Typography */
+        .hero-text-wrapper {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            z-index: 10;
+        }
+
+        .hero-title {
+            font-size: 5.5rem;
+            font-weight: 900;
+            letter-spacing: 6px;
+            margin: 0;
+            background: linear-gradient(to right, #1e293b 50%, #ffffff 50%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center;
+        }
+
+        .hero-subtitle {
+            font-size: 1.1rem;
+            font-weight: 700;
+            letter-spacing: 3px;
+            margin: 5px 0 30px;
+            background: linear-gradient(to right, #64748b 50%, #ffe4e6 50%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center;
+            text-transform: uppercase;
+        }
+
+        /* --- MAIN CONTENT STYLES --- */
+        .container {
+            max-width: 1000px;
+            margin: -40px auto 40px; 
+            padding: 0 20px;
+            position: relative;
+            z-index: 20;
+        }
+
+        /* --- DROPDOWN SELECTOR STYLES --- */
+        .class-selector {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            border: 1px solid var(--border);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .class-selector label {
+            font-weight: 700;
+            font-size: 1.2rem;
+            color: var(--primary);
+            white-space: nowrap;
+        }
+
+        .class-selector select {
+            flex: 1;
+            max-width: 500px;
+            padding: 10px 15px;
+            font-size: 1.1rem;
+            border: 2px solid var(--primary-light);
+            border-radius: 8px;
+            cursor: pointer;
+            outline: none;
+            color: var(--text-dark);
+            font-weight: 600;
+        }
+
+        .section-card {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+            border: 1px solid var(--border);
+        }
+
+        .grammar-overview {
+            background: var(--card-bg);
+            border-radius: 12px;
+            padding: 25px 40px;
+            margin-bottom: 30px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+            border: 1px solid var(--border);
+            border-left: 6px solid var(--accent);
+        }
+        
+        .grammar-overview p { font-size: 1.2rem; color: var(--primary); margin-top: 0; }
+        .grammar-overview ul { margin: 10px 0 0 0; padding-left: 20px; }
+        .grammar-overview li { font-size: 1.15rem; font-weight: 600; color: var(--text-dark); margin-bottom: 8px; }
+
+        h2 { border-bottom: 2px solid var(--bg-color); padding-bottom: 12px; color: var(--primary); margin-top:0; font-size: 1.8rem;}
+        h3 { color: var(--text-dark); font-size: 1.3rem; margin-top: 35px; border-left: 5px solid var(--primary-light); padding-left: 12px;}
+
+        .grammar-details {
+            background: #f8fafc;
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+            margin-bottom: 25px;
+        }
+        
+        .grammar-details p { margin: 10px 0; font-size: 1.05rem;}
+        .grammar-details strong { color: var(--primary); font-weight: 700;}
+
+        .topic-tag {
+            display: inline-block;
+            background: var(--primary-light);
+            padding: 5px 12px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            color: white;
+            margin-right: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .example-list li { padding: 18px 0; border-bottom: 1px dashed var(--border); display: flex; align-items: flex-start; flex-wrap: wrap; }
+        .example-list li:last-child { border-bottom: none; }
+        .example-text-wrapper { flex: 1; }
+        .example-text { font-size: 1.15rem; color: var(--text-dark); display: block; margin-bottom: 6px; font-weight: 500;}
+        .example-eng { color: var(--text-light); font-size: 0.95rem; display: block; }
+
+        /* Audio Button CSS */
+        .audio-btn {
+            background: none; border: none; cursor: pointer; font-size: 1.3rem; margin-right: 10px;
+            padding: 5px; border-radius: 50%; transition: all 0.2s;
+        }
+        .audio-btn:hover { background: #e2e8f0; transform: scale(1.1); }
+        .read-aloud-btn {
+            background: var(--accent); color: white; border: none; padding: 10px 20px;
+            border-radius: 6px; cursor: pointer; font-size: 1.05rem; font-weight: 600; margin-top: 10px;
+            transition: background 0.2s; display: inline-flex; align-items: center; gap: 8px;
+        }
+        .read-aloud-btn:hover { background: #d97706; }
+
+        /* Interactive Practice CSS */
+        .practice-container {
+            background: #fffbeb; 
+            padding: 25px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #fde68a;
+        }
+
+        .word-bank { display: flex; flex-wrap: wrap; gap: 12px; margin: 20px 0; }
+        .word-btn {
+            background: white; border: 1px solid var(--border); color: var(--text-dark);
+            padding: 10px 18px; border-radius: 25px; cursor: pointer; font-size: 1.05rem;
+            font-weight: 500; transition: all 0.2s; box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        }
+        .word-btn:hover { background: var(--primary-light); color: white; border-color: var(--primary-light); transform: translateY(-2px);}
+        .word-btn:disabled { opacity: 0; cursor: default; }
+
+        .drop-zone {
+            min-height: 55px; border: 2px dashed var(--accent); border-radius: 8px;
+            padding: 15px; display: flex; flex-wrap: wrap; gap: 12px; background: white;
+            margin-bottom: 15px;
+        }
+
+        /* Dropdown CSS for Practice */
+        .dropdown-container {
+            background: #f0fdf4;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            border: 1px solid #bbf7d0;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        .dropdown-container select {
+            padding: 8px 12px; font-size: 1.05rem; border: 2px solid var(--primary-light);
+            border-radius: 6px; cursor: pointer; outline: none; margin: 0 8px;
+            color: var(--text-dark); font-weight: 600;
+        }
+
+        /* Reading Section CSS */
+        .reading-box {
+            background: #f8fafc; padding: 30px; border-radius: 8px;
+            font-size: 1.15rem; line-height: 2.1; border: 1px solid var(--border);
+            margin-bottom: 25px; color: #1e293b;
+        }
+
+        .reading-box p { margin-bottom: 18px; }
+        
+        button.action-btn {
+            background: var(--primary); color: white; border: none; padding: 12px 24px;
+            border-radius: 6px; cursor: pointer; font-size: 1.05rem; font-weight: 600; margin-top: 10px; margin-right: 10px;
+            transition: background 0.2s;
+        }
+        button.action-btn:hover { background: #0d9488; }
+
+        .feedback { font-weight: bold; margin-left: 15px; font-size: 1.1rem; }
+        .correct { color: var(--success); }
+        .incorrect { color: var(--error); }
+    </style>
+</head>
+<body>
+
+    <!-- REIMAGINED HERO SECTION -->
+    <header class="hero">
+        <div class="hero-image-container">
+            <img src="main.jpg" alt="30 year old student studying Japanese" class="hero-image">
+        </div>
+        <div class="hero-text-wrapper">
+            <h1 class="hero-title">JLPT N2 GRAMMAR</h1>
+            <p class="hero-subtitle">Contextual Learning & Conjugation Practice</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <!-- TOP DROPDOWN SELECTOR -->
+        <div class="class-selector">
+            <label for="lessonSelect">Select Lesson:</label>
+            <select id="lessonSelect" onchange="loadLesson()">
+                <!-- Populated dynamically by JS -->
+            </select>
+        </div>
+
+        <div id="lessonContent">
+            <!-- Content injects here via JS -->
+        </div>
+    </div>
+
+    <!-- EXTERNAL DATA SOURCE LINK -->
+    <script src="curriculum.js"></script>
+
+    <!-- MAIN LOGIC -->
+    <script>
+        // Web Speech API Integration
+        function playAudio(text) {
+            if ('speechSynthesis' in window) {
+                window.speechSynthesis.cancel(); // Stop any currently playing audio
+                const utterance = new SpeechSynthesisUtterance(text);
+                utterance.lang = 'ja-JP'; 
+                utterance.rate = 0.9; // Slightly slower for better comprehension
+                window.speechSynthesis.speak(utterance);
+            } else {
+                alert("Sorry, your browser doesn't support text-to-speech!");
+            }
+        }
+
+        // Helper to extract clean Japanese text from HTML strings with blanks
+        function getCleanReadingText(rawHtml, blanks) {
+            let cleanText = rawHtml;
+            // Replace [BLANK] tokens with the actual correct answers
+            blanks.forEach(b => {
+                cleanText = cleanText.replace(`[${b.id}]`, b.answer);
+            });
+            // Remove HTML tags (like <p>, <strong>, etc.)
+            cleanText = cleanText.replace(/<[^>]*>?/gm, '');
+            return cleanText;
+        }
+
+        // Initialize the page by loading the dropdown options
+        function initApp() {
+            if (typeof n2curriculum === 'undefined') {
+                document.getElementById("lessonContent").innerHTML = `
+                    <div class="section-card">
+                        <h2 style="color: var(--error);">Error</h2>
+                        <p>Could not load the curriculum data. Make sure <strong>curriculum.js</strong> is in the same folder as this file.</p>
+                    </div>`;
+                return;
+            }
+
+            const selectEl = document.getElementById("lessonSelect");
+            
+            // Populate dropdown with all available lessons
+            n2curriculum.forEach((lesson, index) => {
+                const option = document.createElement("option");
+                option.value = index;
+                option.textContent = lesson.title;
+                selectEl.appendChild(option);
+            });
+
+            // Load the first lesson by default
+            loadLesson();
+        }
+
+        // Triggered when the dropdown is changed
+        function loadLesson() {
+            const selectEl = document.getElementById("lessonSelect");
+            const selectedIndex = selectEl.value;
+            const lessonToRender = n2curriculum[selectedIndex];
+            renderLesson(lessonToRender);
+        }
+
+        function renderLesson(lesson) {
+            const container = document.getElementById("lessonContent");
+            
+            let html = `<h2>${lesson.title}</h2>`;
+
+            // Grammar Overview section
+            html += `
+            <div class="grammar-overview">
+                <p><strong>In this lesson, you will study:</strong></p>
+                <ul>
+                    ${lesson.grammar.map(g => `<li>${g.point} - <em>${g.english}</em></li>`).join('')}
+                </ul>
+            </div>`;
+
+            lesson.grammar.forEach((g, gIndex) => {
+                html += `
+                <div class="section-card">
+                    <h3>${g.point}</h3>
+                    <div class="grammar-details">
+                        <p><strong>English:</strong> ${g.english}</p>
+                        <p><strong>Structure:</strong> <code>${g.structure}</code></p>
+                        <p><strong>Nuance:</strong> ${g.nuance}</p>
+                        <p><strong>Metaphor 💡:</strong> ${g.metaphor}</p>
+                    </div>
+                    
+                    <h4>Example Sentences (5 Topics)</h4>
+                    <ul class="example-list">
+                        ${g.examples.map(ex => `
+                            <li>
+                                <div style="display:flex; align-items:center; width: 100%; margin-bottom: 5px;">
+                                    <span class="topic-tag">${ex.topic}</span>
+                                    <button class="audio-btn" onclick="playAudio('${ex.text.replace(/'/g, "\\'")}')" title="Listen">🔊</button>
+                                </div>
+                                <div class="example-text-wrapper">
+                                    <span class="example-text">${ex.text}</span>
+                                    <span class="example-eng">${ex.eng}</span>
+                                </div>
+                            </li>
+                        `).join('')}
+                    </ul>
+
+                    <h4>Activity 1-5: Sentence Assembly</h4>
+                    ${g.clickingGames.map((game, i) => `
+                        <div class="practice-container" id="game-${gIndex}-${i}">
+                            <p><strong>Translate:</strong> ${game.prompt}</p>
+                            <div class="drop-zone" id="drop-${gIndex}-${i}"></div>
+                            <div class="word-bank" id="bank-${gIndex}-${i}">
+                                ${game.words.sort(() => Math.random() - 0.5).map((word, wIdx) => `
+                                    <button class="word-btn" onclick="moveWord(this, 'drop-${gIndex}-${i}', 'bank-${gIndex}-${i}')">${word}</button>
+                                `).join('')}
+                            </div>
+                            <button class="action-btn" onclick="checkClickGame('${gIndex}-${i}', '${game.target}')">Check Answer</button>
+                            <button class="action-btn" style="background:var(--text-light);" onclick="resetClickGame('${gIndex}-${i}')">Reset</button>
+                            <span class="feedback" id="feedback-${gIndex}-${i}"></span>
+                        </div>
+                    `).join('')}
+
+                    <h4>Activity 6-10: Conjugation Selection</h4>
+                    ${g.dropdownGames.map((game, i) => `
+                        <div class="dropdown-container">
+                            ${i + 6}. ${game.before} 
+                            <select id="dd-${gIndex}-${i}">
+                                <option value="">---</option>
+                                ${game.options.map(opt => `<option value="${opt}">${opt}</option>`).join('')}
+                            </select> 
+                            ${game.after}
+                            <button class="action-btn" style="padding: 5px 10px; margin-left: 10px; font-size: 0.9rem;" onclick="checkDropdown('${gIndex}-${i}', '${game.answer}')">Check</button>
+                            <span class="feedback" id="dd-feedback-${gIndex}-${i}"></span>
+                        </div>
+                    `).join('')}
+
+                    <h4>Activity 11-13: Opinion Exchange</h4>
+                    <p style="color: var(--text-light); margin-bottom: 20px;"><em>Use the target grammar point to answer the following questions out loud or in writing.</em></p>
+                    <ul class="example-list">
+                        ${g.opinionQuestions.map((q, qIndex) => `
+                            <li>
+                                <div style="display:flex; align-items:center; width: 100%; margin-bottom: 5px;">
+                                    <button class="audio-btn" onclick="playAudio('${q.text.replace(/'/g, "\\'")}')" title="Listen">🔊</button>
+                                </div>
+                                <div class="example-text-wrapper">
+                                    <span class="example-text">${qIndex + 11}. ${q.text}</span>
+                                    <span class="example-eng">${q.eng}</span>
+                                </div>
+                            </li>
+                        `).join('')}
+                    </ul>
+                </div>`;
+            });
+
+            // Clean the text for the dialogue and story audio readers
+            const cleanDialogue = getCleanReadingText(lesson.dialogue.text, lesson.dialogue.blanks).replace(/'/g, "\\'").replace(/\n/g, "");
+            const cleanStory = getCleanReadingText(lesson.story.text, lesson.story.blanks).replace(/'/g, "\\'").replace(/\n/g, "");
+
+            // Reading Section
+            html += `
+            <div class="section-card">
+                <h2>Reading Comprehension</h2>
+                
+                <h3>1. Dialogue: ${lesson.dialogue.speaker}</h3>
+                <div class="reading-box" id="dialogue-box">
+                    <p><em>Context: ${lesson.dialogue.context}</em></p>
+                    ${renderReadingBlanks(lesson.dialogue.text, lesson.dialogue.blanks, 'diag')}
+                </div>
+                <button class="action-btn" onclick="checkReadingBlanks('diag')">Check Dialogue Answers</button>
+                <button class="read-aloud-btn" onclick="playAudio('${cleanDialogue}')">🔊 Read Aloud</button>
+
+                <h3>2. Story: ${lesson.story.title}</h3>
+                <div class="reading-box" id="story-box">
+                    ${renderReadingBlanks(lesson.story.text, lesson.story.blanks, 'story')}
+                </div>
+                <button class="action-btn" onclick="checkReadingBlanks('story')">Check Story Answers</button>
+                <button class="read-aloud-btn" onclick="playAudio('${cleanStory}')">🔊 Read Aloud</button>
+            </div>
+            `;
+
+            container.innerHTML = html;
+        }
+
+        // Helper logic for reading blanks
+        function renderReadingBlanks(text, blanks, prefix) {
+            let processedText = text;
+            blanks.forEach(b => {
+                let shuffledOptions = [...b.options].sort(() => Math.random() - 0.5);
+                let optionsHtml = `<option value="">--Select--</option>` + shuffledOptions.map(o => `<option value="${o}">${o}</option>`).join('');
+                let selectHtml = `<select id="${prefix}-${b.id}" data-answer="${b.answer}">${optionsHtml}</select>`;
+                processedText = processedText.replace(`[${b.id}]`, selectHtml);
+            });
+            return processedText;
+        }
+
+        function checkReadingBlanks(prefix) {
+            const selects = document.querySelectorAll(`select[id^="${prefix}-"]`);
+            selects.forEach(sel => {
+                if(sel.value === sel.dataset.answer) {
+                    sel.style.backgroundColor = "#d1fae5";
+                    sel.style.borderColor = "var(--success)";
+                } else {
+                    sel.style.backgroundColor = "#ffe4e6";
+                    sel.style.borderColor = "var(--error)";
+                }
+            });
+        }
+
+        // Logic for click games
+        function moveWord(btn, dropId, bankId) {
+            const dropZone = document.getElementById(dropId);
+            const bankZone = document.getElementById(bankId);
+            
+            if (btn.parentElement.id === bankId) {
+                dropZone.appendChild(btn);
+            } else {
+                bankZone.appendChild(btn);
+            }
+        }
+
+        function checkClickGame(id, target) {
+            const dropZone = document.getElementById(`drop-${id}`);
+            const feedback = document.getElementById(`feedback-${id}`);
+            const currentSentence = Array.from(dropZone.children).map(btn => btn.innerText).join('');
+            
+            if (currentSentence === target) {
+                feedback.innerHTML = "✓ Correct!";
+                feedback.className = "feedback correct";
+            } else {
+                feedback.innerHTML = "✗ Try again.";
+                feedback.className = "feedback incorrect";
+            }
+        }
+
+        function resetClickGame(id) {
+            const dropZone = document.getElementById(`drop-${id}`);
+            const bankZone = document.getElementById(`bank-${id}`);
+            const feedback = document.getElementById(`feedback-${id}`);
+            
+            while (dropZone.firstChild) {
+                bankZone.appendChild(dropZone.firstChild);
+            }
+            feedback.innerHTML = "";
+        }
+
+        // Logic for dropdowns
+        function checkDropdown(id, answer) {
+            const select = document.getElementById(`dd-${id}`);
+            const feedback = document.getElementById(`dd-feedback-${id}`);
+            if (select.value === answer) {
+                feedback.innerHTML = "✓ Correct!";
+                feedback.className = "feedback correct";
+            } else {
+                feedback.innerHTML = "✗ Incorrect.";
+                feedback.className = "feedback incorrect";
+            }
+        }
+
+        // Start the application once the window loads
+        window.onload = initApp;
+    </script>
+</body>
+</html>
