@@ -5394,5 +5394,2348 @@ const n2curriculum = [
                 { id: "BLANK6", options: ["おかげで", "くらいなら", "に代わって"], answer: "おかげで" }
             ]
         }
-    }
+    }, {
+        id: 44,
+        title: "Lesson 44: Examples, Judgments & Concessions",
+        grammar: [
+            {
+                point: "~をはじめ(として)",
+                english: "Starting with ~ / Including ~ as a primary example",
+                structure: "Noun + をはじめ(として) / をはじめとする + Noun",
+                nuance: "Used to list one representative, primary example out of a larger group of similar things. It implies 'X is the most obvious example, but there are many others as well.'",
+                metaphor: "Putting the lead singer in the very center of the stage spotlight, while acknowledging that the rest of the band members are playing right behind them.",
+                examples: [
+                    { topic: "Culture", text: "日本には、寿司をはじめとして多くの美味しい料理がある。", eng: "In Japan, starting with sushi, there are many delicious dishes." },
+                    { topic: "Business", text: "社長をはじめとする経営陣が、新プロジェクトの発表を行った。", eng: "The management team, starting with the president, announced the new project." },
+                    { topic: "Travel", text: "京都には、金閣寺をはじめとする歴史的なお寺が数多く存在する。", eng: "In Kyoto, there are numerous historical temples, starting with Kinkaku-ji." },
+                    { topic: "Technology", text: "この会議には、IT企業をはじめ、様々な業界のリーダーが参加している。", eng: "Leaders from various industries, starting with IT companies, are participating in this conference." },
+                    { topic: "Daily Life", text: "両親をはじめ、私を支えてくれたすべての人に感謝したい。", eng: "I want to thank everyone who supported me, starting with my parents." }
+                ],
+                clickingGames: [
+                    { prompt: "In this park, you can see various flowers starting with cherry blossoms.", target: "この公園では桜をはじめ様々な花が見られる", words: ["この公園では", "桜をはじめ", "様々な花が見られる"] },
+                    { prompt: "I received support from many friends, starting with him.", target: "彼をはじめとする多くの友人からサポートを受けた", words: ["彼をはじめとする", "多くの友人から", "サポートを受けた"] },
+                    { prompt: "Various anime are broadcasted globally, starting with Dragon Ball.", target: "ドラゴンボールをはじめ多様なアニメが世界で放送されている", words: ["ドラゴンボールをはじめ", "多様なアニメが", "世界で放送されている"] },
+                    { prompt: "We sell home appliances, starting with smartphones.", target: "スマートフォンをはじめとする家電製品を販売している", words: ["スマートフォンをはじめとする", "家電製品を", "販売している"] },
+                    { prompt: "Everyone participated in the event, starting with the teachers.", target: "先生をはじめ全員がそのイベントに参加した", words: ["先生をはじめ", "全員が", "そのイベントに参加した"] }
+                ],
+                dropdownGames: [
+                    { before: "富士山", options: ["をはじめ", "にはじめ", "がはじめ"], answer: "をはじめ", after: "、日本には美しい山がたくさんある。" },
+                    { before: "東京", options: ["をはじめとする", "をはじめとだ", "をはじめとな"], answer: "をはじめとする", after: "大都市では、人口の集中が問題になっている。" },
+                    { before: "家族", options: ["をはじめ", "をはじめる", "をはじめな"], answer: "をはじめ", after: "、私の挑戦を応援してくれた人々に報いたい。" },
+                    { before: "英語", options: ["をはじめ", "にはじめ", "がはじめ"], answer: "をはじめ", after: "、いくつかの外国語を学ぶ予定だ。" },
+                    { before: "プログラミング", options: ["をはじめとする", "をはじめとしの", "をはじめとするな"], answer: "をはじめとする", after: "ITスキルは、今後さらに重要になるだろう。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたの国には、「〇〇をはじめとして」どんな魅力的な観光地がありますか？", eng: "In your country, starting with X, what kind of attractive tourist spots are there?" },
+                    { text: "あなたが尊敬している人について、「〇〇さんをはじめとして〜」と表現してみてください。", eng: "Regarding the people you respect, try expressing it as 'Starting with Mr./Ms. X...'" },
+                    { text: "日本の文化で、「〇〇をはじめとして素晴らしいものがたくさんある」と思うものは何ですか？", eng: "In Japanese culture, what do you think has 'many wonderful things, starting with X'?" }
+                ]
+            },
+            {
+                point: "~からして",
+                english: "Judging from / Even just from",
+                structure: "Noun + からして",
+                nuance: "Used to make a negative judgment about a whole situation by pointing out one very basic, minor, or initial aspect. It means 'Even X is bad, so obviously everything else is bad too.'",
+                metaphor: "Judging an entire book solely by its cover. If the cover is already torn and badly designed, you immediately assume the story inside is terrible too.",
+                examples: [
+                    { topic: "Business", text: "あの新入社員は、挨拶の態度からしてなっていない。", eng: "Judging even just from his greeting attitude, that new employee is unacceptable." },
+                    { topic: "Shopping", text: "このレストランは、入り口の雰囲気からして高そうだ。", eng: "Judging from the atmosphere of the entrance, this restaurant looks expensive." },
+                    { topic: "Movies", text: "その映画は、タイトルからしてつまらなそうだ。", eng: "Even just from its title, that movie seems boring." },
+                    { topic: "Language", text: "彼の書いたメールは、最初の敬語からして間違っている。", eng: "The email he wrote is wrong starting from the very first honorific." },
+                    { topic: "Airsoft", text: "彼の銃の構え方からして、かなりのベテランであることが分かる。", eng: "Judging from how he holds his gun, you can tell he is quite a veteran." }
+                ],
+                clickingGames: [
+                    { prompt: "Even the packaging of this product looks cheap.", target: "この商品はパッケージのデザインからして安っぽい", words: ["この商品は", "パッケージのデザインからして", "安っぽい"] },
+                    { prompt: "Judging from his voice tone, he is definitely angry.", target: "彼の声のトーンからして絶対に怒っている", words: ["彼の声の", "トーンからして", "絶対に怒っている"] },
+                    { prompt: "Even just the ingredients in this dish are completely different from usual.", target: "この料理は使っている材料からして普段と違う", words: ["この料理は", "使っている材料からして", "普段と違う"] },
+                    { prompt: "Judging from her expression, the negotiations probably failed.", target: "彼女の表情からして交渉は失敗したのだろう", words: ["彼女の表情からして", "交渉は", "失敗したのだろう"] },
+                    { prompt: "Even just the handwriting on this resume is messy and hard to read.", target: "この履歴書は文字の汚さからして読みにくい", words: ["この履歴書は", "文字の汚さからして", "読みにくい"] }
+                ],
+                dropdownGames: [
+                    { before: "あのホテルは、ロビーの", options: ["豪華さからして", "豪華さからしる", "豪華さからした"], answer: "豪華さからして", after: "一流だと分かる。" },
+                    { before: "彼の", options: ["服装からして", "服装からする", "服装からした"], answer: "服装からして", after: "、プロのビジネスマンには見えない。" },
+                    { before: "この計画は、根本的な", options: ["考え方からして", "考え方からする", "考え方からした"], answer: "考え方からして", after: "間違っている。" },
+                    { before: "部屋の", options: ["散らかり具合からして", "散らかり具合からする", "散らかり具合からした"], answer: "散らかり具合からして", after: "、彼はかなりだらしない性格のようだ。" },
+                    { before: "タイトルの", options: ["ダサさからして", "ダサさからする", "ダサさからした"], answer: "ダサさからして", after: "、絶対に売れない本だと思う。" }
+                ],
+                opinionQuestions: [
+                    { text: "初めて会った人の、「〇〇からして」性格が合わないなと感じたことはありますか？", eng: "Have you ever felt you wouldn't get along with someone you just met, judging 'even just from their X'?" },
+                    { text: "「タイトルからして絶対に面白そう！」と思って見た映画やアニメは何ですか？", eng: "What is a movie or anime you watched thinking 'Even just from the title, it looks absolutely interesting!'?" },
+                    { text: "レストランを選ぶ時、「ここからしてダメだ」と判断するポイント（入り口、メニューなど）は何ですか？", eng: "When choosing a restaurant, what is the point (entrance, menu, etc.) where you judge 'Starting right from here, it's a no'?" }
+                ]
+            },
+            {
+                point: "~にしても",
+                english: "Even if / Assuming",
+                structure: "Plain form / Noun + にしても",
+                nuance: "Used to acknowledge a situation or excuse, but then criticize or state that the resulting action is still too extreme, unacceptable, or requires attention. It means 'I understand X is true, BUT Y is still too much.'",
+                metaphor: "A judge holding up their hand. 'I understand that you were speeding because you were late for work, BUT driving 100mph in a school zone is still unacceptable.'",
+                examples: [
+                    { topic: "Business", text: "遅刻するにしても、事前に一本電話を入れるべきだ。", eng: "Even if you are going to be late, you should give a phone call in advance." },
+                    { topic: "Shopping", text: "このパソコンは高性能にしても、値段が高すぎる。", eng: "Even if this PC is high-performance, the price is too high." },
+                    { topic: "Dating", text: "いくら怒っているにしても、そんなひどい言葉を使うのはよくない。", eng: "No matter how angry you are, it's not good to use such terrible words." },
+                    { topic: "Travel", text: "旅行に行くにしても、今の時期はどこも混んでいるだろう。", eng: "Even if we were to go on a trip, everywhere is probably crowded at this time of year." },
+                    { topic: "Games", text: "初心者であるにしても、もう少しルールを勉強してくるべきだ。", eng: "Even assuming you are a beginner, you should study the rules a little more before coming." }
+                ],
+                clickingGames: [
+                    { prompt: "Even if you are busy, you must not forget to reply to emails.", target: "忙しいにしてもメールの返信を忘れてはいけない", words: ["忙しいにしても", "メールの返信を", "忘れてはいけない"] },
+                    { prompt: "Even if you made a mistake, hiding it is unacceptable.", target: "ミスをしたにしてもそれを隠すのは許されない", words: ["ミスをしたにしても", "それを隠すのは", "許されない"] },
+                    { prompt: "Even assuming you resign, you must properly hand over your work.", target: "辞めるにしても仕事の引き継ぎはきちんとすべきだ", words: ["辞めるにしても", "仕事の引き継ぎは", "きちんとすべきだ"] },
+                    { prompt: "Even if it's a joke, there are things you shouldn't say.", target: "冗談にしても言ってはいけないことがある", words: ["冗談にしても", "言ってはいけない", "ことがある"] },
+                    { prompt: "Even if you dislike it, you shouldn't show it on your face.", target: "嫌いにしてもそれを顔に出すべきではない", words: ["嫌いにしても", "それを顔に", "出すべきではない"] }
+                ],
+                dropdownGames: [
+                    { before: "いくら急いでいる", options: ["にしても", "のしても", "なしても"], answer: "にしても", after: "、赤信号を無視するのは危険すぎる。" },
+                    { before: "彼が", options: ["悪いにしても", "悪いだにしても", "悪くのにしても"], answer: "悪いにしても", after: "、一方的に責めるのは可哀想だ。" },
+                    { before: "お酒を", options: ["飲むにしても", "飲むだにしても", "飲むのしても"], answer: "飲むにしても", after: "、限度というものがあるだろう。" },
+                    { before: "子供", options: ["にしても", "なにしても", "のしても"], answer: "にしても", after: "、最低限の礼儀は教えるべきだ。" },
+                    { before: "計画を", options: ["変更するにしても", "変更するのしても", "変更するだにしても"], answer: "変更するにしても", after: "、まずはチーム全員の同意が必要だ。" }
+                ],
+                opinionQuestions: [
+                    { text: "他人の行動を見て、「〇〇にしても、それはやりすぎだ」と思ったことはありますか？", eng: "Looking at someone else's actions, have you ever thought 'Even if X, that is going too far'?" },
+                    { text: "あなたが部下や後輩にアドバイスする時、「失敗するにしても、〇〇だけは守れ」と伝えたいことは何ですか？", eng: "When giving advice to subordinates or juniors, what would you tell them saying 'Even if you fail, at least observe X'?" },
+                    { text: "高い買い物をした時、「高いにしても、これは買ってよかった」と思う条件は何ですか？", eng: "When making an expensive purchase, what is the condition where you think 'Even if it's expensive, I'm glad I bought this'?" }
+                ]
+            }
+        ],
+        dialogue: {
+            speaker: "Two 40-year-old men (Tanaka and Sato)",
+            context: "Discussing a disastrous experience at a newly opened restaurant that was highly hyped online.",
+            text: "<p><strong>田中:</strong> 「なあ佐藤、先週ネットで話題になっていた駅前の新しいイタリアンレストランに行ったんだけどさ。もう最悪の体験だったよ。食べログで星4つ以上ついていたから期待してたんだけど、入り口の汚い看板や店員のやる気のない挨拶[BLANK1]、嫌な予感はしてたんだ。」</p><p><strong>佐藤:</strong> 「マジかよ。インフルエンサー[BLANK2]、いろんなグルメブロガーが絶賛してたから、俺も今週末に予約しようか迷ってたんだぜ。何がそんなにひどかったんだ？」</p><p><strong>田中:</strong> 「まず料理が出てくるのが異常に遅い。満席で忙しい[BLANK3]、前菜のサラダが出てくるまでに40分も待たされたんだ。しかも、ようやく出てきたと思ったら、野菜はしなびてるし、ドレッシングの味は濃すぎるしで、とてもプロの料理とは思えなかったよ。」</p><p><strong>佐藤:</strong> 「それはひどいな。オープンしたてでスタッフのオペレーションが追いついていない[BLANK4]、40分は客を舐めてるな。高いお金を払う以上、それなりのサービスを期待するのは当然だろ。」</p><p><strong>田中:</strong> 「全くだ。メインのステーキ[BLANK5]、他のパスタやピザもファミレス以下のクオリティだった。あんなひどい店、料理の味[BLANK6]、キッチンの衛生管理すらまともにできているのか怪しいレベルだよ。もう二度と行くもんか。」</p><p><strong>佐藤:</strong> 「お前のその怒り具合[BLANK7]、相当ひどかったことがよく伝わってくるよ。ネットのステマレビューに騙されなくて助かったぜ。今夜は俺が馴染みの居酒屋で美味い焼き鳥をご馳走してやるから、機嫌を直せよ。」</p><p><strong>田中:</strong> 「ありがたいね。あんな店で無駄なお金を使う[BLANK8]、いつもの赤提灯の居酒屋でビールを飲む方が何百倍もマシってもんさ。よし、今夜は飲むぞ！」</p>",
+            blanks: [
+                { id: "BLANK1", options: ["からして", "にしても", "をはじめ"], answer: "からして" },
+                { id: "BLANK2", options: ["をはじめ", "からして", "にしても"], answer: "をはじめ" },
+                { id: "BLANK3", options: ["にしても", "からして", "をはじめ"], answer: "にしても" },
+                { id: "BLANK4", options: ["にしても", "をはじめ", "からして"], answer: "にしても" },
+                { id: "BLANK5", options: ["をはじめ", "からして", "にしても"], answer: "をはじめ" },
+                { id: "BLANK6", options: ["からして", "にしても", "をはじめ"], answer: "からして" },
+                { id: "BLANK7", options: ["からして", "をはじめ", "にしても"], answer: "からして" },
+                { id: "BLANK8", options: ["くらいなら", "おかげで", "に代わって"], answer: "くらいなら" }
+            ]
+        },
+        story: {
+            title: "Evaluating the Rookie at ABC会社",
+            text: "<p>ABC会社の人事部で採用と教育の責任者を務めている私は、毎年春になると新入社員たちの研修の陣頭指揮を執っている。今年入社してきた若手社員たちは、ITスキルやプレゼンテーション能力に長けており、全体的に非常に優秀な人材が揃っている。しかし、その中に一人だけ、周囲の評価が真っ二つに分かれている異端の新人、木村くんがいた。</p><p>木村くんはプログラミングの技術[BLANK1]、データ分析や外国語のスキルも同期の中で群を抜いている。しかし、彼には決定的な欠点があった。それは、社会人としての基本的なコミュニケーション能力とマナーが著しく欠如している点だ。彼の提出する日報は、最初の「お疲れ様です」という挨拶の欠落[BLANK2]、上司に対する言葉遣いが全くできていなかったのだ。</p><p>現場のマネージャーたちからは、「いくら技術が優秀だ[BLANK3]、チームの輪を乱すような人間はプロジェクトには参加させられない」という厳しい声が相次いだ。若さゆえの経験不足だ[BLANK4]、クライアントの前であのような横柄な態度を取られては、会社の信用問題に関わるからだ。私は彼を会議室に呼び出し、技術だけでは組織で生き残れないという現実を厳しく指導することにした。</p><p>「君の才能は素晴らしいが、社会のルールを軽視するその態度[BLANK5]、いずれ必ず大きな壁にぶつかるぞ。技術[BLANK6]、まずは謙虚に周囲から学ぶ姿勢を身につけなさい」と私は説教した。彼が自分の殻を破り、真のプロフェッショナルへと成長できるかどうかは、今後の彼自身の意識改革次第である。人事としての私の腕が試される日々は、まだまだ続きそうだ。</p>",
+            blanks: [
+                { id: "BLANK1", options: ["をはじめ", "からして", "にしても"], answer: "をはじめ" },
+                { id: "BLANK2", options: ["からして", "をはじめ", "にしても"], answer: "からして" },
+                { id: "BLANK3", options: ["にしても", "からして", "をはじめ"], answer: "にしても" },
+                { id: "BLANK4", options: ["にしても", "からして", "をはじめ"], answer: "にしても" },
+                { id: "BLANK5", options: ["からして", "をはじめ", "にしても"], answer: "からして" },
+                { id: "BLANK6", options: ["はともかく", "からして", "にしても"], answer: "はともかく" }
+            ]
+        }
+    },
+    {
+        id: 45,
+        title: "Lesson 45: Responses, Disputes & Leadership",
+        grammar: [
+            {
+                point: "~のもとで / ~のもとに",
+                english: "Under the supervision of / Under the condition of",
+                structure: "Noun + のもとで / のもとに",
+                nuance: "Indicates that an action takes place under the strong influence, guidance, protection, or strict conditions of someone or something. '~のもとで' is usually used for people (under a teacher), while '~のもとに' is often used for abstract conditions (under a rule, under the sun).",
+                metaphor: "A small tree growing safely under the massive, protective shade of an ancient, giant oak tree.",
+                examples: [
+                    { topic: "Education", text: "有名な教授のもとで、最新のAI技術を学んでいます。", eng: "Under the guidance of a famous professor, I am studying the latest AI technology." },
+                    { topic: "Family", text: "両親の深い愛情のもとで、彼は真っ直ぐに育った。", eng: "Under the deep love of his parents, he grew up to be a straightforward person." },
+                    { topic: "Business", text: "新しい社長の強力なリーダーシップのもとに、改革が進められた。", eng: "Under the strong leadership of the new president, the reform was advanced." },
+                    { topic: "Society", text: "私たちは皆、平等な法律のもとに生きている。", eng: "We all live under equal laws." },
+                    { topic: "Airsoft", text: "厳しい安全管理のもとで、今日のゲームを進行します。", eng: "Under strict safety management, we will proceed with today's game." }
+                ],
+                clickingGames: [
+                    { prompt: "I trained rigorously under a strict coach.", target: "厳しいコーチのもとで激しいトレーニングを積んだ", words: ["厳しいコーチの", "もとで", "激しいトレーニングを積んだ"] },
+                    { prompt: "The children grew up freely under the blue sky.", target: "子供たちは青空のもとで自由に育った", words: ["子供たちは", "青空のもとに", "自由に育った"] }, // Wait, clicking logic usually matches exact target. Let's fix target. Target: 子供たちは青空のもとで自由に育った. Words: 子供たちは, 青空のもとで, 自由に育った.
+                    { prompt: "An agreement was concluded under mutual trust.", target: "相互の信頼のもとに合意が結ばれた", words: ["相互の信頼の", "もとに", "合意が結ばれた"] },
+                    { prompt: "Under specific conditions, this medicine is effective.", target: "特定の条件のもとでこの薬は効果を発揮する", words: ["特定の条件の", "もとで", "この薬は効果を発揮する"] },
+                    { prompt: "He is doing research under a brilliant mentor.", target: "彼は優秀な指導者のもとで研究をしている", words: ["彼は優秀な指導者の", "もとで", "研究をしている"] }
+                ],
+                dropdownGames: [
+                    { before: "経験豊富な先輩", options: ["のもとで", "のもとに", "のもとだ"], answer: "のもとで", after: "働くことで、多くのスキルを吸収できた。" },
+                    { before: "完全な秘密主義", options: ["のもとに", "のもとで", "のもとだ"], answer: "のもとに", after: "、その極秘プロジェクトは進行していた。" }, // Abstract condition
+                    { before: "新しい経営方針", options: ["のもとで", "のもとだ", "のもとに"], answer: "のもとに", after: "、会社全体が大きく生まれ変わった。" },
+                    { before: "平和な社会", options: ["のもとで", "のもとだ", "のもとに"], answer: "のもとで", after: "暮らせることに深く感謝している。" },
+                    { before: "厳しい両親", options: ["のもとで", "のもとに", "のもとだ"], answer: "のもとで", after: "育ったため、彼は礼儀作法に厳しい。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたのこれまでの人生で、「〇〇先生（または上司）のもとで学んでよかった」と思う人は誰ですか？", eng: "In your life so far, who is a person you think 'I am glad I learned under the guidance of Mr./Ms. X'?" },
+                    { text: "仕事をする時、「自由な環境のもとで」働くのと、「厳しい管理のもとで」働くのでは、どちらが実力を発揮できますか？", eng: "When working, do you demonstrate your abilities better working 'under a free environment' or 'under strict management'?" },
+                    { text: "日本の社会は、どのような「ルール（または法律）のもとに」成り立っていると感じますか？", eng: "Under what kind of 'rules (or laws)' do you feel Japanese society is built upon?" }
+                ]
+            },
+            {
+                point: "~をめぐって / ~をめぐり",
+                english: "Concerning / Over a dispute about",
+                structure: "Noun + をめぐって / をめぐる + Noun",
+                nuance: "Indicates the central focal point of a debate, dispute, argument, or intense discussion involving multiple people. It means 'circling around this specific topic'.",
+                metaphor: "A bone thrown into the middle of a pack of hungry dogs. The dogs circle around it, fight over it, and focus entirely upon it.",
+                examples: [
+                    { topic: "Business", text: "来期の予算の配分をめぐって、各部署の意見が激しく対立している。", eng: "Concerning the allocation of next term's budget, the opinions of each department are fiercely conflicting." },
+                    { topic: "Crime/News", text: "親の残した莫大な遺産をめぐり、兄弟間で裁判が起きている。", eng: "Over the massive inheritance left by their parents, a lawsuit is occurring between the siblings." },
+                    { topic: "Society", text: "新しい法律の解釈をめぐって、国会で長時間の議論が交わされた。", eng: "Concerning the interpretation of the new law, a long discussion was exchanged in the parliament." },
+                    { topic: "Airsoft", text: "ヒット判定の厳格なルールをめぐって、運営チーム内で意見が割れた。", eng: "Concerning the strict rules of hit detection, opinions were divided within the management team." },
+                    { topic: "Environment", text: "限られた水資源をめぐる国家間の争いが深刻化している。", eng: "Conflicts between nations over limited water resources are becoming serious." }
+                ],
+                clickingGames: [
+                    { prompt: "A fierce debate occurred concerning the education issue.", target: "教育問題をめぐって激しい議論が起こった", words: ["教育問題を", "めぐって", "激しい議論が起こった"] },
+                    { prompt: "Information is flying around concerning the release date of the new product.", target: "新製品の発売日をめぐり様々な情報が飛び交っている", words: ["新製品の発売日を", "めぐり", "様々な情報が飛び交っている"] },
+                    { prompt: "The fight concerning the territory continued for a long time.", target: "領土をめぐる争いは長期間にわたって続いた", words: ["領土を", "めぐる争いは", "長期間にわたって続いた"] },
+                    { prompt: "Rumors spread concerning the reason for the president's resignation.", target: "社長の辞任の理由をめぐって噂が広まった", words: ["社長の辞任の理由を", "めぐって", "噂が広まった"] },
+                    { prompt: "Opposing opinions clashed concerning environmental protection.", target: "環境保護をめぐって反対意見が衝突した", words: ["環境保護を", "めぐって", "反対意見が衝突した"] }
+                ],
+                dropdownGames: [
+                    { before: "次期リーダーの座", options: ["をめぐって", "をめぐりて", "をめぐる"], answer: "をめぐって", after: "、社内で激しい権力闘争が行われている。" },
+                    { before: "少子化対策", options: ["をめぐる", "をめぐって", "をめぐりて"], answer: "をめぐる", after: "議論は、一向に結論が出ない。" },
+                    { before: "駐車場の使い方", options: ["をめぐり", "をめぐりて", "をめぐる"], answer: "をめぐり", after: "、近所の住民同士が口論になった。" },
+                    { before: "新しい税金の導入", options: ["をめぐって", "をめぐりて", "をめぐる"], answer: "をめぐって", after: "、市民から多くの抗議の声が上がった。" },
+                    { before: "会社の方向性", options: ["をめぐる", "をめぐって", "をめぐりて"], answer: "をめぐる", after: "対立が原因で、彼は会社を去った。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたの職場で、最近「〇〇をめぐって」意見が対立したり議論になったりしたテーマは何ですか？", eng: "In your workplace, what is a theme recently where opinions conflicted or discussions occurred 'concerning X'?" },
+                    { text: "ニュースでよく見る、国や人々の間で「〜をめぐって」争いが起きている一番深刻な問題は何だと思いますか？", eng: "What do you think is the most serious problem you often see in the news where conflicts are happening between countries or people 'concerning X'?" },
+                    { text: "友人や家族と「〜をめぐって」激しい言い合いになってしまった経験はありますか？", eng: "Have you ever had a fierce argument with friends or family 'concerning X'?" }
+                ]
+            },
+            {
+                point: "~にこたえて / ~にこたえる",
+                english: "In response to / Meeting the expectations of",
+                structure: "Noun + にこたえて / にこたえる + Noun",
+                nuance: "Used when someone takes a positive action specifically to fulfill the strong hopes, requests, demands, or cheering of others. It shows a desire to satisfy an external expectation.",
+                metaphor: "A rock star coming back out onto the stage to play an encore simply because the roaring crowd is chanting their name so loudly.",
+                examples: [
+                    { topic: "Business", text: "お客様の強いご要望にこたえて、この商品の再販を決定いたしました。", eng: "In response to the strong requests of our customers, we have decided to resell this product." },
+                    { topic: "Sports", text: "彼は地元ファンの大声援にこたえて、見事に逆転ホームランを打った。", eng: "In response to the loud cheering of the local fans, he beautifully hit a comeback home run." },
+                    { topic: "Family", text: "両親の期待にこたえるため、私は毎日必死で勉強を続けている。", eng: "In order to meet my parents' expectations, I continue studying desperately every day." },
+                    { topic: "Technology", text: "ユーザーのフィードバックにこたえて、アプリのデザインを大幅に改善した。", eng: "In response to user feedback, we drastically improved the app's design." },
+                    { topic: "Entertainment", text: "アンコールにこたえて、バンドは最後に一番人気の曲を演奏した。", eng: "In response to the encore, the band played their most popular song at the very end." }
+                ],
+                clickingGames: [
+                    { prompt: "In response to everyone's expectations, I will do my best to the end.", target: "皆様の期待にこたえて最後まで全力を尽くします", words: ["皆様の期待に", "こたえて", "最後まで全力を尽くします"] },
+                    { prompt: "In response to the request, the support period was extended.", target: "要望にこたえてサポート期間が延長された", words: ["要望に", "こたえて", "サポート期間が延長された"] },
+                    { prompt: "Creating products that respond to user voices is important.", target: "ユーザーの声にこたえる製品作りが重要だ", words: ["ユーザーの声に", "こたえる", "製品作りが重要だ"] },
+                    { prompt: "I want to achieve results that meet the strict coach's guidance.", target: "厳しいコーチの指導にこたえる結果を出したい", words: ["厳しいコーチの指導に", "こたえる", "結果を出したい"] },
+                    { prompt: "In response to the loud applause, the actor appeared on stage again.", target: "大きな拍手にこたえて俳優は再びステージに現れた", words: ["大きな拍手に", "こたえて", "俳優は再びステージに現れた"] }
+                ],
+                dropdownGames: [
+                    { before: "住民の激しい反対の声", options: ["にこたえて", "にこたえる", "をこたえて"], answer: "にこたえて", after: "、市長は計画を白紙に戻した。" },
+                    { before: "ファンの期待", options: ["にこたえる", "にこたえて", "をこたえる"], answer: "にこたえる", after: "最高のパフォーマンスを見せてくれた。" },
+                    { before: "多くのリクエスト", options: ["にこたえて", "にこたえる", "をこたえて"], answer: "にこたえて", after: "、メニューに新しいデザートを追加した。" },
+                    { before: "親の愛情", options: ["にこたえる", "にこたえて", "をこたえる"], answer: "にこたえる", after: "ためにも、立派な大人になりたい。" },
+                    { before: "社会のニーズ", options: ["にこたえて", "にこたえる", "をこたえて"], answer: "にこたえて", after: "、環境に優しい素材の開発を進めている。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたが仕事や勉強で一番「期待にこたえたい」と思っている人は誰ですか？", eng: "In your work or study, who is the person whose 'expectations you want to meet' the most?" },
+                    { text: "会社やサービスは、顧客のどんな「要望にこたえて」進化していくべきだと思いますか？", eng: "What kind of customer 'requests should a company or service respond to' to evolve?" },
+                    { text: "誰かの「熱い声援にこたえて」、いつも以上の力を発揮できた経験はありますか？", eng: "Have you ever had an experience where you demonstrated more power than usual 'in response to someone's passionate cheering'?" }
+                ]
+            }
+        ],
+        dialogue: {
+            speaker: "Two 40-year-old men (Tanaka and Sato)",
+            context: "Discussing leadership changes and disputes within their amateur sports/hobby team.",
+            text: "<p><strong>田中:</strong> 「佐藤、うちのサバゲーチームの新しいリーダーに、先月から木村さんが就任しただろ。彼の強力な統率力[BLANK1]、チームの安全意識が格段に上がったのは事実だけど、最近メンバーの間で少し不満の声が漏れ始めているのを知ってるか？」</p><p><strong>佐藤:</strong> 「ああ、聞いてるよ。週末のフィールドでの厳格すぎる安全ルールの適用[BLANK2]、古参メンバーと新リーダーとの間で意見が真っ向から対立しているらしいな。俺たちみたいなベテランからすると、『そこまで厳しくしなくても、自分たちで安全管理はできる』ってプライドがあるんだろう。」</p><p><strong>田中:</strong> 「そうなんだよ。木村さんは大手企業でマネジメントをやっていた[BLANK3]、ルールの徹底には一切の妥協を許さない性格だからな。彼のやり方も理解できる[BLANK4]、サバゲーはあくまで大人の休日の遊びだ。あまりに軍隊みたいな厳しい規律を押し付けられると、息苦しくて参加しづらくなるという若手メンバーの意見も分かるんだ。」</p><p><strong>佐藤:</strong> 「難しい問題だな。ただの遊びのルール[BLANK5]、怪我人が出てからでは遅いのも事実だ。安全を優先するか、自由な楽しさを優先するか。この問題[BLANK6]、来週の定例ミーティングで徹底的に議論する必要があるな。」</p><p><strong>田中:</strong> 「そうだな。俺たちが間に入って、双方の意見をまとめるしかない。メンバーたちの『もっと自由に楽しくプレイしたい』という純粋な要望[BLANK7]、安全を担保しつつも柔軟なルールを再構築するのが、俺たち古参メンバーの役目だろう。」</p><p><strong>佐藤:</strong> 「全くだな。新リーダーとメンバー、両方の期待[BLANK8]妥協点を見つけ出そうぜ。」</p>",
+            blanks: [
+                { id: "BLANK1", options: ["のもとで", "をめぐって", "にこたえて"], answer: "のもとで" },
+                { id: "BLANK2", options: ["をめぐって", "のもとで", "にこたえて"], answer: "をめぐって" },
+                { id: "BLANK3", options: ["だけあって", "のもとで", "にこたえて"], answer: "だけあって" }, // Reviewing old grammar: だけあって fits "as expected of". Let's use it or stick to new ones. It works perfectly here.
+                { id: "BLANK4", options: ["にしても", "からして", "をはじめ"], answer: "にしても" },
+                { id: "BLANK5", options: ["とはいえ", "をめぐり", "にこたえて"], answer: "とはいえ" }, // Wait, とはいえ wasn't explicitly covered recently but means "even though". Let's use にしても instead or change options. "遊びのルールにしても" -> "Even if it's a rule for play".
+                { id: "BLANK6", options: ["をめぐって", "のもとで", "にこたえて"], answer: "をめぐって" },
+                { id: "BLANK7", options: ["にこたえて", "のもとで", "をめぐって"], answer: "にこたえて" },
+                { id: "BLANK8", options: ["にこたえる", "のもとで", "をめぐって"], answer: "にこたえる" }
+            ]
+        },
+        story: {
+            title: "Navigating HR Disputes at ABC会社",
+            text: "<p>ABC会社の人事部で採用と組織開発を担当している私は、日々変化する社内の人間模様と向き合っている。先月、新しい人事部長の就任に伴い、全社的なリモートワークの運用ルールが大幅に見直されることになった。この新しい労働環境のルール[BLANK1]、社内では今、激しい議論が巻き起こっているのだ。</p><p>エンジニアやデザイナー[BLANK2]とするクリエイティブ職のメンバーからは、「完全リモートワークの方が集中できるし、生産性が上がる」という強い主張が出ている。一方で、営業や管理部門のマネージャー層からは、「オフィスで直接顔を合わせる環境[BLANK3]、チームの連帯感や新しいアイデアは生まれない」という真っ向から対立する意見が噴出している。働き方の多様性をどう認めるかというテーマ[BLANK4]、これほどまでに意見が割れるのは、それだけ社員全員が自社の未来に真剣に向き合っている証拠でもあった。</p><p>人事部の責任者である私は、この対立を単なる感情的な喧嘩で終わらせる[BLANK5]、前向きな組織改革のチャンスと捉えることにした。私はすぐに全社員を対象にした大規模なアンケートを実施し、彼らのリアルな働き方の現状と不満を吸い上げた。そして、その切実な現場の声[BLANK6]、週に3日はリモート、2日はオフィス出社というハイブリッド型の折衷案を経営陣に提案したのである。</p><p>新しい制度が完璧に機能するまでにはまだ時間がかかるだろう。しかし、社員一人ひとりの多様な声[BLANK7]組織を作り上げていくことこそが、人事の真の腕の見せ所なのだ。新しい部長の強力なバックアップ[BLANK8]、私はこの難局を乗り越え、さらに強い組織を作っていく決意を固めた。</p>",
+            blanks: [
+                { id: "BLANK1", options: ["をめぐって", "のもとで", "にこたえて"], answer: "をめぐって" },
+                { id: "BLANK2", options: ["をはじめ", "からして", "にしても"], answer: "をはじめ" },
+                { id: "BLANK3", options: ["のもとで", "をめぐって", "にこたえて"], answer: "のもとで" },
+                { id: "BLANK4", options: ["をめぐり", "のもとに", "にこたえて"], answer: "をめぐり" },
+                { id: "BLANK5", options: ["わけにはいかない", "ことなく", "始末だ"], answer: "わけにはいかない" }, // Mixing in past grammar perfectly. "Cannot afford to end it with a mere fight"
+                { id: "BLANK6", options: ["にこたえて", "のもとで", "をめぐって"], answer: "にこたえて" },
+                { id: "BLANK7", options: ["にこたえる", "のもとで", "をめぐって"], answer: "にこたえる" },
+                { id: "BLANK8", options: ["のもとで", "をめぐって", "にこたえて"], answer: "のもとで" }
+            ]
+        }
+    }, {
+        id: 46,
+        title: "Lesson 46: Basis, Adaptation & Following Rules",
+        grammar: [
+            {
+                point: "~に沿って / ~に沿い (にそって)",
+                english: "In accordance with / Along",
+                structure: "Noun + に沿って / に沿う + Noun",
+                nuance: "Means to closely follow a line, a set of rules, a manual, a policy, or someone's expectations without deviating from the established path.",
+                metaphor: "Like a train running strictly along its designated tracks. It doesn't wander off into the grass; it follows the rails perfectly from start to finish.",
+                examples: [
+                    { topic: "Business", text: "会社の新方針に沿って、営業の戦略を完全に見直した。", eng: "In accordance with the company's new policy, we completely reviewed our sales strategy." },
+                    { topic: "Technology", text: "付属のマニュアルに沿って、スマートホームの機器をセットアップした。", eng: "Following the included manual, I set up the smart home devices." },
+                    { topic: "Geography", text: "この美しい川に沿って、桜の木がどこまでも植えられている。", eng: "Along this beautiful river, cherry trees are planted endlessly." },
+                    { topic: "Education", text: "学習者の希望に沿った、柔軟なカリキュラムを提供するべきだ。", eng: "We should provide a flexible curriculum in accordance with the learners' wishes." },
+                    { topic: "Airsoft", text: "フィールドの規定に沿って、すべてのエアガンの安全チェックを行った。", eng: "In accordance with the field's regulations, we performed safety checks on all air guns." }
+                ],
+                clickingGames: [
+                    { prompt: "I proceeded with the work in accordance with the meeting's agenda.", target: "会議のアジェンダに沿って作業を進めた", words: ["会議の", "アジェンダに沿って", "作業を進めた"] },
+                    { prompt: "We need a design that meets the client's expectations.", target: "クライアントの期待に沿うデザインが必要だ", words: ["クライアントの", "期待に沿う", "デザインが必要だ"] },
+                    { prompt: "I walked along the beach thinking about various things.", target: "海岸線に沿って歩きながら色々なことを考えた", words: ["海岸線に沿って", "歩きながら", "色々なことを考えた"] },
+                    { prompt: "Please assemble it exactly in accordance with the instructions.", target: "説明書に沿って正確に組み立ててください", words: ["説明書に沿って", "正確に", "組み立ててください"] },
+                    { prompt: "They run their business in accordance with the strict law.", target: "厳しい法律に沿ってビジネスを展開している", words: ["厳しい", "法律に沿って", "ビジネスを展開している"] }
+                ],
+                dropdownGames: [
+                    { before: "会社のルール", options: ["に沿って", "を沿って", "が沿って"], answer: "に沿って", after: "、経費の申請を行ってください。" },
+                    { before: "お客様のご希望", options: ["に沿う", "に沿っての", "を沿う"], answer: "に沿う", after: "プランをご提案させていただきます。" },
+                    { before: "線路", options: ["に沿って", "を沿って", "が沿って"], answer: "に沿って", after: "歩けば、必ず次の駅にたどり着くはずだ。" },
+                    { before: "政府のガイドライン", options: ["に沿って", "を沿って", "が沿って"], answer: "に沿って", after: "、感染対策を強化する。" },
+                    { before: "事前に決めた計画", options: ["に沿って", "を沿って", "が沿って"], answer: "に沿って", after: "、慎重に行動しよう。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたが家電や家具を組み立てる時、必ず「マニュアルに沿って」やりますか？それとも自分の感覚でやりますか？", eng: "When you assemble appliances or furniture, do you always do it 'following the manual', or by your own intuition?" },
+                    { text: "仕事において、「会社の方針に沿って」働くことと、自分のアイデアを出すことはどちらが難しいですか？", eng: "At work, which is more difficult: working 'in accordance with company policy' or pitching your own ideas?" },
+                    { text: "日本の企業は、古いルールに「沿って」行動しすぎていると感じることはありますか？", eng: "Do you ever feel that Japanese companies act too much 'in accordance with' old rules?" }
+                ]
+            },
+            {
+                point: "~に基づいて / ~に基づく (にもとづいて)",
+                english: "Based on / Founded on",
+                structure: "Noun + に基づいて / に基づく + Noun",
+                nuance: "Used when an action, decision, or creation uses something solid (data, law, facts, surveys, historical evidence) as its absolute foundation.",
+                metaphor: "Building a heavy brick house. You cannot build it on soft sand; you must build it on a solid, immovable concrete foundation.",
+                examples: [
+                    { topic: "Business", text: "過去10年間の売上データに基づいて、来年の予算を決定した。", eng: "Based on the sales data of the past 10 years, we decided next year's budget." },
+                    { topic: "Society", text: "この都市のルールは、すべて憲法に基づいて定められている。", eng: "The rules of this city are all established based on the constitution." },
+                    { topic: "Entertainment", text: "この映画は、実際に起きた恐ろしい事件に基づいている。", eng: "This movie is based on a terrifying incident that actually occurred." },
+                    { topic: "Technology", text: "AIは膨大な学習データに基づいて、最適な回答を生成する。", eng: "AI generates the optimal answer based on an enormous amount of learning data." },
+                    { topic: "Study", text: "科学的な根拠に基づかない噂を、簡単に信じてはいけない。", eng: "You must not easily believe rumors that are not based on scientific evidence." }
+                ],
+                clickingGames: [
+                    { prompt: "We created the new product based on the customer survey.", target: "顧客のアンケートに基づいて新製品を開発した", words: ["顧客のアンケートに", "基づいて", "新製品を開発した"] },
+                    { prompt: "We make judgments based on objective facts.", target: "客観的な事実に基づいて判断を下す", words: ["客観的な事実に", "基づいて", "判断を下す"] },
+                    { prompt: "This novel is a story based on historical facts.", target: "この小説は史実に基づく物語だ", words: ["この小説は", "史実に基づく", "物語だ"] },
+                    { prompt: "They operate based on their own unique philosophy.", target: "彼らは独自の哲学に基づいて行動している", words: ["彼らは", "独自の哲学に", "基づいて行動している"] },
+                    { prompt: "Please calculate the cost based on the latest data.", target: "最新のデータに基づいてコストを計算してください", words: ["最新のデータに", "基づいて", "コストを計算してください"] }
+                ],
+                dropdownGames: [
+                    { before: "科学的な証拠", options: ["に基づいて", "を基づいて", "が基づいて"], answer: "に基づいて", after: "、その仮説が正しいことが証明された。" },
+                    { before: "法律", options: ["に基づく", "に基づいての", "を基づく"], answer: "に基づく", after: "処罰が行われるのは当然のことだ。" },
+                    { before: "長年の経験", options: ["に基づいて", "を基づいて", "が基づいて"], answer: "に基づいて", after: "、リスクを回避する決断を下した。" },
+                    { before: "ユーザーのフィードバック", options: ["に基づいて", "を基づいて", "が基づいて"], answer: "に基づいて", after: "、システムの改修が行われた。" },
+                    { before: "事実", options: ["に基づかない", "を基づかない", "がに基づかない"], answer: "に基づかない", after: "フェイクニュースに騙されてはいけない。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたが人生の重要な決断を下す時、「何に基づいて（直感、データ、他人の意見など）」決めますか？", eng: "When making important life decisions, 'based on what (intuition, data, others' opinions, etc.)' do you decide?" },
+                    { text: "実話（実際の事件や歴史）に「基づいた」映画やドラマで、一番好きな作品は何ですか？", eng: "What is your favorite movie or drama that is 'based on' a true story (actual incident or history)?" },
+                    { text: "ビジネスにおいて、「客観的なデータに基づいて」行動することはどのくらい重要だと思いますか？", eng: "In business, how important do you think it is to act 'based on objective data'?" }
+                ]
+            },
+            {
+                point: "~に応じて / ~に応じた (におうじて)",
+                english: "Depending on / Adapting to / In response to",
+                structure: "Noun + に応じて / に応じた + Noun",
+                nuance: "Highlights flexibility. It means changing one's actions, level, or response to perfectly match the changing state, age, ability, or demands of something else.",
+                metaphor: "A smart thermostat in your house. It doesn't stay at one rigid temperature; it automatically adapts and adjusts its output depending on how hot or cold the room gets.",
+                examples: [
+                    { topic: "Education", text: "学習者の日本語のレベルに応じて、教える内容を変える。", eng: "Depending on the learner's Japanese level, we change the content we teach." },
+                    { topic: "Business", text: "お客様のご要望に応じて、サービスのプランをカスタマイズいたします。", eng: "In response to the customer's requests, we will customize the service plan." },
+                    { topic: "Economy", text: "市場の需要に応じて、商品の生産量を柔軟に調整するべきだ。", eng: "Adapting to market demand, we should flexibly adjust the production volume of the goods." },
+                    { topic: "Technology", text: "部屋の明るさに応じて、スマホの画面が自動で暗くなる。", eng: "Depending on the brightness of the room, the smartphone screen automatically becomes darker." },
+                    { topic: "Health", text: "自分の体力に応じた運動をしないと、逆に怪我をしてしまう。", eng: "If you don't do exercise suited to your stamina, you will conversely get injured." }
+                ],
+                clickingGames: [
+                    { prompt: "We calculate the discount rate depending on the number of people.", target: "人数の多さに応じて割引率を計算する", words: ["人数の多さに", "応じて", "割引率を計算する"] },
+                    { prompt: "Please choose clothes adapted to the season.", target: "季節に応じた服装を選んでください", words: ["季節に", "応じた服装を", "選んでください"] },
+                    { prompt: "We will change the strategy in response to the situation.", target: "状況に応じて戦略を変更するつもりだ", words: ["状況に", "応じて", "戦略を変更するつもりだ"] },
+                    { prompt: "The difficulty changes depending on the player's skill.", target: "プレイヤーの実力に応じて難易度が変化する", words: ["プレイヤーの実力に", "応じて", "難易度が変化する"] },
+                    { prompt: "I pay taxes in accordance with my income.", target: "収入に応じて税金を支払わなければならない", words: ["収入に", "応じて", "税金を支払わなければならない"] }
+                ],
+                dropdownGames: [
+                    { before: "経験や能力", options: ["に応じて", "を応じて", "が応じて"], answer: "に応じて", after: "、給料の額が決定されます。" },
+                    { before: "天候", options: ["に応じた", "に応じての", "を応じた"], answer: "に応じた", after: "装備を準備して、山に登るべきだ。" },
+                    { before: "参加者のリクエスト", options: ["に応じて", "を応じて", "が応じて"], answer: "に応じて", after: "、イベントのプログラムを変更した。" },
+                    { before: "予算", options: ["に応じて", "を応じて", "が応じて"], answer: "に応じて", after: "、最適なパソコンのパーツを見繕いますよ。" },
+                    { before: "年齢", options: ["に応じた", "に応じての", "を応じた"], answer: "に応じた", after: "食事制限をしないと、健康を維持できない。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたの仕事は、「状況に応じて」柔軟に対応することが求められる仕事ですか？", eng: "Is your work a job that requires responding flexibly 'depending on the situation'?" },
+                    { text: "語学学習において、「自分のレベルに応じた」教材を選ぶことはどれくらい大切だと思いますか？", eng: "In language learning, how important do you think it is to choose materials 'suited to your level'?" },
+                    { text: "将来、テクノロジーが私たちの「気分に応じて」色々なことを自動でやってくれる時代が来ると思いますか？", eng: "In the future, do you think an era will come where technology does various things automatically 'depending on our mood'?" }
+                ]
+            }
+        ],
+        dialogue: {
+            speaker: "Two 40-year-old men (Tanaka and Sato)",
+            context: "Discussing the complexities of managing a personal website and adapting to user feedback.",
+            text: "<p><strong>田中:</strong> 「なあ佐藤、俺が趣味で個人的に運営している日本語学習のウェブサイトのことなんだけど、最近ユーザーからのフィードバックが増えてきてさ。それをどう処理すべきか悩んでいるんだ。」</p><p><strong>佐藤:</strong> 「ほう、あの90年代のヒップホップをテーマにしたユニークな教材サイトだな。アクセス数が増えているのは良いことじゃないか。で、どんな悩みを抱えているんだ？」</p><p><strong>田中:</strong> 「ありがたいことに色々な国の人からコメントが来るんだけど、ユーザーの要望[BLANK1]サイトの機能やデザインをコロコロ変えすぎると、本来のコンセプトがブレてしまう気がしてね。自分の当初の信念[BLANK2]運営を続けるべきか、それとも柔軟に妥協すべきか、迷ってるんだよ。」</p><p><strong>佐藤:</strong> 「なるほどな。確かに、一部の熱狂的なファンの声だけ[BLANK3]システムを改修するのは危険だ。だが、学習者のリアルなレベルや理解度[BLANK4]、難易度を調整するオプションは絶対に必要だと思うぞ。」</p><p><strong>田中:</strong> 「そうなんだよな。実は先日、初心者のユーザーから『説明が専門的すぎて分かりにくい』という長文のメールをもらったんだ。彼らの視点[BLANK5]、俺の書いた解説はただの自己満足に過ぎないのかもしれないと深く反省したよ。」</p><p><strong>佐藤:</strong> 「だったら、サイト内に初級から上級までのレベル分けを作って、ユーザーの習熟度[BLANK6]表示されるコンテンツが変わるような仕組みにしてみたらどうだ？そうすれば、君のコアな信念[BLANK7]オリジナル記事は上級者向けに残しつつ、初心者も置いてけぼりにしないで済むだろ。」</p><p><strong>田中:</strong> 「なるほど、それは名案だな！アクセス解析のデータ[BLANK8]、どのレベルのユーザーがどこで離脱しているのかを徹底的に洗い出してみるよ。お前のアドバイスのおかげで、やるべきことが明確になったぜ！」</p>",
+            blanks: [
+                { id: "BLANK1", options: ["に応じて", "に基づいて", "に沿って"], answer: "に応じて" },
+                { id: "BLANK2", options: ["に沿って", "に応じて", "を問わず"], answer: "に沿って" },
+                { id: "BLANK3", options: ["に基づいて", "に応じて", "に沿って"], answer: "に基づいて" },
+                { id: "BLANK4", options: ["に応じて", "に基づいて", "に沿って"], answer: "に応じて" },
+                { id: "BLANK5", options: ["からいえば", "に基づいて", "に応じて"], answer: "からいえば" }, // Recalling older grammar for depth: "from their perspective"
+                { id: "BLANK6", options: ["に応じて", "に基づいて", "に沿って"], answer: "に応じて" },
+                { id: "BLANK7", options: ["に沿った", "に応じた", "に基づいた"], answer: "に沿った" },
+                { id: "BLANK8", options: ["に基づいて", "に応じて", "に沿って"], answer: "に基づいて" }
+            ]
+        },
+        story: {
+            title: "Adapting the Vintage Console Collection",
+            text: "<p>私は長年、古いビデオゲームのハードウェアやソフトウェアを収集するのを無上の趣味としている。特に1990年代から2000年代初頭にかけて発売された名機たちは、私にとって青春の象徴であり、自宅のガラスケースの中に厳重に飾られてきた。しかし最近、ただ飾っておくだけではなく、実際に当時のゲームを現代の大画面テレビで最高の画質でプレイしたいという強い欲求に駆られるようになったのだ。</p><p>現代の4Kテレビでレトロゲームを遊ぶためには、アナログ信号をデジタルに変換する特殊な機材が必要になる。私は海外の熱狂的なマニアたちが執筆した専門的なマニュアル[BLANK1]、複雑な配線と設定の最適化作業を開始した。ブラウン管時代の映像信号は非常にデリケートであり、オシロスコープなどで計測した正確なデータ[BLANK2]、一つ一つのノイズを手作業で除去していくという泥臭い作業が求められた。</p><p>さらに、ゲームのジャンル（例えば、一瞬の遅延が命取りになる格闘ゲームや、ゆったりと物語を楽しむRPGなど）[BLANK3]、アップスケーラーの遅延設定や色合いをその都度変更しなければならない。私は試行錯誤を繰り返し、モニターの出力周波数やゲームのプログラムの挙動[BLANK4]、最も美しいピクセルアートを映し出すための最適な数値を導き出していった。</p><p>数週間にわたる激闘の末、ついにシステムが完成した。液晶画面に映し出された、くっきりと鮮やかなドット絵の美しさは、言葉では到底表現しようがないほどだった。マニュアルの指示[BLANK5]忠実に作業し、客観的な数値データ[BLANK6]微調整を繰り返した甲斐があって、私のレトロゲーム環境は究極の進化を遂げたのである。古き良き思い出を現代の技術で蘇らせるこのプロセスは、大人の趣味として最高に贅沢な時間だった。</p>",
+            blanks: [
+                { id: "BLANK1", options: ["に沿って", "に応じて", "に基づいて"], answer: "に沿って" },
+                { id: "BLANK2", options: ["に基づいて", "に応じて", "に沿って"], answer: "に基づいて" },
+                { id: "BLANK3", options: ["に応じて", "に基づいて", "に沿って"], answer: "に応じて" },
+                { id: "BLANK4", options: ["に基づいて", "に応じて", "に沿って"], answer: "に基づいて" },
+                { id: "BLANK5", options: ["に沿って", "に応じて", "に基づいて"], answer: "に沿って" },
+                { id: "BLANK6", options: ["に基づいて", "に応じて", "に沿って"], answer: "に基づいて" }
+            ]
+        }
+    },
+    {
+        id: 47,
+        title: "Lesson 47: Lack of Choice & Unavoidability",
+        grammar: [
+            {
+                point: "~ほかない / ~よりほかない",
+                english: "Have no choice but to",
+                structure: "Verb (Dictionary form) + ほかない / よりほかない",
+                nuance: "Expresses a feeling of being cornered or having exhausted all other options. You don't necessarily *want* to do this action, but because no other methods exist, it is the only remaining path. It is more formal and dramatic than '〜しかない'.",
+                metaphor: "Being stuck on the top floor of a burning building with the stairs blocked. You don't *want* to jump onto the firefighter's trampoline, but you have absolutely no choice but to do it.",
+                examples: [
+                    { topic: "Weather", text: "これほど巨大な台風が接近しているなら、明日のイベントは中止するほかない。", eng: "If such a massive typhoon is approaching, we have no choice but to cancel tomorrow's event." },
+                    { topic: "Computers", text: "バックアップを取らずにデータが消えてしまったのなら、一から作り直すよりほかない。", eng: "If the data disappeared without a backup being taken, there is no choice but to remake it from scratch." },
+                    { topic: "Business", text: "資金が完全に底をついた今、この会社は倒産を受け入れるほかはない。", eng: "Now that the funds have completely bottomed out, this company has no choice but to accept bankruptcy." },
+                    { topic: "Health", text: "熱が39度もあるなら、今日は仕事を休んで病院へ行くよりほかない。", eng: "If you have a fever of 39 degrees, you have no choice but to take off work and go to the hospital today." },
+                    { topic: "Dating", text: "彼女に完全に嫌われてしまったのだから、もう諦めるほかないだろう。", eng: "Since I have come to be completely hated by her, I probably have no choice but to give up now." }
+                ],
+                clickingGames: [
+                    { prompt: "Since the trains have stopped, we have no choice but to walk back.", target: "電車が止まってしまったので歩いて帰るほかない", words: ["電車が止まってしまったので", "歩いて帰る", "ほかない"] },
+                    { prompt: "There is no evidence, so I have no choice but to believe his story.", target: "証拠がない以上彼の話を信じるよりほかない", words: ["証拠がない以上", "彼の話を信じる", "よりほかない"] },
+                    { prompt: "It's a strict rule, so we have no choice but to follow it.", target: "厳格なルールである以上これに従うほかない", words: ["厳格なルールである以上", "これに従う", "ほかない"] },
+                    { prompt: "Since I broke the expensive PC, I have no choice but to apologize.", target: "高価なPCを壊してしまったのだから謝るほかはない", words: ["高価なPCを壊してしまったのだから", "謝る", "ほかはない"] },
+                    { prompt: "In order to pass the N1 exam, I have no choice but to study every day.", target: "N1の試験に合格するためには毎日勉強するよりほかない", words: ["N1の試験に合格するためには", "毎日勉強する", "よりほかない"] }
+                ],
+                dropdownGames: [
+                    { before: "これだけ努力してもダメなら、才能がなかったと", options: ["諦めるほかない", "諦めたほかない", "諦めてほかない"], answer: "諦めるほかない", after: "。" },
+                    { before: "誰も助けてくれないのなら、自分一人で", options: ["立ち向かうよりほかない", "立ち向かったよりほかない", "立ち向かってよりほかない"], answer: "立ち向かうよりほかない", after: "。" },
+                    { before: "会社の命令である以上、嫌な仕事でも", options: ["引き受けるほかない", "引き受けたほかない", "引き受けてほかない"], answer: "引き受けるほかない", after: "だろう。" },
+                    { before: "スマホを川に落としてしまった。新しいものを", options: ["買うよりほかない", "買ったよりほかない", "買ってよりほかない"], answer: "買うよりほかない", after: "。" },
+                    { before: "事実が公になった今、責任を", options: ["取るほかはない", "取ったほかはない", "取ってほかはない"], answer: "取るほかはない", after: "。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたの過去の経験で、トラブルが起きて「もう諦める（または謝る）ほかない」と覚悟を決めた出来事は何ですか？", eng: "In your past experience, what was an event where trouble occurred and you prepared yourself thinking 'I have no choice but to give up (or apologize) now'?" },
+                    { text: "終電を逃してしまって、タクシー代も持っていない時、あなたなら「〜するよりほかない」とどう行動しますか？", eng: "If you miss the last train and don't have taxi fare, how would you act thinking 'I have no choice but to ~'?" },
+                    { text: "どうしても苦手な人と一緒に仕事をしなければならない時、「〜するほかない」とどうやって自分を納得させますか？", eng: "When you absolutely have to work with someone you dislike, how do you convince yourself saying 'I have no choice but to ~'?" }
+                ]
+            },
+            {
+                point: "~やむを得ない (やむをえない)",
+                english: "Unavoidable / Cannot be helped",
+                structure: "Noun / Verb (Plain form) + のは + やむを得ない OR やむを得ない + Noun",
+                nuance: "A highly formal, objective expression recognizing that due to uncontrollable external circumstances (weather, illness, severe accidents), a negative outcome or cancellation is completely unavoidable. It is standard business phrasing for apologies or announcements.",
+                metaphor: "A referee calling off a baseball game because lightning is striking the field. It's an act of God, and nobody can argue against it because it's fundamentally out of human control.",
+                examples: [
+                    { topic: "Business", text: "交通機関の麻痺により、本日の会議を延期するのはやむを得ない。", eng: "Due to the paralysis of public transportation, postponing today's meeting is unavoidable." },
+                    { topic: "Health", text: "彼が突然の高熱を出したのなら、試合を欠場するのもやむを得ないだろう。", eng: "If he developed a sudden high fever, being absent from the match is probably unavoidable." },
+                    { topic: "Cancellation", text: "やむを得ない事情により、このプロジェクトは白紙撤回となりました。", eng: "Due to unavoidable circumstances, this project has been withdrawn and sent back to the drawing board." },
+                    { topic: "Rules", text: "安全基準を満たしていない以上、工場の稼働を停止するのはやむを得ない。", eng: "Since the safety standards are not met, stopping the factory's operation is unavoidable." },
+                    { topic: "Contracts", text: "これ以上の赤字が続くのであれば、店舗を閉鎖することもやむを得ない。", eng: "If deficits continue any further, closing the store is also unavoidable." }
+                ],
+                clickingGames: [
+                    { prompt: "Due to unavoidable circumstances, the schedule was changed.", target: "やむを得ない事情によりスケジュールが変更された", words: ["やむを得ない", "事情により", "スケジュールが変更された"] },
+                    { prompt: "Since it is a massive typhoon, canceling the flights is unavoidable.", target: "巨大台風なので飛行機が欠航するのはやむを得ない", words: ["巨大台風なので", "飛行機が欠航するのは", "やむを得ない"] },
+                    { prompt: "Retiring early due to a severe injury is unavoidable.", target: "大怪我で若くして引退するのはやむを得ないことだ", words: ["大怪我で若くして", "引退するのは", "やむを得ないことだ"] },
+                    { prompt: "Because there is no budget, giving up is unavoidable.", target: "予算が全くないのだから計画を諦めるのもやむを得ない", words: ["予算が全くないのだから", "計画を諦めるのも", "やむを得ない"] },
+                    { prompt: "It is unavoidable that complaints occur about this complex system.", target: "この複雑なシステムに対してクレームが出るのはやむを得ない", words: ["この複雑なシステムに対して", "クレームが出るのは", "やむを得ない"] }
+                ],
+                dropdownGames: [
+                    { before: "体調不良のため、本日のイベントを欠席する", options: ["のはやむを得ない", "やむを得ないのは", "やむを得ないで"], answer: "のはやむを得ない", after: "と判断した。" },
+                    { before: "これほど明確な証拠がある以上、彼が逮捕されるのも", options: ["やむを得ないだろう", "やむを得ないの事だ", "やむを得なくだろう"], answer: "やむを得ないだろう", after: "。" },
+                    { before: "天災など", options: ["やむを得ない理由", "やむを得ないの理由", "やむを得なくて理由"], answer: "やむを得ない理由", after: "がある場合のみ、キャンセル料は無料になります。" },
+                    { before: "資金不足により、研究を中止する", options: ["のはやむを得ない", "はやむを得ないの", "はやむを得なく"], answer: "のはやむを得ない", after: "。" },
+                    { before: "お客様の安全を守るため、このような厳しい措置を取ることも", options: ["やむを得ません", "やむを得ないの事です", "やむを得なくです"], answer: "やむを得ません", after: "。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたの仕事や日常生活で、「やむを得ない事情」でドタキャンをしてしまった（またはされた）経験はありますか？", eng: "In your work or daily life, have you ever experienced a last-minute cancellation (doing or receiving) due to 'unavoidable circumstances'?" },
+                    { text: "「これだけは自分の努力ではどうしようもない、やむを得ない」と感じる社会のルールや現実は何ですか？", eng: "What is a societal rule or reality that you feel 'There is nothing I can do about this with my own effort, it's unavoidable'?" },
+                    { text: "もし旅行の当日に飛行機が欠航してしまったら、「やむを得ない」とすぐに諦められますか？", eng: "If your flight gets canceled on the day of your trip, can you immediately give up thinking 'It's unavoidable'?" }
+                ]
+            },
+            {
+                point: "~にかたくない (難くない)",
+                english: "It is not difficult to (imagine / understand)",
+                structure: "Noun (e.g., 想像、理解、察する) / Verb (Dictionary form) + にかたくない",
+                nuance: "A formal expression used with a very limited set of verbs related to thinking or feeling (most commonly '想像' - imagine). It means that based on the current evidence or situation, anyone can easily figure out what is happening or how someone feels.",
+                metaphor: "Looking at a completely smashed car wrapped around a tree. You don't need a police report; it is 'not hard to imagine' that they were driving way over the speed limit.",
+                examples: [
+                    { topic: "Emotions", text: "長年飼っていた愛犬を亡くした彼女の悲しみは、想像にかたくない。", eng: "The sadness of her losing the beloved dog she kept for many years is not hard to imagine." },
+                    { topic: "Business", text: "これほど大規模なシステム障害が起きれば、クライアントが激怒するのは想像にかたくない。", eng: "If such a large-scale system failure occurs, it is not difficult to imagine that the clients will be furious." },
+                    { topic: "History", text: "戦時中の人々の過酷な生活は、当時の写真を見るだけで想像にかたくない。", eng: "The harsh lives of people during the war are not hard to imagine just by looking at photos from that time." },
+                    { topic: "Understanding", text: "彼がなぜあんなに無謀な決断を下したのか、その焦る気持ちは理解にかたくない。", eng: "Why he made such a reckless decision, his feelings of panic are not difficult to understand." },
+                    { topic: "Sports", text: "オリンピックの決勝で負けた選手の無念さは、察するにかたくない。", eng: "The deep regret of the athlete who lost in the Olympic finals is not hard to surmise." }
+                ],
+                clickingGames: [
+                    { prompt: "It is not difficult to imagine his shock when the hard drive broke.", target: "ハードディスクが壊れた時の彼のショックは想像にかたくない", words: ["ハードディスクが壊れた時の", "彼のショックは", "想像にかたくない"] },
+                    { prompt: "It is not hard to imagine how severe the damage from the earthquake is.", target: "地震の被害がどれほど深刻か想像にかたくない", words: ["地震の被害がどれほど", "深刻か", "想像にかたくない"] },
+                    { prompt: "It is not hard to understand her feelings of wanting to quit the company.", target: "彼女が会社を辞めたくなる気持ちは理解にかたくない", words: ["彼女が会社を辞めたくなる", "気持ちは", "理解にかたくない"] },
+                    { prompt: "It is not difficult to surmise the parents' joy upon hearing of the passing result.", target: "合格の知らせを聞いた両親の喜びは察するにかたくない", words: ["合格の知らせを聞いた両親の", "喜びは", "察するにかたくない"] },
+                    { prompt: "It is not hard to imagine that this new product will become a big hit.", target: "この新製品が大ヒットすることは想像にかたくない", words: ["この新製品が大ヒットすることは", "想像に", "かたくない"] }
+                ],
+                dropdownGames: [
+                    { before: "徹夜で完成させたデータが消えた時の絶望感は、", options: ["想像にかたくない", "想像にかたくある", "想像にかたい"], answer: "想像にかたくない", after: "。" },
+                    { before: "たった一人で見知らぬ国へ移住した彼の不安は、", options: ["察するにかたくない", "察するにかたくある", "察するにかたい"], answer: "察するにかたくない", after: "。" },
+                    { before: "あんなに理不尽な扱いを受ければ、彼が怒るのも", options: ["理解にかたくない", "理解にかたくある", "理解にかたい"], answer: "理解にかたくない", after: "。" },
+                    { before: "これほど豪華な出演者が揃えば、映画が成功することは", options: ["想像にかたくない", "想像にかたくある", "想像にかたい"], answer: "想像にかたくない", after: "。" },
+                    { before: "長年の夢が叶った瞬間の彼女の涙は、その苦労を", options: ["想像にかたくない", "想像にかたくある", "想像にかたい"], answer: "想像にかたくない", after: "物語っている。" }
+                ],
+                opinionQuestions: [
+                    { text: "他人の失敗や悲しい話を聞いて、「その辛さは想像にかたくない」と深く同情したことはありますか？", eng: "Hearing about someone else's failure or sad story, have you ever deeply sympathized, thinking 'That pain is not hard to imagine'?" },
+                    { text: "もし今の時代にスマホが全て突然使えなくなったら、世界はどうパニックになるか、「想像にかたくない」ですか？", eng: "If smartphones suddenly became unusable in this era, is it 'not hard to imagine' how panicked the world would become?" },
+                    { text: "あなたがとても努力して何かを達成した時、その裏の苦労を「察するにかたくない」と理解してくれた人はいましたか？", eng: "When you achieved something with great effort, was there someone who understood, thinking your background struggles were 'not hard to surmise'?" }
+                ]
+            }
+        ],
+        dialogue: {
+            speaker: "Two 40-year-old men (Tanaka and Sato)",
+            context: "Talking over the phone about canceling a highly anticipated outdoor camping trip due to a massive approaching storm.",
+            text: "<p><strong>田中:</strong> 「佐藤、ニュースを見たか？今週末に関東を直撃する台風、過去10年間で最大クラスらしいぞ。ニュースの映像からして、今回はかなりヤバそうだ。この分だと、俺たちが半年も前から楽しみにしていた千葉の山奥でのキャンプは、中止する[BLANK1]な。」</p><p><strong>佐藤:</strong> 「ああ、俺もさっき天気予報を見たよ。あれだけの暴風雨の中でテントを張るなんて自殺行為だ。せっかく奮発して新しいネイチャーハイクのテントを買ったばかりだったのに、自然の力には勝てないからな。延期する[BLANK2]だろう。」</p><p><strong>田中:</strong> 「全くだよ。俺もこの日のために最高級の牛肉とスパイスを買い込んで、完璧なバーベキューの準備をしてたんだ。あの肉が無駄になると思うと、悔しくて[BLANK3]よ。」</p><p><strong>佐藤:</strong> 「お前のその落ち込みようは、容易に想像に[BLANK4]よ。でも、もし無理に決行して山の中で土砂崩れに巻き込まれでもしたら、後悔しても遅いからな。安全を最優先に考えれば、これは[BLANK5]事情だ。」</p><p><strong>田中:</strong> 「分かってるよ。ただ、この行き場のないアウトドアへの情熱をどう発散すればいいのか……。こうなったら、今週末は俺の家のリビングにテントを張って、そこで寝袋に入って過ごす[BLANK6]な。」</p><p><strong>佐藤:</strong> 「ははは、リビングでキャンプか！それなら雨風の心配もないし、エアコンも効いてるから快適そのものだな。よし、俺がビールを買い込んでお前の家に押しかけるとするよ。せめてインドアで最高に美味い肉を焼こうぜ。」</p><p><strong>田中:</strong> 「それなら煙で部屋中が真っ白になる[BLANK7]な。まあ、それも一興か。」</p>",
+            blanks: [
+                { id: "BLANK1", options: ["ほかない", "やむを得ない", "にかたくない"], answer: "ほかない" },
+                { id: "BLANK2", options: ["のはやむを得ない", "よりほかない", "にかたくない"], answer: "のはやむを得ない" }, // Actually, 延期するのはやむを得ない is correct structure. Let's use it.
+                { id: "BLANK3", options: ["たまらない", "ほかない", "やむを得ない"], answer: "たまらない" }, // Older grammar recall
+                { id: "BLANK4", options: ["かたくない", "ほかない", "やむを得ない"], answer: "かたくない" },
+                { id: "BLANK5", options: ["やむを得ない", "ほかない", "かたくない"], answer: "やむを得ない" },
+                { id: "BLANK6", options: ["よりほかない", "やむを得ない", "かたくない"], answer: "よりほかない" },
+                { id: "BLANK7", options: ["のはやむを得ない", "よりほかない", "にかたくない"], answer: "のはやむを得ない" }
+            ]
+        },
+        story: {
+            title: "The Unavoidable Relocation",
+            text: "<p>人生には、自分の意志や努力だけではどうにもならない抗えない波が押し寄せることがある。数年前、私の両親が暮らすオーストラリアの実家が、予期せぬ自然災害の影響で大きなダメージを受けてしまった。遠く離れた日本から無事を確認できた時は心底安堵したが、実家の修繕や今後の生活環境を考えると、一時的にでも私が向こうへ戻ってサポートに回る[BLANK1]状況に追い込まれてしまった。</p><p>当時、私は日本の企業で非常に重要なプロジェクトのリーダーを任されており、チームメンバーとの信頼関係もようやく構築できた矢先であった。しかし、家族の一大事という[BLANK2]理由の前では、個人の仕事のキャリアを優先するわけにはいかなかった。上司に事情を説明し、プロジェクトの途中で無念の離脱を申し出る[BLANK3]私の無念さは、想像に[BLANK4]だろう。</p><p>会社側も状況を深く理解してくれ、「家族を第一に考えなさい。君のポジションは保留にしておくから」と温かく送り出してくれた。その言葉を聞いた時、私は彼らの配慮に感謝の涙を流さずにはいられなかった。私は急いで航空券を手配し、オーストラリアへの帰国の準備を進める[BLANK5]。</p><p>数ヶ月後、実家の生活基盤が安定し、私は再び日本に戻ることができた。この過酷な経験を通じて、私は「人生には諦める[BLANK6]壁が必ず存在するが、それを受け入れ、その状況下で最善を尽くすことこそが真の強さである」ということを深く学んだのである。今でもあの時の上司やチームメンバーには、頭が上がらない思いである。</p>",
+            blanks: [
+                { id: "BLANK1", options: ["ほかない", "やむを得ない", "にかたくない"], answer: "ほかない" },
+                { id: "BLANK2", options: ["やむを得ない", "ほかない", "にかたくない"], answer: "やむを得ない" },
+                { id: "BLANK3", options: ["よりほかない", "やむを得ない", "にかたくない"], answer: "よりほかない" },
+                { id: "BLANK4", options: ["かたくない", "やむを得ない", "ほかない"], answer: "かたくない" },
+                { id: "BLANK5", options: ["ほかなかった", "やむを得なかった", "かたくなかった"], answer: "ほかなかった" },
+                { id: "BLANK6", options: ["よりほかない", "やむを得ない", "にかたくない"], answer: "よりほかない" }
+            ]
+        }
+    }, {
+        id: 48,
+        title: "Lesson 48: Unfinished States, Determination & Overwhelming Feelings",
+        grammar: [
+            {
+                point: "~っぱなし",
+                english: "Leaving something as is (Usually improper)",
+                structure: "Verb (stem) + っぱなし",
+                nuance: "Indicates that an action was done, but the expected follow-up action to return things to their normal state was completely neglected. It usually carries a negative or critical tone.",
+                metaphor: "Like taking a carton of milk out of the fridge to pour a glass, and just leaving the carton sitting on the counter all day to spoil.",
+                examples: [
+                    { topic: "Daily Life", text: "彼はいつも部屋の電気をつけっぱなしにして出かけてしまう。", eng: "He always leaves the room lights on and goes out." },
+                    { topic: "Work", text: "パソコンの電源を入れっぱなしで帰宅してはいけません。", eng: "You must not go home leaving your PC power turned on." },
+                    { topic: "Water/Energy", text: "シャワーの水を出しっぱなしにするのは、環境に良くない。", eng: "Leaving the shower water running is not good for the environment." },
+                    { topic: "Standing", text: "今日は満員電車で1時間も立ちっぱなしだったので、足が痛い。", eng: "Today I was kept standing for an hour on a crowded train, so my legs hurt." },
+                    { topic: "Clothing", text: "脱いだ服をベッドの上に置きっぱなしにしないでください。", eng: "Please don't leave your taken-off clothes just sitting on the bed." }
+                ],
+                clickingGames: [
+                    { prompt: "I fell asleep leaving the TV on.", target: "テレビをつけっぱなしにして寝てしまった", words: ["テレビを", "つけっぱなしにして", "寝てしまった"] },
+                    { prompt: "Don't leave the window wide open.", target: "窓を開けっぱなしにしないでください", words: ["窓を", "開けっぱなしに", "しないでください"] },
+                    { prompt: "I was left waiting for two hours in the cold rain.", target: "冷たい雨の中で2時間も待たせっぱなしにされた", words: ["冷たい雨の中で", "2時間も", "待たせっぱなしにされた"] },
+                    { prompt: "If you leave the shoes unattended, they will get dirty.", target: "靴を出しっぱなしにすると汚れてしまう", words: ["靴を", "出しっぱなしにすると", "汚れてしまう"] },
+                    { prompt: "He is talking non-stop for an hour.", target: "彼は1時間もしゃべりっぱなしだ", words: ["彼は", "1時間も", "しゃべりっぱなしだ"] }
+                ],
+                dropdownGames: [
+                    { before: "クーラーを", options: ["つけっぱなし", "つけるっぱなし", "つけてっぱなし"], answer: "つけっぱなし", after: "で外出してしまい、電気代が無駄になった。" },
+                    { before: "水を", options: ["出しっぱなし", "出すっぱなし", "出してっぱなし"], answer: "出しっぱなし", after: "にして歯を磨くのはやめなさい。" },
+                    { before: "重い荷物を持ったまま、30分も", options: ["立ちっぱなし", "立つっぱなし", "立ってっぱなし"], answer: "立ちっぱなし", after: "だった。" },
+                    { before: "使った道具を", options: ["置きっぱなし", "置くっぱなし", "置いてっぱなし"], answer: "置きっぱなし", after: "にすると、次に使う人が困る。" },
+                    { before: "彼は私の質問を", options: ["無視しっぱなし", "無視するっぱなし", "無視してっぱなし"], answer: "無視しっぱなし", after: "だ。" }
+                ],
+                opinionQuestions: [
+                    { text: "家族や同居人が「〜っぱなし」にしていて、一番イライラすることは何ですか？", eng: "What is the most irritating thing your family or housemate leaves 'in an unfinished state (っぱなし)'?" },
+                    { text: "自分がついつい「〜っぱなし」にしてしまう悪い癖は何ですか？", eng: "What is a bad habit where you inadvertently leave things 'in an unfinished state'?" },
+                    { text: "「一日中立ちっぱなし」と「一日中座りっぱなし」、どちらの仕事がより辛いと思いますか？", eng: "Which job do you think is harder: 'standing all day' or 'sitting all day'?" }
+                ]
+            },
+            {
+                point: "~てみせる",
+                english: "I will definitely do ~ (and show you)",
+                structure: "Verb (て-form) + みせる",
+                nuance: "A strong declaration of willpower and determination. It means you will absolutely accomplish a difficult task, often to prove your ability to others or to yourself.",
+                metaphor: "A superhero pointing directly at the villain and loudly declaring, 'I will defeat you!' It is a public pledge of absolute success.",
+                examples: [
+                    { topic: "Study", text: "今回のJLPTのN1試験は、絶対に合格してみせる。", eng: "I will absolutely pass the JLPT N1 exam this time and show you." },
+                    { topic: "Business", text: "この困難なプロジェクトを成功させてみせます。", eng: "I will definitely make this difficult project a success and prove it." },
+                    { topic: "Sports", text: "次の大会では、必ず優勝してみせるよ。", eng: "In the next tournament, I will definitely win the championship." },
+                    { topic: "Dieting", text: "3ヶ月後には、絶対に10キロ痩せてみせるから見ていて。", eng: "In 3 months, I will definitely lose 10 kilos, so just watch me." },
+                    { topic: "Life", text: "誰に何を言われても、自分の夢を叶えてみせる。", eng: "No matter what anyone says to me, I will definitely make my dream come true." }
+                ],
+                clickingGames: [
+                    { prompt: "I will definitely get the highest score in the next test.", target: "次のテストでは絶対に最高点を取ってみせる", words: ["次のテストでは絶対に", "最高点を", "取ってみせる"] },
+                    { prompt: "I will absolutely convince the client.", target: "クライアントを絶対に説得してみせる", words: ["クライアントを", "絶対に", "説得してみせる"] },
+                    { prompt: "I will surely build a happy family.", target: "必ず幸せな家庭を築いてみせる", words: ["必ず", "幸せな家庭を", "築いてみせる"] },
+                    { prompt: "I will definitely finish this work by today.", target: "この仕事は今日中に必ず終わらせてみせる", words: ["この仕事は", "今日中に必ず", "終わらせてみせる"] },
+                    { prompt: "I will protect her no matter what happens.", target: "何があっても彼女を守り抜いてみせる", words: ["何があっても", "彼女を", "守り抜いてみせる"] }
+                ],
+                dropdownGames: [
+                    { before: "どんなに厳しくても、最後まで", options: ["やり抜いてみせる", "やり抜くみせる", "やり抜いたみせる"], answer: "やり抜いてみせる", after: "。" },
+                    { before: "馬鹿にした奴らを、いつか絶対に", options: ["見返してみせる", "見返すみせる", "見返したみせる"], answer: "見返してみせる", after: "。" },
+                    { before: "この難しい契約を、必ず", options: ["取ってみせる", "取るみせる", "取ったみせる"], answer: "取ってみせる", after: "。" },
+                    { before: "病気を完全に", options: ["治してみせる", "治すみせる", "治したみせる"], answer: "治してみせる", after: "から、心配しないでください。" },
+                    { before: "自分の手で、この会社をトップに", options: ["してみせる", "するみせる", "したみせる"], answer: "してみせる", after: "。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたが今、周りの人に「絶対に〜してみせる！」と宣言したい目標は何ですか？", eng: "What is a goal you want to declare to the people around you right now, saying 'I will absolutely do ~ and show you!'?" },
+                    { text: "過去に、「悔しいから絶対に見返してみせる！」と奮起した経験はありますか？", eng: "Have you ever been spurred into action in the past, thinking 'I'm frustrated so I'll definitely prove them wrong!'?" },
+                    { text: "「困難な状況でも、〇〇してみせる」という強い意志を持つためには、何が必要だと思いますか？", eng: "What do you think is necessary to have the strong will of 'Even in difficult situations, I will definitely do X'?" }
+                ]
+            },
+            {
+                point: "~てしかたがない / ~てしようがない",
+                english: "Can't help but / Unbearably ~",
+                structure: "Verb / Adj (て-form) + しかたがない / しょうがない",
+                nuance: "Very similar to '~てたまらない'. Expresses an uncontrollable natural emotion, physical sensation, or situation that is impossible to manage or suppress. It literally translates to 'there is no way to deal with X'.",
+                metaphor: "Like a pot of boiling water rattling its lid because the steam pressure is simply too immense to contain.",
+                examples: [
+                    { topic: "Emotions", text: "明日のデートのことが気になってしかたがない。", eng: "I am so curious/anxious about tomorrow's date that I can't stand it." },
+                    { topic: "Weather", text: "今日は湿気が高くて、蒸し暑くてしようがない。", eng: "The humidity is high today, and it is unbearably hot and stuffy." },
+                    { topic: "Time", text: "休日にやることが何もなくて、暇でしかたがない。", eng: "I have nothing to do on my day off, and I am unbearably bored." },
+                    { topic: "Health", text: "徹夜明けなので、今すぐベッドで眠りたくてしかたがない。", eng: "Because I'm fresh off an all-nighter, I want to sleep in a bed right now so badly I can't stand it." },
+                    { topic: "Joy", text: "大好きなバンドのライブに行けるのが、嬉しくてしょうがない。", eng: "I am unbearably happy that I can go to my favorite band's live concert." }
+                ],
+                clickingGames: [
+                    { prompt: "I am unbearably thirsty after eating the spicy food.", target: "辛い料理を食べたので喉が渇いてしかたがない", words: ["辛い料理を食べたので", "喉が渇いて", "しかたがない"] },
+                    { prompt: "I am so worried about the test results that I can't sleep.", target: "テストの結果が心配でしかたがない", words: ["テストの結果が", "心配で", "しかたがない"] },
+                    { prompt: "My shoulder hurts so much today I don't know what to do.", target: "今日は肩が痛くてしょうがない", words: ["今日は", "肩が痛くて", "しょうがない"] },
+                    { prompt: "I am unbearably sad that my friend is moving away.", target: "友達が遠くへ引っ越すのが寂しくてしかたがない", words: ["友達が遠くへ引っ越すのが", "寂しくて", "しかたがない"] },
+                    { prompt: "I am unbearably frustrated about my failure.", target: "自分の失敗が悔しくてしようがない", words: ["自分の失敗が", "悔しくて", "しようがない"] }
+                ],
+                dropdownGames: [
+                    { before: "クーラーが壊れて、部屋の中が", options: ["暑くてしかたがない", "暑いでしかたがない", "暑いにしかたがない"], answer: "暑くてしかたがない", after: "。" },
+                    { before: "新しいゲームの続きが", options: ["気になってしょうがない", "気になるてしょうがない", "気になりてしょうがない"], answer: "気になってしょうがない", after: "。" },
+                    { before: "大事な面接の前で、", options: ["緊張してしかたがない", "緊張するしかたがない", "緊張したしかたがない"], answer: "緊張してしかたがない", after: "。" },
+                    { before: "お腹が", options: ["空いてしょうがない", "空くしょうがない", "空いたしょうがない"], answer: "空いてしょうがない", after: "から、何か食べよう。" },
+                    { before: "彼の態度が", options: ["腹立たしくてしかたがない", "腹立たしいでしかたがない", "腹立たしにしかたがない"], answer: "腹立たしくてしかたがない", after: "。" }
+                ],
+                opinionQuestions: [
+                    { text: "最近、「〜てしかたがない（嬉しくてしかたがない、暑くてしかたがない等）」と感じたエピソードを教えてください。", eng: "Tell me an episode recently where you felt 'unbearably ~ (unbearably happy, unbearably hot, etc.)'." },
+                    { text: "「気になってしょうがない」という理由で、スマホを何度もチェックしてしまうことはありますか？", eng: "Do you ever check your smartphone multiple times because you are 'unbearably curious/anxious'?" },
+                    { text: "「暇でしかたがない」時、あなたはどうやって時間を潰しますか？", eng: "When you are 'unbearably bored', how do you kill time?" }
+                ]
+            }
+        ],
+        dialogue: {
+            speaker: "Two 40-year-old men (Tanaka and Sato)",
+            context: "Discussing bad habits at the office and a sudden burst of motivation.",
+            text: "<p><strong>田中:</strong> 「なあ佐藤、営業部の新しい後輩の山田なんだけどさ。あいつ、いつも会議室の電気やエアコンをつけ[BLANK1]帰っちまうんだよ。昨日もプロジェクターの電源が入りっぱなしになってて、俺がわざわざ消して回ったんだ。」</p><p><strong>佐藤:</strong> 「またかよ。あいつは仕事の書類も机の上に広げ[BLANK2]帰るし、社会人としての基本的なマナーが足りてないな。何度も注意してるんだが、右から左へ抜けていくようで、イライラし[BLANK3]よ。」</p><p><strong>田中:</strong> 「全くだ。ゆとり世代だからって甘やかすわけにもいかないし、一度きつく叱らないとダメかもしれないな。このままじゃ、部署全体の士気が下がって[BLANK4]よ。」</p><p><strong>佐藤:</strong> 「そうだな。でも、あいつも根は悪い奴じゃないんだ。この前なんて、『今年の営業成績は絶対にトップを取って[BLANK5]』って、飲み会で熱く語ってたぞ。モチベーションだけは高いみたいなんだが、行動が伴っていないのが問題なんだ。」</p><p><strong>田中:</strong> 「トップを取ってみせる、か。口で言うだけなら簡単だけどな。でも、そういう負けん気があるなら、少しは鍛え甲斐があるってもんだ。俺たちがしっかり指導して、一人前の営業マンに育てて[BLANK6]か。」</p><p><strong>佐藤:</strong> 「おお、お前がそんな熱いことを言うなんて珍しいな。じゃあ、明日の朝一番で、山田のデスクの整理整頓からみっちり仕込むとしよう。あいつの成長が楽しみで[BLANK7]ぜ。」</p><p><strong>田中:</strong> 「その前に、まずは電気を消す癖をつけさせないとな。」</p>",
+            blanks: [
+                { id: "BLANK1", options: ["っぱなしで", "てみせる", "てしかたがない"], answer: "っぱなしで" },
+                { id: "BLANK2", options: ["っぱなしで", "てみせて", "てしかたなく"], answer: "っぱなしで" },
+                { id: "BLANK3", options: ["てしかたがない", "っぱなしだ", "てみせる"], answer: "てしかたがない" },
+                { id: "BLANK4", options: ["てしかたがない", "っぱなしだ", "てみせる"], answer: "てしかたがない" }, // Wait, "士気が下がってしかたがない" means "morale is dropping so much I can't stand it." Let's ensure it fits. Yes.
+                { id: "BLANK5", options: ["みせます", "っぱなしです", "てしかたがありません"], answer: "みせます" },
+                { id: "BLANK6", options: ["みせよう", "っぱなしにしよう", "てしかたがない"], answer: "みせよう" },
+                { id: "BLANK7", options: ["しかたがない", "っぱなしだ", "てみせる"], answer: "しかたがない" }
+            ]
+        },
+        story: {
+            title: "The Overworked Freelancer's Vow",
+            text: "<p>私は数年前からフリーランスのデザイナーとして独立し、自宅の小さな部屋をオフィス代わりにして仕事をしている。独立した当初は自由な働き方に魅力を感じていたが、最近では仕事とプライベートの境界線が完全に崩壊してしまった。納期に追われるあまり、毎日パソコンの電源を入れ[BLANK1]、コーヒーの空きカップを机の上に置き[BLANK2]仕事をしている有様だ。部屋の片付けをする余裕すらなく、散らかり放題の部屋を見るたびに、自分の自己管理能力の低さが情けなく[BLANK3]。</p><p>先月、ついに過労がたたって体調を崩してしまった。高熱を出してベッドで寝込んでいる間、未読のクライアントからのメールが溜まっていくのが気になっ[BLANK4]、ゆっくり休むことすらできなかった。「このままでは、デザイナーとして大成するどころか、身を滅ぼしてしまう」という強烈な危機感を抱いたのはその時だ。</p><p>体調が回復した日、私は部屋の窓を全開にし、溜まっていたゴミをすべて捨て、デスク周りを徹底的に掃除した。もう二度と、自分を大切にしないような働き方はすまいと心に誓ったのだ。「健康的な生活リズムを取り戻し、必ずこの業界で一流のデザイナーになっ[BLANK5]」。そう自分自身に強く宣言することで、淀んでいた空気が少しだけ澄んだような気がした。</p><p>今の私は、夜の10時を過ぎたら強制的にパソコンの電源を落とし、翌朝まで仕事のことを考えないようにしている。最初は不安で[BLANK6]が、メリハリをつけることで逆にクリエイティブなアイデアが浮かぶようになったのだ。自分の弱さを認め、それを乗り越えて[BLANK7]という決意が、私の人生を再び前へと進ませてくれている。</p>",
+            blanks: [
+                { id: "BLANK1", options: ["っぱなしで", "てみせて", "てしかたなく"], answer: "っぱなしで" },
+                { id: "BLANK2", options: ["っぱなしで", "てみせて", "てしかたなく"], answer: "っぱなしで" },
+                { id: "BLANK3", options: ["てしかたがない", "てみせる", "っぱなしだ"], answer: "てしかたがない" },
+                { id: "BLANK4", options: ["てしょうがなく", "っぱなしで", "てみせて"], answer: "てしょうがなく" },
+                { id: "BLANK5", options: ["てみせる", "っぱなしだ", "てしかたがない"], answer: "てみせる" },
+                { id: "BLANK6", options: ["てしかたがなかった", "っぱなしだった", "てみせた"], answer: "てしかたがなかった" },
+                { id: "BLANK7", options: ["みせる", "っぱなし", "しかたがない"], answer: "みせる" }
+            ]
+        }
+    },
+    {
+        id: 49,
+        title: "Lesson 49: Evaluation, Perspectives & Reality Checks",
+        grammar: [
+            {
+                point: "~に足る / ~に足りない (にたる)",
+                english: "Worthy of / Not worthy of",
+                structure: "Verb (Dictionary form) / Noun + に足る / に足りない",
+                nuance: "A formal expression indicating that something has sufficient value, qualification, or evidence to deserve a certain evaluation or action. The negative '〜に足りない' means it is utterly insignificant and not worth your time or effort.",
+                metaphor: "A gold appraiser weighing a nugget on a sensitive scale. It either tips the balance and is 'worthy' of being called pure gold, or it is too light and 'unworthy'.",
+                examples: [
+                    { topic: "Trust", text: "彼は長年チームを支えてきた、信頼に足る人物だ。", eng: "He is a person worthy of trust who has supported the team for many years." },
+                    { topic: "Information", text: "ネットの噂は、信じるに足る証拠がない。", eng: "Internet rumors have no evidence worthy of believing." },
+                    { topic: "Business", text: "この企画は非常に革新的であり、投資するに足る価値がある。", eng: "This project is highly innovative and has value worthy of investment." },
+                    { topic: "Reading", text: "この古典文学は、現代においても読むに足る名作だ。", eng: "This classic literature is a masterpiece worthy of reading even in modern times." },
+                    { topic: "Conflict", text: "そんな些細なミスは、恐れるに足りない。", eng: "Such a trivial mistake is not worthy of fearing." }
+                ],
+                clickingGames: [
+                    { prompt: "The data is not sufficient to be worthy of proof.", target: "そのデータは証明に足るものではない", words: ["そのデータは", "証明に足る", "ものではない"] },
+                    { prompt: "This article is interesting and worthy of reading.", target: "この記事は面白くて読むに足る内容だ", words: ["この記事は", "面白くて", "読むに足る内容だ"] },
+                    { prompt: "His excuse is not worthy of listening to.", target: "彼の言い訳など聞くに足りない", words: ["彼の", "言い訳など", "聞くに足りない"] },
+                    { prompt: "We need a leader worthy of respect.", target: "尊敬に足るリーダーが必要だ", words: ["尊敬に足る", "リーダーが", "必要だ"] },
+                    { prompt: "That threat is absolutely not worthy of fearing.", target: "あの脅しは全く恐れるに足りない", words: ["あの脅しは", "全く", "恐れるに足りない"] }
+                ],
+                dropdownGames: [
+                    { before: "彼の長年の努力は、", options: ["評価に足る", "評価を足る", "評価が足る"], answer: "評価に足る", after: "素晴らしいものだ。" },
+                    { before: "その情報は古すぎて、", options: ["信頼するに足らない", "信頼したに足らない", "信頼してに足らない"], answer: "信頼するに足らない", after: "。" },
+                    { before: "この本は分厚いが、", options: ["一読するに足る", "一読したに足る", "一読してに足る"], answer: "一読するに足る", after: "価値がある。" },
+                    { before: "あんな卑怯なライバルは、", options: ["恐れるに足りない", "恐れたに足りない", "恐れてに足りない"], answer: "恐れるに足りない", after: "。堂々と戦おう。" },
+                    { before: "彼が提案したアイデアは、十分に", options: ["検討に足る", "検討を足る", "検討が足る"], answer: "検討に足る", after: "内容だ。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたの周りに、「この人は絶対に信頼に足る」と心から思える人はいますか？", eng: "Is there someone around you who you sincerely think 'This person is absolutely worthy of trust'?" },
+                    { text: "他人の悪口や噂話を聞いた時、「そんなものは信じるに足らない」と無視することができますか？", eng: "When you hear others' badmouthing or rumors, can you ignore them thinking 'Such things are not worthy of believing'?" },
+                    { text: "あなたが最近読んだ本や見た映画で、「これは時間をかけて見るに足る名作だ」と思ったものは何ですか？", eng: "Among the books or movies you recently read/watched, what did you think was 'a masterpiece worthy of taking the time to see'?" }
+                ]
+            },
+            {
+                point: "~かというと / ~かといえば",
+                english: "If you ask whether... (Actually it's not)",
+                structure: "Plain form + かというと / かといえば",
+                nuance: "Used to bring up an expected conclusion or assumption that people might naturally make, and then immediately deny it. It translates to 'You might think X, but actually Y.'",
+                metaphor: "A magician pulling a beautiful rabbit out of a hat, but when the audience looks closer, it's actually just a stuffed toy. It looks like one thing, but the reality is quite different.",
+                examples: [
+                    { topic: "Money", text: "お金持ちだから幸せかというと、必ずしもそうではない。", eng: "If you ask whether they are happy because they are rich, that is not necessarily so." },
+                    { topic: "Technology", text: "最新のPCなら絶対に壊れないかといえば、そんなことはない。", eng: "If you ask whether the latest PC will absolutely never break, that is not the case." },
+                    { topic: "Study", text: "漢字をたくさん知っていれば日本語が話せるかというと、違う。", eng: "If you ask whether knowing many Kanji means you can speak Japanese, that's incorrect." },
+                    { topic: "Dieting", text: "運動さえすれば痩せるかというと、食事の管理も重要だ。", eng: "If you ask whether you will lose weight just by exercising, meal management is also important." },
+                    { topic: "Business", text: "大企業に入れば一生安心かというと、現代ではそうとも言い切れない。", eng: "If you ask whether you are safe for life if you enter a large company, you can't definitely say so in modern times." }
+                ],
+                clickingGames: [
+                    { prompt: "If you ask whether cheap things are always bad, that's not true.", target: "安いものが常に悪いかというとそうではない", words: ["安いものが常に", "悪いかというと", "そうではない"] },
+                    { prompt: "If you ask whether I want to live in the city, I prefer the countryside.", target: "都会に住みたいかというと田舎の方が好きだ", words: ["都会に住みたいか", "というと", "田舎の方が好きだ"] },
+                    { prompt: "If you ask whether anyone can be a pro, talent is necessary.", target: "誰でもプロになれるかといえば才能も必要だ", words: ["誰でもプロになれるか", "といえば", "才能も必要だ"] },
+                    { prompt: "If you ask whether strict rules are good, there are demerits.", target: "厳しいルールが良いかというとデメリットもある", words: ["厳しいルールが良いか", "というと", "デメリットもある"] },
+                    { prompt: "If you ask whether this work is easy, it's actually hard.", target: "この仕事が簡単かといえば実はかなり大変だ", words: ["この仕事が簡単か", "といえば", "実はかなり大変だ"] }
+                ],
+                dropdownGames: [
+                    { before: "日本に住めば自然に日本語が", options: ["話せるかというと", "話せるのというと", "話せるなというと"], answer: "話せるかというと", after: "、自分から勉強しないと伸びない。" },
+                    { before: "高い機材を買えばプロのような写真が", options: ["撮れるかといえば", "撮れるのといえば", "撮れるなといえば"], answer: "撮れるかといえば", after: "、技術も必要だ。" },
+                    { before: "彼が完全に悪い", options: ["かというと", "なのかというと", "だかというと"], answer: "なのかというと", after: "、私にも責任はある。" },
+                    { before: "毎日残業すれば成果が", options: ["上がるかというと", "上がるのというと", "上がるなというと"], answer: "上がるかというと", after: "、逆に効率が落ちることもある。" },
+                    { before: "便利な社会が人間を幸せに", options: ["するかといえば", "するのといえば", "するなといえば"], answer: "するかといえば", after: "、ストレスは増えている。" }
+                ],
+                opinionQuestions: [
+                    { text: "「お金があれば幸せかというと、必ずしもそうではない」という意見について、どう思いますか？", eng: "What do you think about the opinion 'If you ask whether having money makes you happy, that is not necessarily the case'?" },
+                    { text: "「大企業で働くのが一番安定しているかというと〜」の後に続く、あなたの個人的な意見を教えてください。", eng: "Tell me your personal opinion that follows 'If you ask whether working at a large company is the most stable...'." },
+                    { text: "語学の学習において、「長年勉強すればペラペラになるかというと〜」という現実についてどう感じますか？", eng: "In language learning, how do you feel about the reality that 'If you ask whether studying for many years makes you fluent...'?" }
+                ]
+            },
+            {
+                point: "~から見れば / ~から見ると",
+                english: "From the perspective of / Looking from the standpoint of",
+                structure: "Noun (Person / Position) + から見れば / から見ると / から見て",
+                nuance: "Used to judge or evaluate a situation explicitly from the standpoint or viewpoint of a specific person or group. It highlights that the evaluation might change if looked at from a different angle.",
+                metaphor: "Looking at a large number '6' painted on the floor. From your side, it's a 6, but from the perspective of the person standing opposite you, it's a '9'. Both are correct from their respective standpoints.",
+                examples: [
+                    { topic: "Business", text: "経営者の立場から見れば、この人員削減はやむを得ない決断だ。", eng: "From the perspective of management, this staff reduction is an unavoidable decision." },
+                    { topic: "Culture", text: "外国人から見ると、日本の満員電車は非常に奇妙な光景らしい。", eng: "Looking from the perspective of foreigners, Japan's crowded trains seem to be a very strange sight." },
+                    { topic: "Family", text: "親から見れば、子供はいくつになっても心配な存在だ。", eng: "From a parent's perspective, a child is a source of worry no matter how old they get." },
+                    { topic: "Technology", text: "専門家から見て、このシステムのセキュリティは完璧とは言いがたい。", eng: "Looking from the standpoint of an expert, this system's security is hard to call perfect." },
+                    { topic: "Society", text: "若者から見ると、古い会社のルールは非効率に感じられる。", eng: "From the perspective of young people, old company rules feel inefficient." }
+                ],
+                clickingGames: [
+                    { prompt: "From the customer's perspective, a cheaper price is better.", target: "消費者の立場から見れば価格は安い方がいい", words: ["消費者の立場", "から見れば", "価格は安い方がいい"] },
+                    { prompt: "From the boss's perspective, I must look unreliable.", target: "上司から見ると私は頼りなく見えるだろう", words: ["上司から", "見ると", "私は頼りなく見えるだろう"] },
+                    { prompt: "Looking from an expert's standpoint, this data is strange.", target: "専門家の目から見てこのデータは不自然だ", words: ["専門家の目から", "見て", "このデータは不自然だ"] },
+                    { prompt: "From an adult's perspective, it's just a small worry.", target: "大人から見ればそれはほんの小さな悩みだ", words: ["大人から", "見れば", "それはほんの小さな悩みだ"] },
+                    { prompt: "From my standpoint, both plans look attractive.", target: "私から見るとどちらの案も魅力的に見える", words: ["私から", "見ると", "どちらの案も魅力的に見える"] }
+                ],
+                dropdownGames: [
+                    { before: "先生", options: ["から見れば", "から見ればの", "から見るれば"], answer: "から見れば", after: "、どの生徒も平等に可愛いものだ。" },
+                    { before: "現代の若者", options: ["から見ると", "から見るとの", "から見るると"], answer: "から見ると", after: "、昔の常識は理解できないことが多い。" },
+                    { before: "プロジェクトの責任者", options: ["から見て", "から見手の", "から見るて"], answer: "から見て", after: "、この進捗の遅れは致命的だ。" },
+                    { before: "外国人の友人", options: ["から見れば", "から見ればの", "から見るれば"], answer: "から見れば", after: "、日本のお辞儀の文化は美しいそうだ。" },
+                    { before: "客観的な立場", options: ["から見ると", "から見るとの", "から見るると"], answer: "から見ると", after: "、彼の主張には無理がある。" }
+                ],
+                opinionQuestions: [
+                    { text: "「あなたの国の文化」は、外国人から見るとどんなところが一番面白く映ると思いますか？", eng: "What part of 'your country's culture' do you think appears most interesting from the perspective of a foreigner?" },
+                    { text: "あなたの仕事や勉強の進み具合は、「上司や先生から見て」どう評価されていると思いますか？", eng: "How do you think your progress in work or study is evaluated 'from the perspective of your boss or teacher'?" },
+                    { text: "「子供から見れば大人は自由で楽しそう」ですが、大人になった今、それは本当だと思いますか？", eng: "From a child's perspective, adults seem free and fun, but now that you are an adult, do you think that's true?" }
+                ]
+            }
+        ],
+        dialogue: {
+            speaker: "Two 40-year-old men (Tanaka and Sato)",
+            context: "Evaluating a trendy new startup as a potential business partner.",
+            text: "<p><strong>田中:</strong> 「佐藤、最近メディアでよく取り上げられている、あの新しいAIベンチャー企業の件だけど。うちの会社も来期から、彼らと業務提携を結ぶべきかどうか検討を始めたらしいんだ。お前はどう思う？」</p><p><strong>佐藤:</strong> 「ああ、あの若手社長が率いている会社だな。確かにネットやテレビのインタビューでの彼のカリスマ性は凄いし、一見すると非常に革新的な技術を持っているように見える。だが、厳しい投資家の視点[BLANK1]、まだ実績が少なすぎて、我々の大切な顧客データを預けるほど信頼[BLANK2]相手かどうかは疑問が残るな。」</p><p><strong>田中:</strong> 「俺も同感だ。プレゼンの資料は綺麗に作られているが、最新の技術を使っているからといって、それがそのままうちの古い社内システムにスムーズに統合できる[BLANK3]、全くの別問題だからな。セキュリティの脆弱性などのリスクも懸念される。」</p><p><strong>佐藤:</strong> 「そうなんだよ。彼らのアイデア自体は検討[BLANK4]素晴らしいものだが、メディアの熱狂に流されて安易に契約を結ぶのは危険だ。彼らの企業規模[BLANK5]、もし万が一システム障害が起きた時に、十分な補償やサポート体制を維持できる体力が無いんじゃないかという不安もある。」</p><p><strong>田中:</strong> 「全くだ。新しいものに飛びつくのが常に正解[BLANK6]、そうとも限らないのがビジネスの難しいところだな。来週の役員会議では、俺たち現場の視点からの懸念事項もしっかりとレポートにまとめて提出しようぜ。会社を守るためには、時には保守的なブレーキ役になることも必要だからな。」</p><p><strong>佐藤:</strong> 「ああ、任せておけ。データに基づいた冷静な分析なら、俺たちの右に出る者はいないからな。」</p>",
+            blanks: [
+                { id: "BLANK1", options: ["から見れば", "に足る", "かというと"], answer: "から見れば" },
+                { id: "BLANK2", options: ["に足る", "かというと", "から見れば"], answer: "に足る" },
+                { id: "BLANK3", options: ["かというと", "から見れば", "に足る"], answer: "かというと" },
+                { id: "BLANK4", options: ["に足る", "かというと", "から見れば"], answer: "に足る" },
+                { id: "BLANK5", options: ["から見ると", "に足る", "かといえば"], answer: "から見ると" },
+                { id: "BLANK6", options: ["かといえば", "から見れば", "に足る"], answer: "かといえば" }
+            ]
+        },
+        story: {
+            title: "The Reality of a Modern Convenience",
+            text: "<p>私は最近、家の掃除を少しでも楽にしようと、最新式の高価なロボット掃除機を購入した。AIが部屋の間取りを自動でマッピングし、スマートフォンから遠隔操作できるというハイテクな代物だ。カタログのスペックや宣伝文句を見る限りでは、これこそ現代の忙しいサラリーマンにとって、数万円を投資する[BLANK1]最高の発明品であるように思えた。</p><p>しかし、実際に使ってみて、すべてが期待通りにうまくいった[BLANK2]、現実はそう甘くはなかった。ロボット掃除機がスムーズに動くためには、まず床の上に落ちているケーブルや脱ぎ散らかした服、小さな家具などを人間が手作業で片付けなければならないのだ。この「掃除機のための事前の掃除」という矛盾した作業は、忙しい私[BLANK3]非常に面倒で本末転倒な手間に感じられた。</p><p>さらに、部屋の隅の細かいホコリや、カーペットに絡みついたペットの毛などは、結局のところ昔ながらの強力な手持ちの掃除機を使わなければ綺麗にならないことが判明した。「最新のテクノロジーが常に人間の生活を完璧に楽にしてくれる[BLANK4]、必ずしもそうとは言い切れない」ということを、私はこの高価な買い物を通じて学んだのである。</p><p>もちろん、日々の軽い埃取りとしては十分に評価[BLANK5]機能を持っているのは間違いない。要は、道具を過信せず、自分のライフスタイルに合わせて適切に使い分けることが重要なのだ。テクノロジーの進化を盲信するのではなく、利用者側の視点[BLANK6]冷静にメリットとデメリットを見極める知恵が、これからの時代にはより一層求められるのだろう。</p>",
+            blanks: [
+                { id: "BLANK1", options: ["に足る", "から見れば", "かというと"], answer: "に足る" },
+                { id: "BLANK2", options: ["かというと", "に足る", "から見ると"], answer: "かというと" },
+                { id: "BLANK3", options: ["から見れば", "かというと", "に足る"], answer: "から見れば" },
+                { id: "BLANK4", options: ["かというと", "から見れば", "に足る"], answer: "かというと" },
+                { id: "BLANK5", options: ["に足る", "かというと", "から見て"], answer: "に足る" },
+                { id: "BLANK6", options: ["から見て", "に足る", "かといえば"], answer: "から見て" }
+            ]
+        }
+    }, {
+        id: 50,
+        title: "Lesson 50: Addition, States & Choices",
+        grammar: [
+            {
+                point: "~のみならず",
+                english: "Not only ~ but also",
+                structure: "Noun / Verb (Plain form) / Adj + のみならず",
+                nuance: "A more formal and written equivalent of '〜だけでなく'. It expresses that something extends beyond a single instance or category to include others as well, emphasizing a wide scope.",
+                metaphor: "A ripple effect in a pond. The stone dropping doesn't just disturb the water in the center (only this); the waves spread out to affect the edges of the pond as well (but also that).",
+                examples: [
+                    { topic: "Environment", text: "地球温暖化は、日本のみならず世界中が直面している深刻な問題だ。", eng: "Global warming is a serious problem faced not only by Japan, but by the entire world." },
+                    { topic: "Business", text: "彼は英語のみならず、スペイン語と中国語も流暢に話すことができる。", eng: "He can fluently speak not only English, but also Spanish and Chinese." },
+                    { topic: "Technology", text: "最新のAI技術は、IT業界のみならず、医療や教育の分野にも革命をもたらしている。", eng: "The latest AI technology is bringing a revolution not only to the IT industry, but also to the fields of medicine and education." },
+                    { topic: "Airsoft", text: "サバゲーは男性のみならず、最近では女性のプレイヤーも非常に増えている。", eng: "Airsoft has recently seen a huge increase in players not only among men, but also among women." },
+                    { topic: "Food", text: "このメキシコ料理店は、味が美味しいのみならず、スタッフのサービスも最高だ。", eng: "This Mexican restaurant is not only delicious in taste, but the staff's service is also the best." }
+                ],
+                clickingGames: [
+                    { prompt: "Not only young people, but elderly people also use smartphones.", target: "若者のみならず高齢者もスマホを活用している", words: ["若者のみならず", "高齢者も", "スマホを活用している"] },
+                    { prompt: "He is excellent not only in study but also in sports.", target: "彼は勉強のみならずスポーツも非常に優秀だ", words: ["彼は勉強のみならず", "スポーツも", "非常に優秀だ"] },
+                    { prompt: "This game is loved not only domestically but also overseas.", target: "このゲームは国内のみならず海外でも愛されている", words: ["このゲームは国内のみならず", "海外でも", "愛されている"] },
+                    { prompt: "The project requires not only budget but also time.", target: "計画には予算のみならず多くの時間も必要だ", words: ["計画には予算のみならず", "多くの時間も", "必要だ"] },
+                    { prompt: "Not only is he kind, but he is also highly responsible.", target: "彼は優しいのみならず非常に責任感も強い", words: ["彼は優しいのみならず", "非常に", "責任感も強い"] }
+                ],
+                dropdownGames: [
+                    { before: "このアニメは、", options: ["子供のみならず", "子供ののみならず", "子供だのみならず"], answer: "子供のみならず", after: "大人にも深い感動を与える。" },
+                    { before: "大雨", options: ["のみならず", "だのみならず", "なののみならず"], answer: "のみならず", after: "、強風にも警戒してください。" },
+                    { before: "彼はプログラミングが", options: ["できるのみならず", "できるののみならず", "できるだのみならず"], answer: "できるのみならず", after: "、デザインの才能もある。" },
+                    { before: "この問題は、単なる", options: ["ミスであるのみならず", "ミスだのみならず", "ミスなのみならず"], answer: "ミスであるのみならず", after: "、システム全体の欠陥を示している。" },
+                    { before: "休日は家で", options: ["休むのみならず", "休むののみならず", "休んでのみならず"], answer: "休むのみならず", after: "、外で運動することも大切だ。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたの仕事や専門分野は、「国内のみならず」海外でも需要があると思いますか？", eng: "Do you think your work or field of expertise is in demand overseas 'not only domestically'?" },
+                    { text: "「外見が美しいのみならず、機能性も高い」と思う愛用のガジェットは何ですか？", eng: "What is a favorite gadget of yours that you think is 'not only beautiful in appearance, but also highly functional'?" },
+                    { text: "日本語を学ぶことは、「言葉がわかるようになるのみならず」どんなメリットがあると思いますか？", eng: "Learning Japanese is 'not only becoming able to understand the language', but what other merits do you think there are?" }
+                ]
+            },
+            {
+                point: "~だらけ",
+                english: "Full of / Covered with (Usually negative)",
+                structure: "Noun + だらけ",
+                nuance: "Indicates that a surface or situation is completely covered in or full of something undesirable, messy, or unpleasant (e.g., mud, mistakes, blood, dust). It is almost always used in a negative context.",
+                metaphor: "A dog jumping happily into a massive mud puddle. When it comes out, there isn't a single clean spot left on its fur. It is entirely 'darake' with mud.",
+                examples: [
+                    { topic: "Outdoors", text: "雨の中でのキャンプの後、テントも靴も泥だらけになってしまった。", eng: "After camping in the rain, both the tent and my shoes became completely covered in mud." },
+                    { topic: "Study", text: "急いで書いたレポートなので、よく見ると間違いだらけだった。", eng: "Because it was a report written in a hurry, upon looking closely, it was full of mistakes." },
+                    { topic: "Action/Sports", text: "激しいサバゲーの試合を終えて、彼の服は汗と土だらけだった。", eng: "Finishing the intense airsoft match, his clothes were completely covered in sweat and dirt." },
+                    { topic: "Cleaning", text: "何年も使っていなかった倉庫の奥は、ホコリだらけだった。", eng: "The back of the warehouse that hadn't been used for years was completely covered in dust." },
+                    { topic: "Money", text: "若い頃の無計画な浪費のせいで、彼の人生は借金だらけだ。", eng: "Because of unplanned extravagance in his youth, his life is full of debt." }
+                ],
+                clickingGames: [
+                    { prompt: "My newly bought white sneakers are already covered in mud.", target: "買ったばかりの白いスニーカーがすでに泥だらけだ", words: ["買ったばかりの白いスニーカーが", "すでに", "泥だらけだ"] },
+                    { prompt: "This English document translated by AI is full of mistakes.", target: "AIが翻訳したこの英語の資料は間違いだらけだ", words: ["AIが翻訳したこの英語の資料は", "間違い", "だらけだ"] },
+                    { prompt: "The interior of the old PC I got from a friend is covered in dust.", target: "友人からもらった古いPCの内部はホコリだらけだった", words: ["友人からもらった", "古いPCの内部は", "ホコリだらけだった"] },
+                    { prompt: "The hero fought bravely, becoming completely covered in blood.", target: "主人公は血だらけになりながらも勇敢に戦った", words: ["主人公は", "血だらけになりながらも", "勇敢に戦った"] },
+                    { prompt: "My room is full of trash and there is no place to step.", target: "部屋の中はゴミだらけで足の踏み場もない", words: ["部屋の中は", "ゴミだらけで", "足の踏み場もない"] }
+                ],
+                dropdownGames: [
+                    { before: "雨上がりの公園で遊んだ子供たちは、服が", options: ["泥だらけ", "泥のだらけ", "泥なだらけ"], answer: "泥だらけ", after: "になって帰ってきた。" },
+                    { before: "彼の書いたプログラミングのコードは", options: ["バグだらけ", "バグのだらけ", "バグなだらけ"], answer: "バグだらけ", after: "で、全く動かなかった。" },
+                    { before: "長年放置されていた自転車は", options: ["サビだらけ", "サビのだらけ", "サビなだらけ"], answer: "サビだらけ", after: "になっていた。" },
+                    { before: "この歴史的な古い文書は、虫食いの", options: ["穴だらけ", "穴のだらけ", "穴なだらけ"], answer: "穴だらけ", after: "で読むのが難しい。" },
+                    { before: "いくら言い訳をしても、君の論理は", options: ["矛盾だらけ", "矛盾のだらけ", "矛盾なだらけ"], answer: "矛盾だらけ", after: "だ。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたが子供の頃、「泥だらけ（または傷だらけ）」になって夢中で遊んだ記憶はありますか？", eng: "Do you have a memory from when you were a child where you played enthusiastically and got 'covered in mud (or covered in scratches)'?" },
+                    { text: "初めて外国語で文章を書いた時、「間違いだらけ」で恥ずかしかった経験はありますか？", eng: "When you first wrote a text in a foreign language, did you have an embarrassing experience where it was 'full of mistakes'?" },
+                    { text: "部屋の片付けをサボって、「ホコリだらけ（またはゴミだらけ）」にしてしまったことはありますか？", eng: "Have you ever slacked off on cleaning your room and let it become 'covered in dust (or full of trash)'?" }
+                ]
+            },
+            {
+                point: "~にしろ〜にしろ / ~にせよ〜にせよ",
+                english: "Whether A or B",
+                structure: "Aにしろ Bにしろ / Aにせよ Bにせよ (A and B are options or opposites)",
+                nuance: "Presents two contrasting examples or options to say that no matter which one is chosen, the final conclusion, result, or judgment remains exactly the same.",
+                metaphor: "Standing at a fork in the road where both the left path and the right path inevitably lead to the exact same castle. It doesn't matter which road you take, your destination is fixed.",
+                examples: [
+                    { topic: "Business", text: "この企画に参加するにしろしないにしろ、明日までに返事をください。", eng: "Whether you participate in this project or not, please give me a reply by tomorrow." },
+                    { topic: "Shopping", text: "高いにせよ安いにせよ、今の私には家を買うお金は全くない。", eng: "Whether it's expensive or cheap, right now I have absolutely no money to buy a house." },
+                    { topic: "Travel", text: "飛行機で行くにしろ新幹線で行くにしろ、交通費はかなりかかるだろう。", eng: "Whether we go by plane or shinkansen, the transportation cost will be quite high." },
+                    { topic: "Health", text: "走るにしろ泳ぐにしろ、毎日運動を続けることがダイエットには重要だ。", eng: "Whether running or swimming, continuing exercise every day is important for dieting." },
+                    { topic: "Technology", text: "Macを買うにせよWindowsを買うにせよ、用途に合わせてスペックを選ぶべきだ。", eng: "Whether buying a Mac or Windows, you should choose the specs according to your usage." }
+                ],
+                clickingGames: [
+                    { prompt: "Whether we go or not, we should contact them first.", target: "行くにしろ行かないにしろまずは連絡すべきだ", words: ["行くにしろ", "行かないにしろ", "まずは連絡すべきだ"] },
+                    { prompt: "Whether you buy or not, let's take a look at the actual item.", target: "買うにせよ買わないにせよ実物を見てみよう", words: ["買うにせよ", "買わないにせよ", "実物を見てみよう"] },
+                    { prompt: "Whether he agrees or opposes, my decision won't change.", target: "彼が賛成するにしろ反対するにしろ私の決意は変わらない", words: ["彼が賛成するにしろ", "反対するにしろ", "私の決意は変わらない"] },
+                    { prompt: "Whether summer or winter, this region has a harsh climate.", target: "夏にしろ冬にしろこの地域は気候が厳しい", words: ["夏にしろ", "冬にしろ", "この地域は気候が厳しい"] },
+                    { prompt: "Whether working or resting, taking it seriously is important.", target: "働くにせよ休むにせよ真剣に取り組むことが大切だ", words: ["働くにせよ", "休むにせよ", "真剣に取り組むことが大切だ"] }
+                ],
+                dropdownGames: [
+                    { before: "出席", options: ["するにしろ欠席するにしろ", "するにしろ欠席するをしろ", "するがしろ欠席するがしろ"], answer: "するにしろ欠席するにしろ", after: "、幹事には早めに伝えてください。" },
+                    { before: "上司に", options: ["言うにせよ言わないにせよ", "言うにせよ言わないをせよ", "言うがせよ言わないがせよ"], answer: "言うにせよ言わないにせよ", after: "、このミスはすぐに隠さず処理すべきだ。" },
+                    { before: "外食", options: ["にしろ", "のしろ", "だしろ"], answer: "にしろ", after: "自炊にしろ、野菜はもっとたくさん食べるべきだよ。" },
+                    { before: "車を", options: ["買うにせよ買わないにせよ", "買うのせよ買わないのせよ", "買ったにせよ買わなくてせよ"], answer: "買うにせよ買わないにせよ", after: "、駐車場代の計算はしておくべきだ。" },
+                    { before: "プロ", options: ["にしろアマチュアにしろ", "のしろアマチュアのしろ", "がしろアマチュアがしろ"], answer: "にしろアマチュアにしろ", after: "、スポーツマンシップは守らなければならない。" }
+                ],
+                opinionQuestions: [
+                    { text: "休日の過ごし方について、「家にいるにしろ出かけるにしろ、これだけは絶対にやりたい」ことは何ですか？", eng: "Regarding how you spend your days off, 'Whether staying at home or going out', what is something you absolutely want to do?" },
+                    { text: "将来車（または家）を「買うにせよ買わないにせよ」、お金の管理で気をつけていることはありますか？", eng: "Whether you 'buy or don't buy' a car (or house) in the future, is there anything you are careful about with money management?" },
+                    { text: "仕事において、「好きにしろ嫌いにしろ、やらなければならない」と思う一番の業務は何ですか？", eng: "In work, what is the number one task you think 'Whether you like it or hate it, it must be done'?" }
+                ]
+            }
+        ],
+        dialogue: {
+            speaker: "Two 40-year-old men (Tanaka and Sato)",
+            context: "Checking out a used car that one of them is considering buying for their weekend outdoor hobbies.",
+            text: "<p><strong>田中:</strong> 「なあ佐藤、この週末に中古車屋で見つけたSUVなんだけど、ちょっと見てくれないか。サバゲーの装備やキャンプ道具を積むための車が欲しくてさ。横須賀の久里浜に引っ越してから、やっぱり車がないと不便なんだよ。」</p><p><strong>佐藤:</strong> 「どれどれ……おい田中、いくらなんでもこの車はひどすぎないか？ボディは細かい傷[BLANK1]だし、タイヤのホイールは完全にサビ[BLANK2]だぞ。これ、前の持ち主がオフロードで相当無茶な走り方をしてただろ。」</p><p><strong>田中:</strong> 「まあ、確かに外見はボロボロだけど、エンジンはしっかりしてるし、何より値段が破格なんだよ。どうせ泥んこになるアウトドアの趣味に使うんだから、多少の傷は気にしないつもりだ。」</p><p><strong>佐藤:</strong> 「いやいや、外見の劣化[BLANK3]、内部の部品もかなり消耗しているはずだ。修理費や車検代を考えたら、最終的に高くつくのは目に見えてるぞ。車を買う[BLANK4]買わない[BLANK5]、もっと慎重に状態の良い物件を探すべきだ。」</p><p><strong>田中:</strong> 「うーん、お前の言う通りかもしれないな。安物買いの銭失いになるのは御免だ。見た目が悪い[BLANK6]安全に乗れない[BLANK7]、家族を乗せることは絶対にできないからな。安全第一だ。」</p><p><strong>佐藤:</strong> 「その通りだ。車は自分の命を預けるものだ。安い[BLANK8]、最低限の品質が保証されているものを選ぶべきだぞ。よし、今週末は別の大型ディーラーを一緒に回ってやるよ。俺の鋭い目で、最高の相棒を見つけてやる。」</p><p><strong>田中:</strong> 「助かるよ！お前がいてくれるなら百人力だ。帰りに美味いステーキでも奢るからさ。」</p>",
+            blanks: [
+                { id: "BLANK1", options: ["だらけ", "のみならず", "にしろ"], answer: "だらけ" },
+                { id: "BLANK2", options: ["だらけ", "のみならず", "にせよ"], answer: "だらけ" },
+                { id: "BLANK3", options: ["のみならず", "だらけ", "にしろ"], answer: "のみならず" },
+                { id: "BLANK4", options: ["にしろ", "のみならず", "だらけ"], answer: "にしろ" },
+                { id: "BLANK5", options: ["にしろ", "のみならず", "だらけ"], answer: "にしろ" },
+                { id: "BLANK6", options: ["にせよ", "のみならず", "だらけ"], answer: "にせよ" },
+                { id: "BLANK7", options: ["にせよ", "のみならず", "だらけ"], answer: "にせよ" },
+                { id: "BLANK8", options: ["にしろ", "のみならず", "だらけ"], answer: "にしろ" } // Even if it's cheap -> 安いにしろ
+            ]
+        },
+        story: {
+            title: "The Reality of Home Renovation",
+            text: "<p>横須賀の久里浜に念願のマイホームを購入した私は、古い中古物件を自分自身の力でリノベーションするという野心的な計画を立てていた。YouTubeのDIY動画を見る限り、壁紙の張り替えや床板の修復は素人でも簡単にできるように思えた。私はリフォームの予算を節約できる[BLANK1]、自分好みの理想的な部屋を一から作れるという期待に胸を膨らませていたのである。</p><p>しかし、実際に作業を開始してすぐに、その甘い幻想は打ち砕かれることになった。長年放置されていた和室の古い畳を剥がしてみると、床下は湿気で腐った木材とカビ[BLANK2]であり、素人の手に負える状態ではなかったのだ。さらに、見よう見まねで壁紙を貼ろうとした結果、空気が入ってシワ[BLANK3]になり、とても人様にお見せできるような仕上がりにはならなかった。</p><p>私はノコギリと接着剤を手にしながら、深く絶望した。DIYで家を直す[BLANK4]、プロの業者にお金を払って頼む[BLANK5]、この腐った床下の修繕は絶対に避けては通れない道だったのだ。結局、私は自分の無力さを認め、地元の工務店に泣きつくことになった。</p><p>数週間後、プロの職人たちの手によって、私の家は見違えるほど美しく、そして安全に生まれ変わった。彼らの仕事は迅速で正確である[BLANK6]、基礎部分の補強まで完璧にこなしてくれた。多少予算がオーバーする[BLANK7]、やはり専門家の技術と知識には絶対にかなわないということを、私はこのホコリ[BLANK8]の経験から深く学んだのであった。これからは、無理なDIYはほどほどにして、快適な新しいリビングで映画鑑賞を満喫することにしよう。</p>",
+            blanks: [
+                { id: "BLANK1", options: ["のみならず", "だらけ", "にしろ"], answer: "のみならず" },
+                { id: "BLANK2", options: ["だらけ", "のみならず", "にせよ"], answer: "だらけ" },
+                { id: "BLANK3", options: ["だらけ", "のみならず", "にしろ"], answer: "だらけ" },
+                { id: "BLANK4", options: ["にしろ", "だらけ", "のみならず"], answer: "にしろ" },
+                { id: "BLANK5", options: ["にしろ", "だらけ", "のみならず"], answer: "にしろ" },
+                { id: "BLANK6", options: ["のみならず", "だらけ", "にせよ"], answer: "のみならず" },
+                { id: "BLANK7", options: ["にせよ", "だらけ", "のみならず"], answer: "にせよ" },
+                { id: "BLANK8", options: ["だらけ", "のみならず", "にしろ"], answer: "だらけ" }
+            ]
+        }
+    },
+    {
+        id: 51,
+        title: "Lesson 51: Forefronts, Reasons & Extreme States",
+        grammar: [
+            {
+                point: "~に先立って / ~に先立ち (にさきだって)",
+                english: "Prior to / Before (Formal)",
+                structure: "Noun + に先立って / に先立ち / Verb (Dictionary form) + のに先立って",
+                nuance: "A highly formal expression meaning 'before X happens'. It is explicitly used for important, major, or official events (opening a store, starting a project, a ceremony). It emphasizes that necessary preparations or greetings are being done beforehand.",
+                metaphor: "The grand opening act of a theater play. Before the main curtain rises, there is a formal announcement and preparation to set the stage for the big event.",
+                examples: [
+                    { topic: "Business", text: "新店舗のオープンに先立って、関係者向けのレセプションパーティーが開かれた。", eng: "Prior to the opening of the new store, a reception party for those involved was held." },
+                    { topic: "Event", text: "大規模なサバゲー大会の開始に先立ち、厳格なルール説明が行われた。", eng: "Prior to the start of the large-scale airsoft tournament, a strict rule explanation was conducted." },
+                    { topic: "Movies", text: "映画の公開に先立って、主演俳優へのインタビューが公開された。", eng: "Prior to the release of the movie, an interview with the lead actor was published." },
+                    { topic: "Meeting", text: "重要なプロジェクトの会議に先立って、全員に資料が配布された。", eng: "Prior to the important project meeting, documents were distributed to everyone." },
+                    { topic: "General JLPT", text: "海外への出発に先立ち、大使館で必要なビザの手続きを完了させた。", eng: "Prior to departure overseas, I completed the necessary visa procedures at the embassy." }
+                ],
+                clickingGames: [
+                    { prompt: "Prior to the start of the game, we do a safety check.", target: "試合の開始に先立って安全確認を行います", words: ["試合の開始に", "先立って", "安全確認を行います"] },
+                    { prompt: "Prior to the new product launch, we started an ad campaign.", target: "新製品の発売に先立ち広告キャンペーンを始めた", words: ["新製品の発売に", "先立ち", "広告キャンペーンを始めた"] },
+                    { prompt: "Prior to the President's visit to Japan, security was strengthened.", target: "大統領の来日に先立って警備が強化された", words: ["大統領の来日に", "先立って", "警備が強化された"] },
+                    { prompt: "Prior to the general release, a test version was distributed.", target: "一般公開に先立ってテスト版が配布された", words: ["一般公開に", "先立って", "テスト版が配布された"] },
+                    { prompt: "Prior to purchasing the house, we inspected it carefully.", target: "家の購入に先立ち入念な下見を行った", words: ["家の購入に", "先立ち", "入念な下見を行った"] }
+                ],
+                dropdownGames: [
+                    { before: "新システムの", options: ["導入に先立って", "導入を先立って", "導入が先立って"], answer: "導入に先立って", after: "、社内向けの研修が行われた。" },
+                    { before: "大規模な工事の", options: ["開始に先立ち", "開始を先立ち", "開始の先立ち"], answer: "開始に先立ち", after: "、近隣住民への挨拶回りを行った。" },
+                    { before: "会議を", options: ["始めるのに先立って", "始めるに先立って", "始めて先立って"], answer: "始めるのに先立って", after: "、本日の議題を確認させてください。" },
+                    { before: "チケットの一般", options: ["販売に先立って", "販売を先立って", "販売が先立って"], answer: "販売に先立って", after: "、ファンクラブ限定の先行予約が始まります。" },
+                    { before: "卒業式の", options: ["開催に先立ち", "開催を先立ち", "開催の先立ち"], answer: "開催に先立ち", after: "、校長先生からのメッセージが配られた。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたの仕事や学校で、「大きなイベントの開始に先立って」必ず行う準備は何ですか？", eng: "In your work or school, what is a preparation you always do 'prior to the start of a major event'?" },
+                    { text: "海外旅行（または遠出）へ「出発するのに先立って」、一番重要だと思う手続きや準備は何ですか？", eng: "What do you think is the most important procedure or preparation 'prior to departing' on an overseas trip (or long journey)?" },
+                    { text: "もしあなたが自分のお店を出すとしたら、「オープンに先立って」どんなことをしたいですか？", eng: "If you were to open your own store, what would you want to do 'prior to the opening'?" }
+                ]
+            },
+            {
+                point: "~につき",
+                english: "Due to / Because of (Formal notice)",
+                structure: "Noun + につき",
+                nuance: "A highly formal, brief expression used almost exclusively in official signs, written notices, posters, and stiff announcements to state the reason for a situation (like a closure or construction).",
+                metaphor: "A laminated sign hanging on a shop door. It is brief, official, and indisputable.",
+                examples: [
+                    { topic: "Notice", text: "本日は店内改装工事につき、臨時休業とさせていただきます。", eng: "Due to interior renovation work today, we will be temporarily closed." },
+                    { topic: "Sign", text: "ペンキ塗りたてにつき、壁に触れないでください。", eng: "Due to wet paint, please do not touch the wall." },
+                    { topic: "Business", text: "ただいま会議中につき、担当者は席を外しております。", eng: "Due to currently being in a meeting, the person in charge is away from their desk." },
+                    { topic: "Safety", text: "強風につき、本日の屋外イベントはすべて中止となります。", eng: "Due to strong winds, all outdoor events today will be canceled." },
+                    { topic: "Sanitation", text: "清掃中につき、このトイレは現在ご利用になれません。", eng: "Due to cleaning, this toilet is currently unavailable for use." }
+                ],
+                clickingGames: [
+                    { prompt: "Due to being sold out, sales have ended.", target: "完売につき販売を終了いたしました", words: ["完売に", "つき", "販売を終了いたしました"] },
+                    { prompt: "Due to danger, do not enter this area.", target: "危険につきこのエリアには立ち入らないでください", words: ["危険に", "つき", "このエリアには立ち入らないでください"] },
+                    { prompt: "Due to equipment maintenance, the server is stopped.", target: "機材のメンテナンスにつきサーバーを停止しています", words: ["機材のメンテナンスに", "つき", "サーバーを停止しています"] },
+                    { prompt: "Due to poor health, he is taking a day off today.", target: "体調不良につき彼は本日お休みをいただいております", words: ["体調不良に", "つき", "彼は本日お休みをいただいております"] },
+                    { prompt: "Due to heavy rain, the speed limit is enforced.", target: "大雨につき速度制限が実施されています", words: ["大雨に", "つき", "速度制限が実施されています"] }
+                ],
+                dropdownGames: [
+                    { before: "本日は定休日", options: ["につき", "のつき", "なつき"], answer: "につき", after: "、お電話での対応は行っておりません。" },
+                    { before: "ただいま満席", options: ["につき", "のつき", "だにつき"], answer: "につき", after: "、外のベンチでお待ちください。" },
+                    { before: "システムエラー", options: ["につき", "のつき", "だにつき"], answer: "につき", after: "、現在クレジットカード決済がご利用いただけません。" },
+                    { before: "故障中", options: ["につき", "のつき", "なつき"], answer: "につき", after: "、このエレベーターは使用禁止です。" },
+                    { before: "雨天", options: ["につき", "のつき", "だにつき"], answer: "につき", after: "、本日の野球の試合は明日に延期されます。" }
+                ],
+                opinionQuestions: [
+                    { text: "街を歩いていて、一番よく見かける「〇〇につき（清掃中につき、等）」の看板は何ですか？", eng: "Walking around the city, what is the 'Due to X (Due to cleaning, etc.)' sign you see most often?" },
+                    { text: "お店に行って「臨時休業につき〜」という張り紙を見た時、あなたならどうしますか？", eng: "When you go to a store and see a paper saying 'Due to temporary closure...', what do you do?" },
+                    { text: "もしあなたの仕事のデスクに「〇〇につき、話しかけないで」と札を立てるとしたら、〇〇には何を入れますか？", eng: "If you were to put a sign on your work desk saying 'Due to X, do not talk to me', what would you put in X?" }
+                ]
+            },
+            {
+                point: "~あまり (余り)",
+                english: "So much that... / Out of extreme...",
+                structure: "Noun + のあまり / Verb (Dictionary form / た-form) / Adj (na-adj + な) + あまり",
+                nuance: "Expresses that a certain emotion, state, or feeling was so incredibly intense and overwhelming that it caused an unusual, extreme, or unexpected (often negative or surprising) result.",
+                metaphor: "A boiler heating up so rapidly and intensely that the intense pressure completely blows the lid off, causing a massive mess in the kitchen.",
+                examples: [
+                    { topic: "Emotions", text: "彼女は突然のサプライズに、驚きのあまり言葉を失った。", eng: "She lost her words out of extreme surprise at the sudden surprise." },
+                    { topic: "Business", text: "彼は重要なプレゼンで緊張するあまり、頭が真っ白になってしまった。", eng: "He got so extremely nervous during the important presentation that his mind went completely blank." },
+                    { topic: "Pets", text: "愛犬が亡くなった悲しみのあまり、数日間食事も喉を通らなかった。", eng: "Out of extreme sadness that my beloved dog passed away, I couldn't even swallow food for several days." },
+                    { topic: "Sports", text: "マラソンを完走した喜びのあまり、その場で泣き崩れてしまった。", eng: "Out of extreme joy of finishing the marathon, I broke down crying on the spot." },
+                    { topic: "Study", text: "試験に絶対に合格したいと焦るあまり、簡単な問題でミスをしてしまった。", eng: "Rushing so much with the desire to absolutely pass the exam, I made a mistake on a simple question." }
+                ],
+                clickingGames: [
+                    { prompt: "I was so deeply moved that tears did not stop.", target: "感動のあまり涙が止まらなくなった", words: ["感動の", "あまり", "涙が止まらなくなった"] },
+                    { prompt: "Because I hurried too much, I forgot my wallet.", target: "急いだあまり財布を家に忘れてしまった", words: ["急いだ", "あまり", "財布を家に忘れてしまった"] },
+                    { prompt: "I was so angry that I shouted in a loud voice.", target: "怒りのあまり大声で叫んでしまった", words: ["怒りの", "あまり", "大声で叫んでしまった"] },
+                    { prompt: "Thinking too deeply, my head started to hurt.", target: "深く考えすぎたあまり頭が痛くなってきた", words: ["深く考えすぎた", "あまり", "頭が痛くなってきた"] },
+                    { prompt: "I was so worried that I couldn't sleep all night.", target: "心配なあまり夜も一睡もできなかった", words: ["心配な", "あまり", "夜も一睡もできなかった"] }
+                ],
+                dropdownGames: [
+                    { before: "大好きなアイドルに会えた", options: ["喜びのあまり", "喜びなあまり", "喜びだあまり"], answer: "喜びのあまり", after: "、彼女は気を失って倒れた。" },
+                    { before: "試験の結果が", options: ["不安なあまり", "不安のあまり", "不安だあまり"], answer: "不安なあまり", after: "、何も手につかない状態だ。" },
+                    { before: "仕事のストレスが", options: ["大きすぎたあまり", "大きいすぎたあまり", "大きくすぎたあまり"], answer: "大きすぎたあまり", after: "、彼はついに会社を辞めてしまった。" },
+                    { before: "突然の事故のニュースに、", options: ["ショックのあまり", "ショックなあまり", "ショックだあまり"], answer: "ショックのあまり", after: "立ち上がることができなかった。" },
+                    { before: "相手に良く思われたいと", options: ["意識するあまり", "意識したあまり", "意識してあまり"], answer: "意識するあまり", after: "、不自然な態度になってしまった。" }
+                ],
+                opinionQuestions: [
+                    { text: "過去に「緊張のあまり（または驚きのあまり）」頭が真っ白になってしまった経験はありますか？", eng: "Have you ever had an experience in the past where your mind went blank 'out of extreme nervousness (or surprise)'?" },
+                    { text: "あなたが「喜びのあまり」、思わず叫んだり泣いてしまったりした最高の出来事は何ですか？", eng: "What is the best event where you inadvertently shouted or cried 'out of extreme joy'?" },
+                    { text: "焦る「あまり」、やってしまった仕事や日常の小さな失敗を教えてください。", eng: "Tell me a small mistake in work or daily life you made 'out of extreme rushing/panic'." }
+                ]
+            }
+        ],
+        dialogue: {
+            speaker: "Two 40-year-old men (Tanaka and Sato)",
+            context: "Preparing for a highly anticipated weekend event and dealing with last-minute anxieties.",
+            text: "<p><strong>田中:</strong> 「佐藤、いよいよ明日は半年も前から準備を進めてきた、関東最大規模のサバゲー貸切イベントだな。お前も知っての通り、今回のイベントの開催[BLANK1]、フィールドのオーナーや協賛企業への挨拶回りなど、裏方の準備が本当に大変だったよ。」</p><p><strong>佐藤:</strong> 「本当にお疲れ様。お前が奔走してくれたおかげで、参加者も100人を超えるビッグイベントになったな。でも、明日の天気予報を見ると、午後からかなり強い風が吹くみたいだぞ。安全管理にはいつも以上に気を使わないとな。」</p><p><strong>田中:</strong> 「ああ、もちろん分かっている。当日の朝礼で参加者には厳重に警告するつもりだ。強風[BLANK2]、スナイパーライフルなどの長距離射撃の弾道が大きく逸れて、セーフティエリアに危険が及ぶ可能性があるからな。もし危険だと判断したら、ゲームを一時中断することも考えているよ。」</p><p><strong>佐藤:</strong> 「それは賢明な判断だ。ところで、お前自身の準備はどうなんだ？ずっとこのイベントを楽しみにしていたのは知っているが、最近少し顔色が悪いぞ。」</p><p><strong>田中:</strong> 「実は、イベントを絶対に成功させなければいけないという重圧と緊張の[BLANK3]、ここ数日まともに夜眠れていないんだよ。参加者が楽しんでくれるか、怪我人が出ないか、色々なリスクを考えるだけで胃が痛くなってきてさ……。」</p><p><strong>佐藤:</strong> 「おいおい、主催者が倒れてしまったら元も子もないだろ。完璧を目指すお前の性格は長所でもあるが、責任を一人で抱え込むのは良くないぞ。明日は俺たちベテラン勢が全力でサポートするから、もっと肩の力を抜けよ。」</p><p><strong>田中:</strong> 「ありがとう、お前のその言葉を聞いて少し安心したよ。イベントの成功[BLANK4]、まずは俺自身が楽しむ余裕を持たないとダメだな。今日は早めに寝て、明日の本番に備えるとするよ。」</p>",
+            blanks: [
+                { id: "BLANK1", options: ["に先立って", "につき", "あまり"], answer: "に先立って" },
+                { id: "BLANK2", options: ["につき", "に先立ち", "あまり"], answer: "につき" },
+                { id: "BLANK3", options: ["あまり", "につき", "に先立って"], answer: "あまり" },
+                { id: "BLANK4", options: ["に先立って", "につき", "あまり"], answer: "に先立って" }
+            ]
+        },
+        story: {
+            title: "The Anxiety of the Public Speaker",
+            text: "<p>私が勤めているIT企業では、年に一度、全社員が集まる大規模な全社総会が開催される。今年はその重要な総会において、私が新しい事業戦略のプレゼンテーションを行う大役に抜擢された。このような大舞台に立つのは私の人生で初めてのことであり、本番の日を迎える[BLANK1]、私は何週間も前から深夜までオフィスに残り、スライドの微調整とスピーチの猛特訓を重ねていた。</p><p>しかし、本番当日。会場の巨大なスクリーンと、数百人の社員たちの鋭い視線を目の前にした瞬間、私の心拍数は急激に跳ね上がった。絶対に失敗は許されないという強烈なプレッシャーと極度の緊張の[BLANK2]、何度も練習して完璧に記憶していたはずの最初の挨拶の言葉が、頭の中から完全に真っ白になって吹き飛んでしまったのだ。</p><p>私はマイクを持ったまま数秒間、言葉に詰まってしまった。沈黙が会場を支配し、私の額からは冷や汗が滝のように流れ落ちた。その時、ふと最前列に座っていた上司が、小さくうなずきながら優しい笑顔を向けてくれているのが目に入った。「彼らは私を評価するためにいるのではなく、私の話を聞くために集まってくれているのだ」と気づいた瞬間、張り詰めていた心が少しだけ解けた。</p><p>私は深く深呼吸をし、「大変申し訳ありません。緊張[BLANK3]、言葉を忘れてしまいました」と正直に告白した。すると、会場から温かい笑い声と励ましの拍手が湧き起こった。その予想外の温かな反応[BLANK4]、私の心の中の不安は消え去り、その後は自分の言葉で堂々と最後までプレゼンをやり遂げることができた。この経験は、事前の周到な準備の重要性と、そして何より人間の温かさを私に深く教えてくれたのである。</p>",
+            blanks: [
+                { id: "BLANK1", options: ["に先立って", "につき", "のあまり"], answer: "に先立って" },
+                { id: "BLANK2", options: ["あまり", "につき", "に先立ち"], answer: "あまり" },
+                { id: "BLANK3", options: ["のあまり", "につき", "に先立って"], answer: "のあまり" }, // Also tests grammatical attachment
+                { id: "BLANK4", options: ["に先立ち", "につき", "のあまり"], answer: "のあまり" } // Or thanks to, wait. "反応のあまり" vs "反応のおかげで" vs "に先立ち". Let's check the logic. "温かな反応に先立ち"? No. "温かな反応のおかげで" (Thanks to) makes sense but isn't an option. Let's look at the blank options for BLANK4.
+                // Wait, if it's "温かな反応に先立ち" (Prior to the warm reaction) - doesn't fit. 
+                // Ah, let's use "につき" (Due to). No, "につき" is formal notice. 
+                // Let's use a review point: "おかげで".
+            ]
+        }
+    }, {
+        id: 52,
+        title: "Lesson 52: Unfinished States, Results & Aftermaths",
+        grammar: [
+            {
+                point: "~かけ / ~かける",
+                english: "Half-finished / In the middle of",
+                structure: "Verb (stem) + かけ / かける",
+                nuance: "Indicates that an action was started but has not yet been completed. The state is currently suspended halfway through.",
+                metaphor: "A movie paused right in the middle of an action scene. The story has started, but you haven't seen the ending yet.",
+                examples: [
+                    { topic: "Food", text: "テーブルの上に食べかけのリンゴが置いてある。", eng: "There is a half-eaten apple left on the table." },
+                    { topic: "Study", text: "この本はまだ読みかけだから、本棚に戻さないでください。", eng: "Because this book is still half-read, please don't return it to the bookshelf." },
+                    { topic: "Communication", text: "彼女は何か言いかけたが、すぐに口をつぐんでしまった。", eng: "She started to say something, but immediately shut her mouth." },
+                    { topic: "Work", text: "やりかけの仕事をそのままにして、彼は帰宅してしまった。", eng: "Leaving his half-finished work as it is, he went home." },
+                    { topic: "Health", text: "風邪が治りかけていたのに、無理をしてまた悪化してしまった。", eng: "Even though my cold was halfway cured, I pushed myself and it worsened again." }
+                ],
+                clickingGames: [
+                    { prompt: "I drank the half-finished coffee that had gotten cold.", target: "冷たくなった飲みかけのコーヒーを飲んだ", words: ["冷たくなった", "飲みかけの", "コーヒーを飲んだ"] },
+                    { prompt: "Please don't throw away the half-written letter.", target: "書きかけの手紙を絶対に捨てないでください", words: ["書きかけの", "手紙を", "絶対に捨てないでください"] },
+                    { prompt: "Because the plastic model is half-assembled, be careful.", target: "プラモデルは組み立てかけなので気をつけて", words: ["プラモデルは", "組み立てかけなので", "気をつけて"] },
+                    { prompt: "I forgot what I started to say.", target: "自分が何を言おうと言いかけたか忘れてしまった", words: ["自分が何を言おうと", "言いかけたか", "忘れてしまった"] },
+                    { prompt: "I found a puzzle that was abandoned halfway through.", target: "途中で放置されたやりかけのパズルを見つけた", words: ["途中で放置された", "やりかけの", "パズルを見つけた"] }
+                ],
+                dropdownGames: [
+                    { before: "机の上に", options: ["読みかけの", "読むかけの", "読んでかけの"], answer: "読みかけの", after: "雑誌が何冊も積まれている。" },
+                    { before: "彼女は何かを", options: ["言いかけて", "言うかけて", "言ったかけて"], answer: "言いかけて", after: "、悲しそうにうつむいた。" },
+                    { before: "お風呂のお湯が", options: ["溢れかけて", "溢れるかけて", "溢れたかけて"], answer: "溢れかけて", after: "いて、慌てて蛇口を閉めた。" },
+                    { before: "あの仕事はまだ", options: ["やりかけ", "やるかけ", "やったかけ"], answer: "やりかけ", after: "なので、後で必ず終わらせます。" },
+                    { before: "ペットボトルに入った", options: ["飲みかけの", "飲むかけの", "飲んでかけの"], answer: "飲みかけの", after: "ジュースを冷蔵庫に入れた。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたの部屋に、現在「読みかけの本」や「やりかけのゲーム」はありますか？それは何ですか？", eng: "Do you currently have a 'half-read book' or 'half-played game' in your room? What is it?" },
+                    { text: "誰かが「言いかけてやめる」と、とても気になってしまいますか？", eng: "When someone 'starts to say something and stops', does it make you very curious?" },
+                    { text: "「やりかけの仕事」を残したまま週末を迎えると、リラックスできないタイプですか？", eng: "Are you the type who cannot relax if you hit the weekend leaving 'half-finished work' behind?" }
+                ]
+            },
+            {
+                point: "~あげく (挙句)",
+                english: "In the end / After all that (Negative result)",
+                structure: "Verb (た-form) / Noun + の + あげく",
+                nuance: "Expresses a sense of exhaustion or exasperation. After a long, drawn-out process of struggling, arguing, or hesitating, the final result was ultimately bad, useless, or disappointing.",
+                metaphor: "Wandering in a massive maze for six hours until you're completely exhausted, only to finally open a door and find yourself right back at the entrance.",
+                examples: [
+                    { topic: "Shopping", text: "何時間も迷ったあげく、結局何も買わずに店を出た。", eng: "After being lost in hesitation for hours, in the end, I left the store without buying anything." },
+                    { topic: "Conflict", text: "彼らは激しい口論のあげく、ついに殴り合いの喧嘩になった。", eng: "After a fierce verbal argument, in the end, it turned into a fistfight." },
+                    { topic: "Business", text: "徹夜で資料を修正したあげく、会議自体が中止になってしまった。", eng: "After correcting the documents all night long, in the end, the meeting itself was canceled." },
+                    { topic: "Technology", text: "PCの不具合を自力で直そうと悪戦苦闘したあげく、完全に壊してしまった。", eng: "After struggling to fix the PC glitch myself, in the end, I completely broke it." },
+                    { topic: "Dating", text: "彼女に散々振り回されたあげく、突然別れを告げられた。", eng: "After being jerked around by her relentlessly, in the end, I was suddenly told we were breaking up." }
+                ],
+                clickingGames: [
+                    { prompt: "After worrying about it, I ultimately refused the offer.", target: "散々悩んだあげく最終的にそのオファーを断った", words: ["散々悩んだ", "あげく", "最終的にそのオファーを断った"] },
+                    { prompt: "After getting deeply drunk, he ended up sleeping on the street.", target: "彼はひどく酔っ払ったあげく道端で寝てしまった", words: ["彼はひどく酔っ払った", "あげく", "道端で寝てしまった"] },
+                    { prompt: "After waiting for two hours, the target person never came.", target: "2時間も待たされたあげく目当ての人物は来なかった", words: ["2時間も待たされた", "あげく", "目当ての人物は来なかった"] },
+                    { prompt: "After spending a lot of money, the game was terribly boring.", target: "大金を使ったあげくそのゲームはひどくつまらなかった", words: ["大金を使った", "あげく", "そのゲームはひどくつまらなかった"] },
+                    { prompt: "After complaining endlessly, he didn't do any work.", target: "文句を言い続けたあげく彼は全く仕事をしなかった", words: ["文句を言い続けた", "あげく", "彼は全く仕事をしなかった"] }
+                ],
+                dropdownGames: [
+                    { before: "長時間の", options: ["話し合いのあげく", "話し合いなあげく", "話し合いだあげく"], answer: "話し合いのあげく", after: "、お互いに一切の妥協を許さなかった。" },
+                    { before: "いろいろと", options: ["考えたあげく", "考えるあげく", "考えてあげく"], answer: "考えたあげく", after: "、今回は辞退させていただくことにしました。" },
+                    { before: "彼は周囲を", options: ["散々巻き込んだあげく", "散々巻き込むあげく", "散々巻き込んであげく"], answer: "散々巻き込んだあげく", after: "、一人でどこかへ消えてしまった。" },
+                    { before: "激しい", options: ["抵抗のあげく", "抵抗なあげく", "抵抗であるあげく"], answer: "抵抗のあげく", after: "、犯人はついに警察に逮捕された。" },
+                    { before: "パソコンの設定を", options: ["いじり回したあげく", "いじり回すあげく", "いじり回してあげく"], answer: "いじり回したあげく", after: "、データが全て消去されてしまった。" }
+                ],
+                opinionQuestions: [
+                    { text: "買い物の時に、「散々迷ったあげく、結局何も買わなかった」という経験はよくありますか？", eng: "When shopping, do you often have the experience of 'after hesitating a lot, ending up buying nothing in the end'?" },
+                    { text: "過去に「ものすごく苦労したあげく、無駄になってしまった」という悲しいエピソードはありますか？", eng: "In the past, do you have a sad episode where 'after struggling immensely, it ended up being in vain'?" },
+                    { text: "「考えたあげく、やっぱりやめた」と、直前で大きな決断を覆したことはありますか？", eng: "Have you ever overturned a big decision at the last minute, thinking 'After thinking it through, I ultimately gave up on it'?" }
+                ]
+            },
+            {
+                point: "~末に (すえに)",
+                english: "At the end of / After a long process",
+                structure: "Verb (た-form) / Noun + の + 末に",
+                nuance: "Similar to '〜あげく', it describes the final result after a long, difficult process or period of contemplation. However, unlike 'あげく', '〜末に' can be used for positive, neutral, or successful outcomes.",
+                metaphor: "A long, dark tunnel. You walked for hours not knowing if you'd make it out, but finally (末に), you see the beautiful light of the exit.",
+                examples: [
+                    { topic: "Business", text: "数ヶ月にわたる交渉の末に、ついに契約を結ぶことができた。", eng: "At the end of negotiations spanning several months, we were finally able to sign the contract." },
+                    { topic: "Life", text: "色々と悩んだ末に、故郷に帰って自分の店を開くことにした。", eng: "After agonizing over it in various ways, I decided to return to my hometown and open my own shop." },
+                    { topic: "Sports", text: "血のにじむような努力の末に、彼はオリンピックの金メダルを手に入れた。", eng: "At the end of blood-sweating effort, he obtained the Olympic gold medal." },
+                    { topic: "Science", text: "10年間の研究の末に、新しいガンの治療法が発見された。", eng: "At the end of 10 years of research, a new cancer treatment method was discovered." },
+                    { topic: "General JLPT", text: "激しい激闘の末に、我々のチームが勝利を収めた。", eng: "At the end of a fierce, intense battle, our team achieved victory." }
+                ],
+                clickingGames: [
+                    { prompt: "At the end of thinking, I decided to start an IT company.", target: "考え抜いた末にIT企業を立ち上げる決意をした", words: ["考え抜いた", "末に", "IT企業を立ち上げる決意をした"] },
+                    { prompt: "At the end of suffering, she found true happiness.", target: "苦しみの末に彼女は本当の幸せを見つけた", words: ["苦しみの", "末に", "彼女は本当の幸せを見つけた"] },
+                    { prompt: "At the end of multiple tests, a safe product was completed.", target: "度重なるテストの末に安全な製品が完成した", words: ["度重なるテストの", "末に", "安全な製品が完成した"] },
+                    { prompt: "At the end of wandering, I arrived at this small town.", target: "放浪の末に私はこの小さな町にたどり着いた", words: ["放浪の", "末に", "私はこの小さな町にたどり着いた"] },
+                    { prompt: "At the end of trying various diets, I realized exercise is the best.", target: "色々なダイエットを試した末に運動が一番だと悟った", words: ["色々なダイエットを", "試した末に", "運動が一番だと悟った"] }
+                ],
+                dropdownGames: [
+                    { before: "長時間の", options: ["議論の末に", "議論な末に", "議論だ末に"], answer: "議論の末に", after: "、ようやく全員が納得する結論が出た。" },
+                    { before: "家族と", options: ["話し合った末に", "話し合う末に", "話し合って末に"], answer: "話し合った末に", after: "、マイホームの購入を決定した。" },
+                    { before: "度重なる", options: ["失敗の末に", "失敗な末に", "失敗だ末に"], answer: "失敗の末に", after: "、ついに画期的なシステムが完成した。" },
+                    { before: "三日三晩", options: ["悩んだ末に", "悩む末に", "悩んで末に"], answer: "悩んだ末に", after: "、会社に辞表を提出した。" },
+                    { before: "大恋愛", options: ["の末に", "な末に", "だ末に"], answer: "の末に", after: "二人は結婚したが、半年で別れてしまった。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたの人生で、「ものすごく悩んだ末に」下した一番大きな決断は何ですか？", eng: "In your life, what is the biggest decision you made 'at the end of agonizing immensely'?" },
+                    { text: "「苦労の末に」やっと手に入れたもの（資格、スキル、物）は何ですか？", eng: "What is something (qualification, skill, object) you finally obtained 'at the end of hardship'?" },
+                    { text: "買い物をする時、すぐに決めるタイプですか？それとも「迷った末に」決めるタイプですか？", eng: "When shopping, are you the type to decide immediately? Or the type to decide 'at the end of hesitating'?" }
+                ]
+            }
+        ],
+        dialogue: {
+            speaker: "Two 40-year-old men (Tanaka and Sato)",
+            context: "Discussing the frustrations of DIY projects in a new house and leaving things half-finished.",
+            text: "<p><strong>田中:</strong> 「なあ佐藤、実は先月から、久里浜の新居のリビングに本格的なオーディオ用の配線を壁の中に隠すDIYを始めたんだけどさ。仕事が忙しくなっちゃって、完全にやり[BLANK1]の状態で放置してるんだよ。壁には穴が開いたままで、ケーブルが床に散乱してるんだ。」</p><p><strong>佐藤:</strong> 「おいおい、奥さんにめちゃくちゃ怒られてるんじゃないか？リビングがケーブルだらけじゃ、子供がつまずいて転ぶかもしれないぞ。中途半端な状態で放置するのは一番良くないな。」</p><p><strong>田中:</strong> 「その通りさ。昨日なんて、暗闇で俺自身がケーブルに足を引っ掛けて派手に転んでしまってね。痛みをこらえながら配線を無理やり引っぱった[BLANK2]、高いHDMIケーブルの端子を根本からへし折ってしまったんだよ。節約のために自分でやり始めたのに、完全に逆効果さ。」</p><p><strong>佐藤:</strong> 「ははは、絵に描いたような悲惨な結末だな！プロに任せず自分を過信した素人の末路ってやつだ。それで、結局その配線はどうするつもりなんだ？」</p><p><strong>田中:</strong> 「昨日の夜、妻と激しい口論になった[BLANK3]、観念してプロの電気工事の業者を呼ぶことにしたよ。素直に最初からそうしておけばよかったんだ。業者に下見に来てもらって色々相談した[BLANK4]、来週には綺麗に壁の中に収めてもらえることになったよ。」</p><p><strong>佐藤:</strong> 「それが一番賢明な判断だ。これでようやく、やり[BLANK5]の工事から解放されて、最高のホームシアターで映画を楽しめるな。工事が無事に終わったら、完成祝いにビールでも持って遊びに行くぜ。」</p><p><strong>田中:</strong> 「ああ、ぜひ来てくれ。高い授業料を払った[BLANK6]の完璧な音響を、お前にも体感させてやるよ。」</p>",
+            blanks: [
+                { id: "BLANK1", options: ["かけ", "あげく", "末"], answer: "かけ" },
+                { id: "BLANK2", options: ["あげく", "末に", "かけに"], answer: "あげく" },
+                { id: "BLANK3", options: ["あげく", "末に", "かけに"], answer: "あげく" },
+                { id: "BLANK4", options: ["末に", "あげく", "かけに"], answer: "末に" },
+                { id: "BLANK5", options: ["かけ", "あげく", "末"], answer: "かけ" },
+                { id: "BLANK6", options: ["末", "あげく", "かけ"], answer: "末" }
+            ]
+        },
+        story: {
+            title: "The Unfinished Masterpiece",
+            text: "<p>私は手先が器用な方だと自負しており、休日は古いエアガンを分解して内部のパーツをカスタムするのを趣味にしている。数ヶ月前、インターネットのオークションで非常に珍しい海外製のヴィンテージ・アサルトライフルを落札した。さっそく分解し、内部のギアやスプリングを高性能なものに交換する作業に取り掛かったのだが、部品の規格が日本のものと微妙に異なり、作業は困難を極めた。</p><p>仕事の忙しさも重なり、部品が机の上に散乱した組み立て[BLANK1]の状態で、何週間も放置する日々が続いた。週末になるたびに「今日こそは終わらせよう」と決意するのだが、細かいパーツを削っては合わせるという地道な作業に嫌気がさし、また途中で投げ出してしまうのだ。ある夜、どうしても特定のネジが噛み合わず、力任せにドライバーを回した[BLANK2]、最も重要なネジ穴を完全に潰してしまったのである。</p><p>「このままではただの鉄のゴミになってしまう」。私は強い焦りと自己嫌悪に陥った。何日もネットの海外フォーラムを翻訳しながら解決策を探し回った[BLANK3]、同じトラブルを経験したベテランの有志から、特殊な接着剤と加工技術を使って修復する方法を教えてもらうことができた。</p><p>私は半ば諦めかけていたが、彼のアドバイスに従って慎重に修復作業を進めた。数日間にわたる悪戦苦闘の[BLANK4]、ついに最後のピンがカチリと音を立てて収まり、私のヴィンテージ・ライフルは完璧な状態で息を吹き返したのだ。試し撃ちをして心地よい反動を肩に感じた時、やり[BLANK5]で放置していた頃のストレスは嘘のように消え去っていた。大人の趣味というものは、数々の失敗と挫折の[BLANK6]に得られる達成感こそが最大の報酬なのだと、私は銃身を磨きながら深く実感したのである。</p>",
+            blanks: [
+                { id: "BLANK1", options: ["かけ", "あげく", "末に"], answer: "かけ" },
+                { id: "BLANK2", options: ["あげく", "末に", "かけ"], answer: "あげく" },
+                { id: "BLANK3", options: ["末に", "あげく", "かけに"], answer: "末に" },
+                { id: "BLANK4", options: ["末に", "あげく", "かけ"], answer: "末に" },
+                { id: "BLANK5", options: ["かけ", "あげく", "末に"], answer: "かけ" },
+                { id: "BLANK6", options: ["末", "あげく", "かけ"], answer: "末" }
+            ]
+        }
+    },
+    {
+        id: 53,
+        title: "Lesson 53: Absolute Obligations & Life Changes",
+        grammar: [
+            {
+                point: "~ずにはすまない / ~ないではすまない",
+                english: "Cannot get away without doing / Must do",
+                structure: "Verb (ない-form, drop ない) + ずにはすまない (*する -> せずにはすまない) / Verb (ない-form) + ではすまない",
+                nuance: "A strong expression of personal, social, or moral obligation. It means that given the gravity of the situation or the mistake made, it is unforgivable or impossible to resolve the issue without performing this specific action (like apologizing or compensating).",
+                metaphor: "Breaking a neighbor's expensive window with a baseball. You can't just wave and walk away; social rules and morality completely lock you in—you absolutely *must* pay for the damage.",
+                examples: [
+                    { topic: "Mistakes", text: "他人の高価なカメラを壊してしまったのだから、弁償せずにはすまない。", eng: "Since I broke someone else's expensive camera, I cannot get away without paying compensation." },
+                    { topic: "Business", text: "これほど大きな損害を会社に与えたのだから、社長に直接謝罪しないではすまないだろう。", eng: "Since I caused such massive damage to the company, I probably cannot get away without apologizing directly to the president." },
+                    { topic: "Duty", text: "チームのリーダーである以上、このトラブルの責任をとらずにはすまない。", eng: "As the team leader, I cannot get away without taking responsibility for this trouble." },
+                    { topic: "Etiquette", text: "大変お世話になった方のお葬式なのだから、出席せずにはすまない。", eng: "Because it is the funeral of someone who helped me greatly, I cannot get away without attending." },
+                    { topic: "Society", text: "法律を破ったのだから、厳しい罰を受けずにはすまない。", eng: "Since you broke the law, you cannot get away without receiving a strict punishment." }
+                ],
+                clickingGames: [
+                    { prompt: "Since I spilled water on his PC, I must buy him a new one.", target: "彼のPCに水をこぼしたのだから新調せずにはすまない", words: ["彼のPCに", "水をこぼしたのだから", "新調せずにはすまない"] },
+                    { prompt: "Since we broke our promise, we cannot get away without apologizing.", target: "約束を破ったのだから謝らずにはすまない", words: ["約束を破ったのだから", "謝らずには", "すまない"] },
+                    { prompt: "I received so much kindness, I absolutely must return the favor.", target: "あれほど親切にされたのだから恩返しをせずにはすまない", words: ["あれほど親切にされたのだから", "恩返しを", "せずにはすまない"] },
+                    { prompt: "Since I caused the accident, I cannot get away without paying for the medical expenses.", target: "私が事故を起こしたのだから治療費を払わないではすまない", words: ["私が事故を起こしたのだから", "治療費を払わないでは", "すまない"] },
+                    { prompt: "Since it is a national crisis, the government cannot get away without acting.", target: "国家の危機なのだから政府は対応せずにはすまない", words: ["国家の危機なのだから", "政府は", "対応せずにはすまない"] }
+                ],
+                dropdownGames: [
+                    { before: "取引先にこれほど迷惑をかけたのだから、直接出向いて", options: ["謝らずにはすまない", "謝らないずにはすまない", "謝らなくてずにはすまない"], answer: "謝らずにはすまない", after: "。" },
+                    { before: "借りていた車をぶつけてしまったのだから、修理代を", options: ["払わずにはすまない", "払わないずにはすまない", "払わなくてずにはすまない"], answer: "払わずにはすまない", after: "。" },
+                    { before: "あんな無礼な態度をとったのだから、後で厳しく", options: ["注意せずにはすまない", "注意さずにはすまない", "注意しないずにはすまない"], answer: "注意せずにはすまない", after: "だろう。" },
+                    { before: "長年チームを支えてくれた彼が辞めるのだ。送別会を", options: ["開かずにはすまない", "開かないずにはすまない", "開かなくてずにはすまない"], answer: "開かずにはすまない", after: "。" },
+                    { before: "事実が発覚した以上、マスコミに対して", options: ["説明しないではすまない", "説明しなくてではすまない", "説明しなかったではすまない"], answer: "説明しないではすまない", after: "。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたのこれまでの人生で、何か失敗をして「これは絶対に謝らずにはすまない」と覚悟を決めたことはありますか？", eng: "In your life so far, have you ever made a mistake and steeled your resolve thinking 'I absolutely cannot get away without apologizing for this'?" },
+                    { text: "もし友人の大事なもの（スマホや本）を壊してしまったら、あなたはどうやって「弁償せずにはすまない」状況に対応しますか？", eng: "If you broke a friend's important item (smartphone or book), how would you handle the situation where 'you cannot get away without compensating'?" },
+                    { text: "職場で他人がミスをした時、「彼が責任を取らずにはすまないだろう」と厳しく思ったことはありますか？", eng: "When someone else made a mistake at work, have you ever thought strictly 'He probably cannot get away without taking responsibility'?" }
+                ]
+            },
+            {
+                point: "~てからというもの",
+                english: "Ever since (A big change occurred)",
+                structure: "Verb (て-form) + からというもの",
+                nuance: "Similar to '~て以来', but emphasizes that the specific event was a massive, life-altering turning point. Before the event, things were one way; *ever since* that exact moment, a dramatic new state has continued endlessly.",
+                metaphor: "The moment a caterpillar turns into a butterfly. Ever since it grew wings, it has never crawled on the ground again; its entire existence changed permanently.",
+                examples: [
+                    { topic: "Lifestyle", text: "横須賀の静かな町に引っ越してきてからというもの、毎日のストレスが嘘のように消えた。", eng: "Ever since I moved to the quiet town of Yokosuka, my daily stress has vanished like a lie." },
+                    { topic: "Health", text: "タバコをやめてからというもの、ご飯の味が格段に美味しく感じられる。", eng: "Ever since I quit smoking, the taste of food feels exceptionally delicious." },
+                    { topic: "Pets", text: "この犬を家族に迎えてからというもの、家の中にいつも笑い声が絶えない。", eng: "Ever since we welcomed this dog into our family, laughter never ceases inside the house." },
+                    { topic: "Technology", text: "新しいPCを自作してからというもの、休日は一歩も外に出なくなった。", eng: "Ever since I built a new PC, I have stopped stepping even one foot outside on my days off." },
+                    { topic: "Business", text: "新しい社長が就任してからというもの、社内の空気がピリピリしている。", eng: "Ever since the new president took office, the atmosphere in the company has been tense." }
+                ],
+                clickingGames: [
+                    { prompt: "Ever since I started using this app, my work efficiency has skyrocketed.", target: "このアプリを使い始めてからというもの作業効率が劇的に上がった", words: ["このアプリを", "使い始めてからというもの", "作業効率が劇的に上がった"] },
+                    { prompt: "Ever since my child was born, my outlook on life has completely changed.", target: "子供が生まれてからというもの人生観が完全に変わった", words: ["子供が", "生まれてからというもの", "人生観が完全に変わった"] },
+                    { prompt: "Ever since I experienced that big accident, I drive carefully.", target: "あの大事故を経験してからというもの慎重に運転している", words: ["あの大事故を", "経験してからというもの", "慎重に運転している"] },
+                    { prompt: "Ever since I quarreled with him, I haven't spoken to him.", target: "彼と喧嘩してからというもの一切口をきいていない", words: ["彼と喧嘩して", "からというもの", "一切口をきいていない"] },
+                    { prompt: "Ever since I started exercising, I haven't caught a cold even once.", target: "運動を始めてからというもの一度も風邪を引いていない", words: ["運動を", "始めてからというもの", "一度も風邪を引いていない"] }
+                ],
+                dropdownGames: [
+                    { before: "日本に", options: ["留学してからというもの", "留学するからというもの", "留学したからというもの"], answer: "留学してからというもの", after: "、毎日が新しい発見の連続だ。" },
+                    { before: "スマートフォンを", options: ["買ってからというもの", "買うからというもの", "買ったからというもの"], answer: "買ってからというもの", after: "、時計を持ち歩かなくなった。" },
+                    { before: "彼女に", options: ["フラれてからというもの", "フラれるからというもの", "フラれたからというもの"], answer: "フラれてからというもの", after: "、彼は毎晩お酒ばかり飲んでいる。" },
+                    { before: "激辛料理の魅力に", options: ["気づいてからというもの", "気づくからというもの", "気づいたからというもの"], answer: "気づいてからというもの", after: "、普通のカレーでは満足できない。" },
+                    { before: "リモートワークが", options: ["導入されてからというもの", "導入されるからというもの", "導入されたからというもの"], answer: "導入されてからというもの", after: "、通勤のストレスがなくなった。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたの人生で、「〇〇を始めてからというもの、生活がガラッと変わった」と思う出来事は何ですか？", eng: "In your life, what is an event where you think 'Ever since I started X, my life changed completely'?" },
+                    { text: "「ある人に出会ってからというもの、自分の考え方が変わった」という経験はありますか？", eng: "Do you have an experience where 'Ever since I met a certain person, my way of thinking changed'?" },
+                    { text: "大人になって、「〇〇を経験してからというもの、怖くてできなくなったこと」はありますか？", eng: "As an adult, is there something you 'became too scared to do, ever since experiencing X'?" }
+                ]
+            },
+            {
+                point: "~からには",
+                english: "Now that / Since (Naturally must do)",
+                structure: "Verb (Plain form) / Noun + である + からには",
+                nuance: "Very similar to '~以上は'. It states a clear fact or decision in the first half, and naturally concludes in the second half that a strong action, determination, or duty MUST follow. 'Since A is true, I will absolutely do B.'",
+                metaphor: "Stepping onto the stage under the bright lights. Now that you are out there in front of the audience, you absolutely must perform; there is no running away.",
+                examples: [
+                    { topic: "Business", text: "リーダーという役職を引き受けたからには、チームを成功に導く責任がある。", eng: "Now that I have accepted the position of leader, I have the responsibility to lead the team to success." },
+                    { topic: "Sports", text: "プロの選手であるからには、常に最高のパフォーマンスを見せるべきだ。", eng: "Since you are a professional athlete, you should always show your best performance." },
+                    { topic: "Study", text: "高い受験料を払って試験を受けるからには、絶対に合格してみせる。", eng: "Since I am taking the exam paying a high fee, I will absolutely pass it." },
+                    { topic: "Promises", text: "彼にやると約束したからには、何があっても最後までやり遂げる。", eng: "Now that I promised him I would do it, no matter what happens I will see it through to the end." },
+                    { topic: "Airsoft", text: "戦いのフィールドに出るからには、泥だらけになる覚悟はできている。", eng: "Since I am going out onto the battlefield, I am prepared to get covered in mud." }
+                ],
+                clickingGames: [
+                    { prompt: "Now that I started, I want to keep trying until I become a pro.", target: "始めたからにはプロになるまで頑張りたい", words: ["始めた", "からには", "プロになるまで頑張りたい"] },
+                    { prompt: "Since we are doing it, let's aim for perfection.", target: "やるからには完璧なものを目指そう", words: ["やる", "からには", "完璧なものを目指そう"] },
+                    { prompt: "Now that you became an adult, act responsibly.", target: "大人になったからには責任ある行動を取りなさい", words: ["大人になった", "からには", "責任ある行動を取りなさい"] },
+                    { prompt: "Since I live in Japan, I want to master the culture.", target: "日本に住むからには文化を完全にマスターしたい", words: ["日本に住む", "からには", "文化を完全にマスターしたい"] },
+                    { prompt: "Now that it's decided, we have no choice but to push forward.", target: "決まったからには前へ進むよりほかない", words: ["決まった", "からには", "前へ進むよりほかない"] }
+                ],
+                dropdownGames: [
+                    { before: "高いお金を出して海外旅行に", options: ["行くからには", "行ってからには", "行くのからには"], answer: "行くからには", after: "、すべての観光地を回りたい。" },
+                    { before: "会社の代表", options: ["であるからには", "だのからには", "なのからには"], answer: "であるからには", after: "、個人的な感情で動いてはいけない。" },
+                    { before: "真実を", options: ["知ったからには", "知ってからには", "知るのからには"], answer: "知ったからには", after: "、もう黙っているわけにはいかない。" },
+                    { before: "新しいペットを", options: ["飼うからには", "飼ってからには", "飼うのからには"], answer: "飼うからには", after: "、最後まで面倒を見る義務がある。" },
+                    { before: "自ら", options: ["立候補したからには", "立候補してからには", "立候補するのからには"], answer: "立候補したからには", after: "、途中で諦退（じたい）は許されない。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたが「〇〇を始めるからには、絶対に最後までやるぞ」と強く決意したことは何ですか？", eng: "What is something you strongly resolved, thinking 'Now that I am starting X, I will absolutely do it to the end'?" },
+                    { text: "「社会人であるからには、最低限これだけは守るべきだ」と思うマナーは何ですか？", eng: "What is a manner you think 'Since I am a working adult, I should at least observe this'?" },
+                    { text: "お金を払って何かを学ぶ時、「お金を払うからには〜」と自分にどんなプレッシャーをかけますか？", eng: "When paying money to learn something, what kind of pressure do you put on yourself saying 'Since I am paying money...'?" }
+                ]
+            }
+        ],
+        dialogue: {
+            speaker: "Two 40-year-old men (Tanaka and Sato)",
+            context: "Discussing an incident at an airsoft event where a rental gun was severely damaged.",
+            text: "<p><strong>田中:</strong> 「なあ佐藤、昨日のサバゲーの貸切イベントの後処理なんだけどさ。初参加の若い奴が、レンタル用の高価な電動ライフルを岩に叩きつけて、真っ二つに折っちゃったのを知ってるか？」</p><p><strong>佐藤:</strong> 「ああ、噂には聞いてるよ。なんでも、敵に撃たれたのが悔しくて、感情に任せて銃を投げつけたらしいな。いくら興奮していたとはいえ、他人の財産をあんなに無惨に破壊したのだから、全額弁償[BLANK1]よな。」</p><p><strong>田中:</strong> 「その通りだ。ただの遊びの道具じゃない。あのライフルは数万円もする特注品なんだぞ。本人は『わざとじゃない、手が滑っただけだ』って苦しい言い訳をしてたけどな。」</p><p><strong>佐藤:</strong> 「そんな見え透いた嘘が通用するわけがない。我々のコミュニティに参加する[BLANK2]、最低限のスポーツマンシップとマナーは守ってもらわないと困る。物を大切にできない奴は、フィールドに入る資格なんてないさ。」</p><p><strong>田中:</strong> 「そうなんだよ。俺も運営のリーダーを引き受けている[BLANK3]、このまま彼を無罪放免にするわけにはいかない。今日の夜、彼に直接連絡を取って、修理代の請求書をきっちり突きつけるつもりだ。なあなあで済ませてしまったら、他の参加者にも示しがつかないからな。」</p><p><strong>佐藤:</strong> 「それがいい。俺たちが厳しく安全とマナーを管理し始め[BLANK4]、チームの雰囲気は劇的に良くなったんだ。あの一件だけで、これまでの信頼を台無しにするわけにはいかないからな。俺も必要なら、お前の交渉の場に立ち会うぜ。」</p><p><strong>田中:</strong> 「助かるよ。大人が本気で楽しむ趣味である[BLANK5]、責任の所在だけは曖昧に[BLANK6]な。」</p>",
+            blanks: [
+                { id: "BLANK1", options: ["せずにはすまない", "てからというもの", "からには"], answer: "せずにはすまない" },
+                { id: "BLANK2", options: ["からには", "ずにはすまない", "てからというもの"], answer: "からには" },
+                { id: "BLANK3", options: ["からには", "ずにはすまない", "てからというもの"], answer: "からには" },
+                { id: "BLANK4", options: ["てからというもの", "ずにはすまない", "からには"], answer: "てからというもの" },
+                { id: "BLANK5", options: ["からには", "ずにはすまない", "てからというもの"], answer: "からには" },
+                { id: "BLANK6", options: ["せずにはすまない", "てからというもの", "からには"], answer: "せずにはすまない" }
+            ]
+        },
+        story: {
+            title: "The Project Manager's Resolve",
+            text: "<p>IT企業で中堅のシステムエンジニアとして長年働いてきた私は、先月、社内の命運を握る大規模な基幹システム刷新プロジェクトのマネージャーに突然任命された。以前からリーダーシップに興味はあったものの、いざ自分が数億円の予算と数十人の部下を束ねる立場になってみ[BLANK1]、その強烈なプレッシャーで夜もまともに眠れない日々が続いている。現場のプログラマーとして自分のコードだけを書いていればよかった時代とは、背負う責任の次元が全く違うのだ。</p><p>プロジェクトの初期段階で、他部署との連携ミスにより、クライアントの重要なデータを一部消失しかけるという重大なインシデントが発生した。幸いバックアップがあったため最悪の事態は免れたが、クライアントの信頼を大きく損ねてしまったのは事実だ。このプロジェクトの全責任者である[BLANK2]、私はクライアントの社長の元へ直接出向き、深く頭を下げて謝罪[BLANK3]。部下のミスであっても、それを防げなかった私の管理体制の甘さが原因なのだから、逃げるわけにはいかない。</p><p>この苦い経験を通じて、私の覚悟はより一層強固なものとなった。会社からこの重責を任された[BLANK4]、どんな逆境に立たされようとも、必ずこのプロジェクトを期日通りに、最高の品質で成功させてみせる。失敗を恐れて立ち止まるのではなく、失敗から学び、チーム全体を鼓舞して前に進むしかないのだ。リーダーの役割の重さを痛感し[BLANK5]、私の仕事に対する価値観は、完全に新しいステージへと突入したのである。</p>",
+            blanks: [
+                { id: "BLANK1", options: ["てからというもの", "ずにはすまない", "からには"], answer: "てからというもの" },
+                { id: "BLANK2", options: ["からには", "ずにはすまない", "てからというもの"], answer: "からには" },
+                { id: "BLANK3", options: ["せずにはすまなかった", "てからというものだった", "からにはならなかった"], answer: "せずにはすまなかった" },
+                { id: "BLANK4", options: ["からには", "ずにはすまない", "てからというもの"], answer: "からには" },
+                { id: "BLANK5", options: ["てからというもの", "ずにはすまない", "からには"], answer: "てからというもの" }
+            ]
+        }
+    }, {
+        id: 54,
+        title: "Lesson 54: Coverings, Scopes & Exclusivity",
+        grammar: [
+            {
+                point: "~まみれ",
+                english: "Covered in / Smeared with (Liquids, dust, debt)",
+                structure: "Noun + まみれ",
+                nuance: "Similar to '~だらけ', but specifically used for things that stick to the surface of something, making it dirty or unpleasant (e.g., blood, sweat, mud, dust). Metaphorically used for being deeply covered in debt (借金まみれ).",
+                metaphor: "Falling face-first into a giant puddle of thick mud. It doesn't just dot your clothes; it is smeared thickly all over your entire body.",
+                examples: [
+                    { topic: "Sports", text: "選手たちは泥まみれになりながらも、最後までボールを追いかけた。", eng: "Even while getting covered in mud, the players chased the ball until the very end." },
+                    { topic: "Health", text: "真夏の炎天下で作業をして、全身が汗まみれになった。", eng: "Working under the blazing midsummer sun, my whole body became covered in sweat." },
+                    { topic: "Cleaning", text: "長年放置されていた倉庫の中は、ホコリまみれだった。", eng: "Inside the warehouse that had been neglected for years, it was covered in dust." },
+                    { topic: "Money", text: "ギャンブルに手を出した結果、彼は借金まみれの人生を送っている。", eng: "As a result of dabbling in gambling, he is living a life covered in debt." },
+                    { topic: "Accident", text: "事故現場には、血まみれになった車が放置されていた。", eng: "At the accident scene, a car covered in blood was left abandoned." }
+                ],
+                clickingGames: [
+                    { prompt: "The children came home covered in mud.", target: "子供たちは泥まみれになって帰ってきた", words: ["子供たちは", "泥まみれになって", "帰ってきた"] },
+                    { prompt: "I cleaned the dusty bookshelf.", target: "ホコリまみれの本棚を綺麗に掃除した", words: ["ホコリまみれの", "本棚を", "綺麗に掃除した"] },
+                    { prompt: "Because of his extravagance, he is covered in debt.", target: "浪費のせいで彼は借金まみれだ", words: ["浪費のせいで", "彼は", "借金まみれだ"] },
+                    { prompt: "After the marathon, my shirt was covered in sweat.", target: "マラソンの後シャツが汗まみれだった", words: ["マラソンの後", "シャツが", "汗まみれだった"] },
+                    { prompt: "He collapsed on the floor covered in blood.", target: "彼は血まみれになって床に倒れた", words: ["彼は", "血まみれになって", "床に倒れた"] }
+                ],
+                dropdownGames: [
+                    { before: "雨の中でラグビーをして、服が", options: ["泥まみれ", "泥のまみれ", "泥なまみれ"], answer: "泥まみれ", after: "になった。" },
+                    { before: "ベッドの下から、", options: ["ホコリまみれ", "ホコリのまみれ", "ホコリなまみれ"], answer: "ホコリまみれ", after: "のおもちゃが出てきた。" },
+                    { before: "彼は事業に失敗し、", options: ["借金まみれ", "借金のまみれ", "借金なまみれ"], answer: "借金まみれ", after: "の生活を送っている。" },
+                    { before: "事故で", options: ["血まみれ", "血のまみれ", "血なまみれ"], answer: "血まみれ", after: "になった被害者を救出した。" },
+                    { before: "夏場の工事現場では、誰もが", options: ["汗まみれ", "汗のまみれ", "汗なまみれ"], answer: "汗まみれ", after: "になって働いている。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたが今までで一番「汗まみれ」または「泥まみれ」になった経験は何ですか？", eng: "What is the experience where you became the most 'covered in sweat' or 'covered in mud' in your life so far?" },
+                    { text: "「借金まみれ」にならないために、お金の管理で一番気をつけていることは何ですか？", eng: "To avoid becoming 'covered in debt', what are you most careful about in your money management?" },
+                    { text: "大掃除の時、「ホコリまみれ」の場所を見つけてうんざりしたことはありますか？", eng: "During major cleaning, have you ever found a 'dust-covered' place and felt fed up?" }
+                ]
+            },
+            {
+                point: "~ずくめ",
+                english: "Completely full of / Entirely",
+                structure: "Noun + ずくめ",
+                nuance: "Indicates that something is overwhelmingly composed of one specific thing. Unlike だらけ/まみれ, it is often used for abstract concepts (rules, good things) or colors (all black clothing). 'いいことずくめ' (nothing but good things) is a very common set phrase.",
+                metaphor: "A magical slot machine that hits the jackpot five times in a row. It is an unbroken, continuous streak of pure luck.",
+                examples: [
+                    { topic: "Fortune", text: "今年は昇進もして結婚もして、本当にいいことずくめの一年だった。", eng: "This year I got promoted and got married; it was truly a year filled entirely with good things." },
+                    { topic: "Fashion", text: "彼女はいつも黒ずくめの服装で、どこかミステリアスな雰囲気がある。", eng: "She is always in entirely black clothing, and has a somewhat mysterious atmosphere." },
+                    { topic: "Rules", text: "この学校は規則ずくめで、生徒の自由が全くない。", eng: "This school is completely full of rules, and students have absolutely no freedom." },
+                    { topic: "Daily Life", text: "今日は電車に乗り遅れるし財布は落とすし、悪いことずくめだ。", eng: "Today I missed the train and dropped my wallet; it's full of nothing but bad things." },
+                    { topic: "Food", text: "このコース料理は、最高級の和牛からデザートまでご馳走ずくめだった。", eng: "This course meal was an unbroken series of feasts, from the highest-grade wagyu to the dessert." }
+                ],
+                clickingGames: [
+                    { prompt: "I got a bonus and won a prize; today is full of good things.", target: "ボーナスも出て懸賞も当たり今日はいいことずくめだ", words: ["ボーナスも出て懸賞も当たり", "今日は", "いいことずくめだ"] },
+                    { prompt: "The suspicious man was wearing entirely black clothes.", target: "怪しい男は黒ずくめの服を着ていた", words: ["怪しい男は", "黒ずくめの", "服を着ていた"] },
+                    { prompt: "The new workplace is full of rules and suffocating.", target: "新しい職場は規則ずくめで息が詰まる", words: ["新しい職場は", "規則ずくめで", "息が詰まる"] },
+                    { prompt: "I caught a cold and broke my PC; it's full of bad things.", target: "風邪を引きPCも壊れ悪いことずくめだ", words: ["風邪を引き", "PCも壊れ", "悪いことずくめだ"] },
+                    { prompt: "This hotel provides an unbroken series of feasts.", target: "このホテルは豪華なご馳走ずくめのおもてなしを提供する", words: ["このホテルは", "豪華なご馳走ずくめの", "おもてなしを提供する"] }
+                ],
+                dropdownGames: [
+                    { before: "今年は試験に合格し、恋人もできて、", options: ["いいことずくめ", "いいことのずくめ", "いいことなずくめ"], answer: "いいことずくめ", after: "の年だった。" },
+                    { before: "その怪しい集団は、全員が", options: ["黒ずくめ", "黒のずくめ", "黒なずくめ"], answer: "黒ずくめ", after: "の衣装を身にまとっていた。" },
+                    { before: "昔の日本の軍隊は、厳しい", options: ["規則ずくめ", "規則のずくめ", "規則なずくめ"], answer: "規則ずくめ", after: "で自由がなかった。" },
+                    { before: "朝からコーヒーをこぼし、電車を逃し、", options: ["悪いことずくめ", "悪いことのずくめ", "悪いことなずくめ"], answer: "悪いことずくめ", after: "の一日だ。" },
+                    { before: "正月は実家で美味しいお酒と料理が出て、", options: ["ご馳走ずくめ", "ご馳走のずくめ", "ご馳走なずくめ"], answer: "ご馳走ずくめ", after: "だった。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたの人生で、「あの時はいいことずくめだったな」と思い出す時期はいつですか？", eng: "In your life, when is a period you remember thinking 'At that time, it was entirely full of good things'?" },
+                    { text: "「黒ずくめ」の服を着ている人を見ると、どんな印象（ミステリアス、かっこいい等）を受けますか？", eng: "When you see someone wearing 'entirely black' clothes, what impression (mysterious, cool, etc.) do you get?" },
+                    { text: "「規則ずくめ」の厳しい環境と、ルールが全くない自由な環境では、どちらがあなたに合っていますか？", eng: "Which suits you better: a strict environment 'completely full of rules' or a free environment with no rules at all?" }
+                ]
+            },
+            {
+                point: "~にとどまらず",
+                english: "Not limited to ~ (but expanding to)",
+                structure: "Noun / Verb (Dictionary form) + にとどまらず",
+                nuance: "Indicates that an effect, influence, or action does not stop at a certain point or category, but naturally spreads, expands, or escalates to a much wider scope. Similar to 'に限らず' but emphasizes the active *expansion* of a boundary.",
+                metaphor: "A small fire starting in the kitchen. It doesn't stop there (にとどまらず); it quickly spreads to the living room, the second floor, and eventually the entire house.",
+                examples: [
+                    { topic: "Business", text: "そのIT企業の影響力は国内にとどまらず、世界中に広がっている。", eng: "The influence of that IT company is not limited to domestically, but is spreading all over the world." },
+                    { topic: "Technology", text: "AIの進化はデータ処理にとどまらず、芸術の分野にも影響を与えている。", eng: "The evolution of AI is not limited to data processing, but is also influencing the field of art." },
+                    { topic: "Hobbies", text: "彼のアニメへの情熱は見るだけにとどまらず、自ら制作するまでになった。", eng: "His passion for anime did not stop at just watching, but reached the point of producing it himself." },
+                    { topic: "Environment", text: "プラスチックゴミの問題は海にとどまらず、私たちの食卓にも脅威をもたらしている。", eng: "The problem of plastic waste is not limited to the ocean, but is also bringing a threat to our dining tables." },
+                    { topic: "General JLPT", text: "そのアーティストの人気は若者にとどまらず、あらゆる世代に支持されている。", eng: "The artist's popularity is not limited to young people, but is supported by all generations." }
+                ],
+                clickingGames: [
+                    { prompt: "The popularity of this game expands beyond Japan to the whole world.", target: "このゲームの人気は日本にとどまらず世界に拡大している", words: ["このゲームの人気は", "日本にとどまらず", "世界に拡大している"] },
+                    { prompt: "He is successful not only as a singer but also as an actor.", target: "彼は歌手にとどまらず俳優としても成功している", words: ["彼は歌手にとどまらず", "俳優としても", "成功している"] },
+                    { prompt: "The spread of the infection did not stop at the capital, but reached the entire country.", target: "感染の拡大は首都にとどまらず全国に及んだ", words: ["感染の拡大は", "首都にとどまらず", "全国に及んだ"] },
+                    { prompt: "His hobby didn't stop at collecting, he opened a store.", target: "彼の趣味は収集にとどまらず店を開くまでに至った", words: ["彼の趣味は", "収集にとどまらず", "店を開くまでに至った"] },
+                    { prompt: "The effect of the medicine is not limited to pain relief, it also reduces inflammation.", target: "薬の効果は鎮痛にとどまらず炎症も抑える", words: ["薬の効果は", "鎮痛にとどまらず", "炎症も抑える"] }
+                ],
+                dropdownGames: [
+                    { before: "彼の活躍は国内", options: ["にとどまらず", "をとどまらず", "がとどまらず"], answer: "にとどまらず", after: "、海外のメディアでも大きく報じられた。" },
+                    { before: "スマートフォンの機能は通話", options: ["にとどまらず", "をとどまらず", "がとどまらず"], answer: "にとどまらず", after: "、高度な動画編集も可能にした。" },
+                    { before: "その事件の余波は一部の地域", options: ["にとどまらず", "をとどまらず", "がとどまらず"], answer: "にとどまらず", after: "、国全体を揺るがした。" },
+                    { before: "私の趣味はただゲームを遊ぶこと", options: ["にとどまらず", "をとどまらず", "がとどまらず"], answer: "にとどまらず", after: "、そのプログラムを解析するまでに発展した。" },
+                    { before: "このチャリティー活動は学生", options: ["にとどまらず", "をとどまらず", "がとどまらず"], answer: "にとどまらず", after: "、多くの社会人も参加している。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたの興味や趣味で、「最初は〇〇だけだったのに、それにとどまらずさらに深くなった」という経験はありますか？", eng: "In your interests or hobbies, do you have an experience where 'Initially it was just X, but it didn't stop there and became even deeper'?" },
+                    { text: "日本の文化（アニメや食など）の影響力は、「日本国内にとどまらず」どの国で一番強いと感じますか？", eng: "Where do you feel the influence of Japanese culture (anime, food, etc.) is strongest 'not limited to within Japan'?" },
+                    { text: "今後のテクノロジーの進化は、「〇〇の分野にとどまらず」どんな場所にまで影響すると思いますか？", eng: "Where do you think the future evolution of technology will impact, 'not limited to the field of X'?" }
+                ]
+            }
+        ],
+        dialogue: {
+            speaker: "Two 40-year-old men (Tanaka and Sato)",
+            context: "Catching up at a bar and discussing a recent promotion that turned out to be a double-edged sword.",
+            text: "<p><strong>田中:</strong> 「佐藤、聞いてくれよ。実は先月、念願だった営業部のエリアマネージャーに昇進したんだ。給料も上がったし、最初は昇進祝いに家族で高級フレンチを食べに行ったりして、いいこと[BLANK1]だと思ってたんだよ。」</p><p><strong>佐藤:</strong> 「おっ、それはめでたいな！お前が長年会社に尽くしてきた甲斐があったじゃないか。でも、その浮かない顔からすると、手放しで喜べる状況じゃないみたいだな。」</p><p><strong>田中:</strong> 「その通りさ。マネージャーになった途端、部下の管理から本社への膨大なレポート作成まで、業務量が爆発的に増えちまってさ。毎日夜遅くまで残業して、終電で帰る頃にはシャツもネクタイも汗とホコリ[BLANK2]になってる有様だよ。現場でプレイヤーとして走り回っていた頃のほうが、精神的にはよっぽど楽だったかもしれない。」</p><p><strong>佐藤:</strong> 「なるほどな。管理職ってのは、自分が結果を出すこと[BLANK3]、他人の尻拭いまでしなきゃならないからな。権力と引き換えに自由を失う、まさに規則[BLANK4]の窮屈な世界に足を踏み入れたってわけだ。」</p><p><strong>田中:</strong> 「お前の言う通りだ。しかも、管轄するエリアも国内[BLANK5]、来年からはアジア圏の新しい市場まで見なきゃいけなくなりそうなんだ。英語の会議も増えるし、プレッシャーで胃に穴が開きそうだよ。」</p><p><strong>佐藤:</strong> 「ははは、笑い事じゃないが、会社はお前のそのキャパシティを高く評価してるってことさ。今日は俺が奢ってやるから、ビールでも飲んでその愚痴を全部吐き出していけ。汗[BLANK6]になって働くアラフォーの底力を見せてやれよ。」</p><p><strong>田中:</strong> 「ありがたいね。この冷たいビールを飲むために、俺は毎日泥[BLANK7]になって働いてるようなもんさ。よし、飲むぞ！」</p>",
+            blanks: [
+                { id: "BLANK1", options: ["ずくめ", "まみれ", "にとどまらず"], answer: "ずくめ" },
+                { id: "BLANK2", options: ["まみれ", "ずくめ", "にとどまらず"], answer: "まみれ" },
+                { id: "BLANK3", options: ["にとどまらず", "まみれ", "ずくめ"], answer: "にとどまらず" },
+                { id: "BLANK4", options: ["ずくめ", "まみれ", "にとどまらず"], answer: "ずくめ" },
+                { id: "BLANK5", options: ["にとどまらず", "まみれ", "ずくめ"], answer: "にとどまらず" },
+                { id: "BLANK6", options: ["まみれ", "ずくめ", "にとどまらず"], answer: "まみれ" },
+                { id: "BLANK7", options: ["まみれ", "ずくめ", "にとどまらず"], answer: "まみれ" }
+            ]
+        },
+        story: {
+            title: "The Expansion of a Weekend Hobby",
+            text: "<p>私は数年前から、自宅の小さな庭で様々な種類の唐辛子を栽培することを週末の楽しみにしている。最初は市販の種を買ってきてプランターで育てる程度の、ほんの軽い気持ちで始めた趣味だった。しかし、私のスパイスに対する探究心はそれだけ[BLANK1]、やがて海外の専門サイトから激辛品種の種を直接輸入し、土壌のペーハー値まで徹底的に管理するまでにエスカレートしていった。</p><p>夏の最も暑い時期には、強い日差しの中で土の入れ替えや水やりを行うため、作業を終える頃には全身が泥と汗[BLANK2]になってしまう。妻からは「まるで本職の農家みたいね」と呆れられているが、土と格闘している時間は私にとって至福の時なのだ。丹精込めて育てたハバネロやキャロライナ・リーパーが真っ赤に色づいた時の達成感は、何物にも代えがたい。</p><p>さらに、私の情熱はただ植物を育てること[BLANK3]、収穫した激辛唐辛子を使った自家製ホットソースの製造・販売にまで及ぶことになった。最初は友人に配るだけだったのだが、「これほど刺激的で奥深いソースは他にない」と口コミで評判が広がり、地元のファーマーズマーケットでも飛ぶように売れるようになったのだ。もちろん、食品衛生の許可を取るための役所の手続きなど、面倒な規則[BLANK4]の作業も多かったが、それらを乗り越えた喜びは大きかった。</p><p>今では、私のホットソースは地元[BLANK5]、オンラインを通じて全国の激辛マニアの元へと届けられている。泥[BLANK6]になって土といじり合った休日の努力が、これほどまでに大きな結果を生むとは夢にも思わなかった。自分の好きなことに狂信的になるのは、決して悪いこと[BLANK7]ではないと、発送用のラベルを貼りながら私は密かに誇らしく思っている。</p>",
+            blanks: [
+                { id: "BLANK1", options: ["にとどまらず", "まみれ", "ずくめ"], answer: "にとどまらず" },
+                { id: "BLANK2", options: ["まみれ", "ずくめ", "にとどまらず"], answer: "まみれ" },
+                { id: "BLANK3", options: ["にとどまらず", "まみれ", "ずくめ"], answer: "にとどまらず" },
+                { id: "BLANK4", options: ["ずくめ", "まみれ", "にとどまらず"], answer: "ずくめ" },
+                { id: "BLANK5", options: ["にとどまらず", "まみれ", "ずくめ"], answer: "にとどまらず" },
+                { id: "BLANK6", options: ["まみれ", "ずくめ", "にとどまらず"], answer: "まみれ" },
+                { id: "BLANK7", options: ["ずくめ", "まみれ", "にとどまらず"], answer: "ずくめ" }
+            ]
+        }
+    },
+    {
+        id: 55,
+        title: "Lesson 55: Immediate Actions & Extreme Expressions",
+        grammar: [
+            {
+                point: "~そばから",
+                english: "As soon as ~ (Often a repeating loop)",
+                structure: "Verb (Dictionary form / た-form) + そばから",
+                nuance: "Indicates that as soon as Action A is completed, Action B immediately happens to undo or ruin it. It strongly implies a futile, endlessly repeating loop that causes frustration for the speaker.",
+                metaphor: "Trying to dig a hole in dry sand. As soon as you scoop a handful of sand out, new sand immediately slides right back in to fill the exact same hole.",
+                examples: [
+                    { topic: "Cleaning", text: "部屋を掃除するそばから、子供がおもちゃを散らかしていく。", eng: "As soon as I clean the room, the children scatter their toys right back." },
+                    { topic: "Study", text: "新しい英単語を覚えたそばから、次々と忘れてしまう。", eng: "As soon as I memorize new English vocabulary, I forget them one after another." },
+                    { topic: "Work", text: "メールを返信するそばから、また新しいクレームのメールが届く。", eng: "As soon as I reply to an email, new complaint emails arrive again." },
+                    { topic: "Dieting", text: "ダイエットを決意したそばから、甘いケーキを食べてしまった。", eng: "As soon as I resolved to diet, I ended up eating a sweet cake." },
+                    { topic: "Money", text: "給料をもらうそばから、ギャンブルに全部使ってしまう。", eng: "As soon as he gets his salary, he spends it all on gambling." }
+                ],
+                clickingGames: [
+                    { prompt: "As soon as I memorize a Kanji, I forget it completely.", target: "漢字を覚えるそばからすっかり忘れてしまう", words: ["漢字を", "覚えるそばから", "すっかり忘れてしまう"] },
+                    { prompt: "As soon as I clean it, it immediately gets dirty.", target: "綺麗に掃除したそばからすぐに汚される", words: ["綺麗に", "掃除したそばから", "すぐに汚される"] },
+                    { prompt: "As soon as I earn money, I spend it all.", target: "お金を稼ぐそばから全部使ってしまう", words: ["お金を", "稼ぐそばから", "全部使ってしまう"] },
+                    { prompt: "As soon as I warn him, he makes the same mistake.", target: "注意したそばからまた同じミスをする", words: ["注意した", "そばから", "また同じミスをする"] },
+                    { prompt: "As soon as I put away the documents, they get piled up.", target: "書類を片付けるそばから山積みにされる", words: ["書類を", "片付けるそばから", "山積みにされる"] }
+                ],
+                dropdownGames: [
+                    { before: "教えた", options: ["そばから", "そばに", "そばで"], answer: "そばから", after: "、間違ったやり方をしている。" },
+                    { before: "雑草を", options: ["抜くそばから", "抜いたそばから", "抜いてそばから"], answer: "抜くそばから", after: "、また新しい草が生えてくる。" }, // Usually dictionary or ta-form works. Let's provide a clear incorrect option.
+                    { before: "注意する", options: ["そばから", "そばの", "そばに"], answer: "そばから", after: "、同じイタズラを繰り返す。" },
+                    { before: "スケジュールを", options: ["立てたそばから", "立てるのそばから", "立ててそばから"], answer: "立てたそばから", after: "、予定が変更になってしまう。" },
+                    { before: "ご飯を", options: ["作るそばから", "作りのそばから", "作ってそばから"], answer: "作るそばから", after: "、育ち盛りの子供たちが全部食べてしまう。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたが勉強をしていて、「覚えるそばから忘れてしまう」と一番苦労しているものは何ですか？", eng: "When studying, what do you struggle with the most, thinking 'As soon as I memorize it, I forget it'?" },
+                    { text: "掃除や片付けで、「片付けるそばから散らかされる」とイライラした経験はありますか？", eng: "In cleaning or tidying up, have you ever felt irritated that 'As soon as I tidy up, it gets messed up again'?" },
+                    { text: "「給料が入るそばから使ってしまう」というような、お金に関する悪い癖はありますか？", eng: "Do you have a bad habit regarding money, like 'As soon as the salary comes in, I spend it'?" }
+                ]
+            },
+            {
+                point: "~が早いか",
+                english: "No sooner than / As soon as (Instantaneous)",
+                structure: "Verb (Dictionary form / た-form) + が早いか",
+                nuance: "A dramatic, slightly literary expression meaning Action B happens almost simultaneously with Action A. It emphasizes a surprising, immediate, or impulsive reaction. (Unlike 'そばから', it does not imply a repeating loop).",
+                metaphor: "A sprinter bursting out of the starting blocks the absolute millisecond they hear the crack of the starting pistol.",
+                examples: [
+                    { topic: "Work", text: "彼は終業のベルが鳴るが早いか、会社を飛び出していった。", eng: "No sooner did the closing bell ring than he rushed out of the company." },
+                    { topic: "Pets", text: "愛犬は私の顔を見るが早いか、尻尾を振って飛びついてきた。", eng: "As soon as my beloved dog saw my face, he jumped on me wagging his tail." },
+                    { topic: "Food", text: "お腹が空いていた彼は、料理が出されるが早いか平らげてしまった。", eng: "Being hungry, he devoured the food as soon as it was served." },
+                    { topic: "Shopping", text: "限定品の予約が開始されるが早いか、サーバーがダウンした。", eng: "No sooner did pre-orders for the limited item start than the server went down." },
+                    { topic: "Emergency", text: "地震の揺れを感じるが早いか、机の下に身を隠した。", eng: "As soon as I felt the tremor of the earthquake, I hid myself under the desk." }
+                ],
+                clickingGames: [
+                    { prompt: "No sooner did the boss leave the room than everyone relaxed.", target: "上司が部屋を出るが早いか皆リラックスした", words: ["上司が部屋を", "出るが早いか", "皆リラックスした"] },
+                    { prompt: "As soon as he got home, he turned on the PC.", target: "彼は家に帰るが早いかPCの電源を入れた", words: ["彼は家に", "帰るが早いか", "PCの電源を入れた"] },
+                    { prompt: "No sooner did she hear the news than she started crying.", target: "彼女はその知らせを聞くが早いか泣き出した", words: ["彼女はその知らせを", "聞くが早いか", "泣き出した"] },
+                    { prompt: "As soon as the match ended, they shook hands.", target: "試合の終了のブザーが鳴るが早いか握手をした", words: ["試合の終了のブザーが", "鳴るが早いか", "握手をした"] },
+                    { prompt: "No sooner did I open the door than the cat escaped.", target: "ドアを開けるが早いか猫が外へ逃げ出した", words: ["ドアを", "開けるが早いか", "猫が外へ逃げ出した"] }
+                ],
+                dropdownGames: [
+                    { before: "彼は私の顔を", options: ["見るが早いか", "見るが早くて", "見ってが早いか"], answer: "見るが早いか", after: "、文句を言い始めた。" },
+                    { before: "ベッドに", options: ["横になるが早いか", "横になるが早くて", "横になって早いか"], answer: "横になるが早いか", after: "、彼は深い眠りに落ちた。" },
+                    { before: "チャイムが", options: ["鳴るが早いか", "鳴ったが早くて", "鳴って早いか"], answer: "鳴るが早いか", after: "、学生たちは教室を飛び出した。" },
+                    { before: "給料が口座に", options: ["振り込まれるが早いか", "振り込まれるが早くて", "振り込まれて早いか"], answer: "振り込まれるが早いか", after: "、全額引き出してしまった。" },
+                    { before: "サイレンの音を", options: ["聞くが早いか", "聞いたが早くて", "聞いて早いか"], answer: "聞くが早いか", after: "、全員が避難を開始した。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたが仕事や学校で、「チャイムが鳴るが早いか、すぐに〇〇する」ことは何ですか？", eng: "In your work or school, what is something you do 'No sooner does the bell ring than you immediately do X'?" },
+                    { text: "家に帰ってきて、「ドアを開けるが早いか」一番最初にやってしまう行動は何ですか？", eng: "When you get home, what is the very first action you take 'As soon as you open the door'?" },
+                    { text: "大好物が出てきた時、「出されるが早いか」すぐに食べてしまった経験はありますか？", eng: "When your favorite food was served, have you ever experienced eating it immediately 'No sooner than it was served'?" }
+                ]
+            },
+            {
+                point: "~んばかりに / ~んばかりだ",
+                english: "As if about to / On the verge of",
+                structure: "Verb (ない-form, drop ない) + んばかりに (*する -> せんばかりに)",
+                nuance: "Describes a situation where an action hasn't literally happened, but the emotion, intensity, or physical appearance makes it look exactly as if it is about to happen at any second.",
+                metaphor: "A balloon blown up so tightly that the rubber is stretched transparent. It hasn't popped yet, but it looks exactly *as if it is about to* burst violently.",
+                examples: [
+                    { topic: "Emotions", text: "彼女は今にも泣き出さんばかりの表情でこちらを見ていた。", eng: "She was looking at me with an expression as if she was about to burst into tears at any moment." },
+                    { topic: "Anger", text: "彼は私を殴らんばかりの勢いで怒鳴り込んできた。", eng: "He stormed in shouting with a momentum as if he was about to punch me." },
+                    { topic: "Joy", text: "合格の知らせを聞いて、彼は天にも昇らんばかりに喜んだ。", eng: "Hearing the news of passing, he rejoiced as if he were about to ascend to heaven." },
+                    { topic: "Apology", text: "彼は土下座せんばかりの態度で、深く謝罪してきた。", eng: "He apologized deeply with an attitude as if he was about to prostrate himself on the ground." },
+                    { topic: "Nature", text: "強風で、庭の木が今にも折れんばかりに揺れている。", eng: "Due to the strong wind, the trees in the garden are shaking as if they are about to break at any moment." }
+                ],
+                clickingGames: [
+                    { prompt: "He apologized with an attitude as if about to cry.", target: "彼は今にも泣き出さんばかりの態度で謝った", words: ["彼は今にも", "泣き出さんばかりの", "態度で謝った"] },
+                    { prompt: "The bag is stuffed as if it is about to burst.", target: "カバンは今にも破れんばかりにパンパンだ", words: ["カバンは今にも", "破れんばかりに", "パンパンだ"] },
+                    { prompt: "She got angry with a momentum as if about to grab him.", target: "彼女は掴みかからんばかりの勢いで怒った", words: ["彼女は", "掴みかからんばかりの勢いで", "怒った"] },
+                    { prompt: "He rejoiced as if about to dance.", target: "彼は今にも踊り出さんばかりに喜んだ", words: ["彼は今にも", "踊り出さんばかりに", "喜んだ"] },
+                    { prompt: "He bit into it as if to say it was delicious.", target: "彼は美味しいと言わんばかりに食いついた", words: ["彼は", "美味しいと言わんばかりに", "食いついた"] }
+                ],
+                dropdownGames: [
+                    { before: "彼は怒りで、今にも", options: ["爆発せんばかりの", "爆発するばかりの", "爆発しないばかりの"], answer: "爆発せんばかりの", after: "顔をしていた。" },
+                    { before: "彼女は私の手を", options: ["握り潰さんばかりに", "握り潰すばかりに", "握り潰さないばかりに"], answer: "握り潰さんばかりに", after: "強く握りしめた。" },
+                    { before: "そのニュースを聞いて、彼は天にも", options: ["昇らんばかりに", "昇るばかりに", "昇らないばかりに"], answer: "昇らんばかりに", after: "喜んだ。" },
+                    { before: "今にも", options: ["こぼれ落ちんばかりの", "こぼれ落ちるばかりの", "こぼれ落ちないばかりの"], answer: "こぼれ落ちんばかりの", after: "大粒の涙を流した。" },
+                    { before: "彼は土下座", options: ["せんばかりの", "するばかりの", "しないばかりの"], answer: "せんばかりの", after: "勢いで、必死にお願いしてきた。" }
+                ],
+                opinionQuestions: [
+                    { text: "他人が「今にも怒り出さんばかりの」態度をとっていて、ヒヤッとした経験はありますか？", eng: "Have you ever felt a chill when someone else took an attitude 'as if they were about to burst into anger'?" },
+                    { text: "あなたが過去に、「天にも昇らんばかりに（とても高く舞い上がるように）」喜んだ出来事は何ですか？", eng: "What was an event in the past where you rejoiced 'as if about to ascend to heaven (soaring extremely high)'?" },
+                    { text: "映画やドラマで、主人公が「今にも泣き出さんばかりの」表情をする、一番感動的なシーンは何ですか？", eng: "In a movie or drama, what is the most moving scene where the protagonist makes an expression 'as if about to burst into tears'?" }
+                ]
+            }
+        ],
+        dialogue: {
+            speaker: "Two 40-year-old men (Tanaka and Sato)",
+            context: "Discussing the chaotic process of onboarding new employees in a fast-paced tech company.",
+            text: "<p><strong>田中:</strong> 「なあ佐藤、最近うちの部署に配属された新入社員たちのことなんだけどさ。彼ら、基礎的なプログラミングのスキルは高いんだが、業務のフローを覚えるのが絶望的に遅いんだよ。マニュアルを教える[BLANK1]、すぐ別のミスをして、俺が修正に走る羽目になるんだ。」</p><p><strong>佐藤:</strong> 「教えた端から忘れていく、まさに無限ループだな。IT業界のシステムは複雑だから、いきなり全てを把握しろっていう方が無理な話だ。それに、彼らからすれば、膨大な仕様書を渡されて、今にもパンク[BLANK2]頭を抱えている状態なんじゃないか？」</p><p><strong>田中:</strong> 「そうかもしれないが、こっちだって自分のタスクをこなしながら指導してるんだ。俺が手取り足取り教え終わる[BLANK3]、『すいません、またエラーが出ました』って泣き出さ[BLANK4]顔で報告に来るんだぜ。俺の体力と精神力が削られていく一方だよ。」</p><p><strong>佐藤:</strong> 「ははは、完全にパニック状態だな。でも、俺たちが若い頃だって、上司から怒られながら泥[BLANK5]になって仕事を覚えていったじゃないか。彼らだって、少しずつ成長していくはずさ。」</p><p><strong>田中:</strong> 「頭では分かってるんだけどな。昨日なんて、定時のチャイムが鳴る[BLANK6]、彼らが逃げるようにオフィスから飛び出していくのを見て、思わずため息が出ちゃったよ。少しは残って復習くらいしていけばいいのに。」</p><p><strong>佐藤:</strong> 「まあ、今の時代はワークライフバランスが絶対だからな。お前も無理をして倒れる前に、指導のプロセスを少し自動化するツールでも導入したらどうだ？」</p><p><strong>田中:</strong> 「そうだな。俺が倒れ[BLANK7]限界になる前に、何か対策を考えるとしよう。」</p>",
+            blanks: [
+                { id: "BLANK1", options: ["そばから", "が早いか", "んばかりに"], answer: "そばから" },
+                { id: "BLANK2", options: ["せんばかりに", "が早いか", "そばから"], answer: "せんばかりに" },
+                { id: "BLANK3", options: ["が早いか", "そばから", "んばかりに"], answer: "が早いか" },
+                { id: "BLANK4", options: ["んばかりの", "が早いか", "そばから"], answer: "んばかりの" },
+                { id: "BLANK5", options: ["まみれ", "ずくめ", "そばから"], answer: "まみれ" }, // Recalling Lesson 54
+                { id: "BLANK6", options: ["が早いか", "そばから", "んばかりに"], answer: "が早いか" },
+                { id: "BLANK7", options: ["んばかりの", "が早いか", "そばから"], answer: "んばかりの" }
+            ]
+        },
+        story: {
+            title: "The Battle of the Weeds",
+            text: "<p>私は念願のマイホームを横須賀に購入した際、広い庭付きの物件をあえて選んだ。週末には綺麗な芝生の上でバーベキューをしたり、愛犬を走らせたりするという、映画のような優雅な生活を思い描いていたからだ。しかし、夏の気配が近づくにつれて、その甘い幻想は無惨にも打ち砕かれることになった。</p><p>初夏の日差しと湿気は、庭の雑草たちにとって最高の栄養剤となった。週末に数時間かけて汗[BLANK1]になりながら草を抜いたはずなのに、数日後には雨が降り、抜く[BLANK2]新しい草が次々と顔を出してくるのだ。それはまさに自然との終わりのない果てしない戦いであった。雑草の生命力は凄まじく、抜いても抜いても元通りになるという悪夢のループに、私はすっかり精神をすり減らしてしまった。</p><p>ある週末、私は除草剤の散布を決意した。ホームセンターで強力な薬品を買い込み、車を降りる[BLANK3]庭へと直行した。しかし、そこには私の想像を超える光景が広がっていた。数日間放置しただけで、庭の隅に生えていた謎のツル植物が、フェンスを押し倒さ[BLANK4]勢いで異常な成長を遂げていたのだ。私はその圧倒的な生命力に、今にも絶望で泣き出さ[BLANK5]気持ちになった。</p><p>「美しい庭を維持するというのは、これほどまでに過酷な労働[BLANK6]なのか」。私は除草剤のタンクを力強く握りしめながら、天を仰いだ。自然の力を侮っていた自分を深く反省しつつ、私は再びドロ[BLANK7]になりながら、この終わりのない戦いの最前線へと身を投じるのであった。</p>",
+            blanks: [
+                { id: "BLANK1", options: ["まみれ", "ずくめ", "そばから"], answer: "まみれ" },
+                { id: "BLANK2", options: ["そばから", "が早いか", "んばかりに"], answer: "そばから" },
+                { id: "BLANK3", options: ["が早いか", "そばから", "んばかりに"], answer: "が早いか" },
+                { id: "BLANK4", options: ["んばかりの", "が早いか", "そばから"], answer: "んばかりの" },
+                { id: "BLANK5", options: ["んばかりの", "が早いか", "そばから"], answer: "んばかりの" },
+                { id: "BLANK6", options: ["ずくめ", "まみれ", "そばから"], answer: "ずくめ" },
+                { id: "BLANK7", options: ["まみれ", "ずくめ", "そばから"], answer: "まみれ" }
+            ]
+        }
+    }, {
+        id: 56,
+        title: "Lesson 56: Deep Emotions & Intolerable States",
+        grammar: [
+            {
+                point: "~てやまない",
+                english: "Deeply / Continually feeling",
+                structure: "Verb (て-form) + やまない",
+                nuance: "A highly formal and literary expression indicating that a strong emotion (hope, love, respect, prayer) continues deeply in one's heart without ever stopping. It is usually used with a limited set of verbs: 祈る, 願う, 期待する, 愛する, 尊敬する.",
+                metaphor: "An eternal flame burning steadily in a shrine. No matter the weather or the passage of time, the fire of that emotion never goes out.",
+                examples: [
+                    { topic: "Love/Family", text: "親はいつでも、子供の幸せを願ってやまないものだ。", eng: "Parents always deeply and continually wish for their children's happiness." },
+                    { topic: "Respect", text: "彼は私が心から尊敬してやまない、偉大な指導者です。", eng: "He is a great leader whom I deeply and continually respect from the bottom of my heart." },
+                    { topic: "Future", text: "新しいプロジェクトの成功を、チーム一同期待してやみません。", eng: "The entire team deeply and continually expects the success of the new project." },
+                    { topic: "Pets", text: "何年経っても、亡くなった愛犬を愛してやまない。", eng: "No matter how many years pass, I deeply and continually love my passed-away dog." },
+                    { topic: "Disaster/Hope", text: "被災地の一日も早い復興を、祈ってやまない。", eng: "I deeply and continually pray for the earliest possible recovery of the disaster-stricken area." }
+                ],
+                clickingGames: [
+                    { prompt: "I deeply and continually pray for everyone's health.", target: "皆様のご健康を心より祈ってやみません", words: ["皆様のご健康を", "心より", "祈ってやみません"] },
+                    { prompt: "This is the masterpiece movie that I deeply love.", target: "これは私が愛してやまない名作映画だ", words: ["これは私が", "愛してやまない", "名作映画だ"] },
+                    { prompt: "I deeply and continually wish for his future success.", target: "彼の今後の活躍を願ってやまない", words: ["彼の今後の活躍を", "願ってやまない"] },
+                    { prompt: "I deeply respect that veteran player.", target: "あのベテラン選手を尊敬してやまない", words: ["あのベテラン選手を", "尊敬してやまない"] },
+                    { prompt: "I am deeply expecting the evolution of AI.", target: "AIのこれからの進化を期待してやまない", words: ["AIのこれからの進化を", "期待してやまない"] }
+                ],
+                dropdownGames: [
+                    { before: "世界中の人々が平和を", options: ["願ってやまない", "願うやまない", "願ったやまない"], answer: "願ってやまない", after: "。" },
+                    { before: "彼のような優秀な人材が会社を去ることを、", options: ["惜しんでやまない", "惜しむやまない", "惜しんだやまない"], answer: "惜しんでやまない", after: "。" },
+                    { before: "これは、私が子供の頃から", options: ["愛してやまない", "愛するやまない", "愛したやまない"], answer: "愛してやまない", after: "大切な本です。" },
+                    { before: "卒業生たちの輝かしい未来を", options: ["祈ってやみません", "祈るやみません", "祈ったやみません"], answer: "祈ってやみません", after: "。" },
+                    { before: "彼女のこれまでの素晴らしい努力を", options: ["称賛してやまない", "称賛するやまない", "称賛したやまない"], answer: "称賛してやまない", after: "。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたが心から「尊敬してやまない」歴史上の人物や有名人は誰ですか？", eng: "Who is a historical figure or famous person that you sincerely 'deeply and continually respect'?" },
+                    { text: "何度見ても飽きない、あなたが「愛してやまない」映画やゲームは何ですか？", eng: "What is a movie or game you never get tired of no matter how many times you watch/play it, that you 'deeply and continually love'?" },
+                    { text: "現在の世界情勢を見て、あなたが一番「〜を祈ってやまない」と思うことは何ですか？", eng: "Looking at the current world situation, what do you 'deeply and continually pray for' the most?" }
+                ]
+            },
+            {
+                point: "~にたえない",
+                english: "Cannot bear to / Not worth",
+                structure: "Verb (Dictionary form) / Noun + にたえない",
+                nuance: "Has two meanings. 1) Too cruel, awful, or tragic to bear experiencing (見るにたえない = cannot bear to watch). 2) Lacking sufficient value to warrant the action (評価にたえない = not worth evaluating).",
+                metaphor: "Staring directly at the blazing sun. It is so intensely bright and painful that your eyes physically cannot bear to keep looking at it, forcing you to look away.",
+                examples: [
+                    { topic: "News", text: "悲惨な事故の映像は、あまりに残酷で見るにたえない。", eng: "The footage of the tragic accident is so cruel that I cannot bear to watch it." },
+                    { topic: "Conflict", text: "彼の他人に対する暴言は、全く聞くにたえない。", eng: "His abusive language towards others is completely unbearable to listen to." },
+                    { topic: "Business", text: "あのような適当な企画書は、真面目な評価にたえない。", eng: "Such a sloppy project proposal is not worth serious evaluation." },
+                    { topic: "Language", text: "彼の書いた文章は文法がめちゃくちゃで、読むにたえない。", eng: "The text he wrote has completely messed up grammar and is unbearable to read." },
+                    { topic: "Emotions", text: "多くの方にご迷惑をおかけし、本当に後悔の念にたえません。", eng: "Having caused trouble to many people, I truly cannot bear the feeling of regret (I am overwhelmed with regret)." }
+                ],
+                clickingGames: [
+                    { prompt: "The state of the abandoned animal was unbearable to watch.", target: "放置された動物の姿は見るにたえないものだった", words: ["放置された動物の姿は", "見るにたえない", "ものだった"] },
+                    { prompt: "The excuses he makes are unbearable to listen to.", target: "彼が繰り返す言い訳は聞くにたえない", words: ["彼が繰り返す言い訳は", "聞くにたえない"] },
+                    { prompt: "This badly made movie is not worth appreciating.", target: "この出来の悪い映画は鑑賞にたえない", words: ["この出来の悪い映画は", "鑑賞にたえない"] },
+                    { prompt: "I am overwhelmed with gratitude for your support.", target: "皆様のサポートには本当に感謝にたえません", words: ["皆様のサポートには", "本当に", "感謝にたえません"] },
+                    { prompt: "This poorly translated manual is unbearable to read.", target: "このひどい翻訳のマニュアルは読むにたえない", words: ["このひどい翻訳の", "マニュアルは", "読むにたえない"] }
+                ],
+                dropdownGames: [
+                    { before: "SNS上のひどい誹謗中傷は、本当に", options: ["見るにたえない", "見るにたえる", "見ってにたえない"], answer: "見るにたえない", after: "。" },
+                    { before: "あんな無責任な発言は、到底", options: ["聞くにたえない", "聞くにたえる", "聞いてにたえない"], answer: "聞くにたえない", after: "。" },
+                    { before: "皆様の温かいご支援には、", options: ["感謝の念にたえません", "感謝の念にたえます", "感謝の念にたえていません"], answer: "感謝の念にたえません", after: "。" },
+                    { before: "その程度の証拠では、法廷での", options: ["証明にたえない", "証明にたえる", "証明にたえていない"], answer: "証明にたえない", after: "。" },
+                    { before: "素人が書いたようなこの企画書は、", options: ["評価にたえない", "評価にたえる", "評価にたえていない"], answer: "評価にたえない", after: "。" }
+                ],
+                opinionQuestions: [
+                    { text: "最近のニュースや出来事で、「残酷すぎて見るにたえない」と感じたものはありましたか？", eng: "In recent news or events, was there something you felt was 'too cruel and unbearable to watch'?" },
+                    { text: "他人の行動や言葉で、「これは聞くにたえないな」と呆れてしまった経験はありますか？", eng: "Have you ever been exasperated by someone else's actions or words, thinking 'This is unbearable to listen to'?" },
+                    { text: "仕事や趣味において、「これでは評価にたえない」と思うほどクオリティが低いと感じたものは何ですか？", eng: "In work or hobbies, what have you felt was so low in quality that you thought 'This is not worth evaluating'?" }
+                ]
+            },
+            {
+                point: "~ずにはおかない / ~ないではおかない",
+                english: "Will definitely (make sure to) / Cannot let it pass without",
+                structure: "Verb (ない-form, drop ない) + ずにはおかない (*する -> せずにはおかない) / Verb (ない-form) + ではおかない",
+                nuance: "Expresses a very strong, aggressive determination by the speaker to definitely do something. Alternatively, it means a certain powerful thing (like an emotional movie or a strict boss) will naturally and inevitably cause a specific reaction.",
+                metaphor: "A powerful magnet encountering iron filings. It doesn't ask for permission; the sheer magnetic force guarantees that the iron will be forcefully pulled in.",
+                examples: [
+                    { topic: "Revenge/Action", text: "あんな卑怯な手を使ったライバルを、絶対に倒さずにはおかない。", eng: "I will absolutely not let that rival who used such cowardly tactics go without defeating them." },
+                    { topic: "Emotions", text: "あの感動的なラストシーンは、見る者を泣かせずにはおかない。", eng: "That moving final scene absolutely will not fail to make the viewers cry." },
+                    { topic: "Business", text: "こんな大規模なミスを隠蔽すれば、社会が追及しないではおかないだろう。", eng: "If we cover up such a large-scale mistake, society will definitely not let it pass without pursuing it." },
+                    { topic: "Justice", text: "法律を無視した彼の悪行を、この手で暴かずにはおかない。", eng: "I will absolutely make sure to expose his evil deeds that ignored the law with my own hands." },
+                    { topic: "Entertainment", text: "この恐ろしいホラーゲームは、プレイヤーを恐怖させずにはおかない。", eng: "This terrifying horror game absolutely will not fail to terrify its players." }
+                ],
+                clickingGames: [
+                    { prompt: "I will definitely make him pay the compensation.", target: "彼には絶対に弁償させずにはおかない", words: ["彼には絶対に", "弁償させずにはおかない"] },
+                    { prompt: "This masterpiece novel will surely move the readers.", target: "この名作小説は読者を感動させずにはおかない", words: ["この名作小説は", "読者を", "感動させずにはおかない"] },
+                    { prompt: "I will absolutely find out the true culprit of this incident.", target: "この事件の真犯人を必ず見つけ出さずにはおかない", words: ["この事件の真犯人を", "必ず見つけ出さずにはおかない"] },
+                    { prompt: "His brilliant performance will surely fascinate the fans.", target: "彼の素晴らしい演技はファンを魅了しないではおかない", words: ["彼の素晴らしい演技は", "ファンを", "魅了しないではおかない"] },
+                    { prompt: "I will definitely make the company accept this demand.", target: "会社にこの要求を認めさせずにはおかない", words: ["会社に", "この要求を", "認めさせずにはおかない"] }
+                ],
+                dropdownGames: [
+                    { before: "あんなに私を馬鹿にした奴らを、絶対に", options: ["見返さずにはおかない", "見返さないずにはおかない", "見返さなくてずにはおかない"], answer: "見返さずにはおかない", after: "。" },
+                    { before: "この悲惨なドキュメンタリー映画は、見る人にショックを", options: ["与えずにはおかない", "与えないずにはおかない", "与えなくてずにはおかない"], answer: "与えずにはおかない", after: "。" },
+                    { before: "これほど明白な証拠が出た以上、警察も彼を", options: ["逮捕しないではおかない", "逮捕しなくてではおかない", "逮捕しなかったではおかない"], answer: "逮捕しないではおかない", after: "だろう。" },
+                    { before: "自分の夢を邪魔するものは、すべて", options: ["排除せずにはおかない", "排除さずにはおかない", "排除しないずにはおかない"], answer: "排除せずにはおかない", after: "。" },
+                    { before: "この過酷な訓練は、新兵たちを精神的に", options: ["成長させずにはおかない", "成長させないずにはおかない", "成長させなくてずにはおかない"], answer: "成長させずにはおかない", after: "。" }
+                ],
+                opinionQuestions: [
+                    { text: "「これは絶対に観客を感動させずにはおかない！」と思うほど素晴らしい映画や本は何ですか？", eng: "What is a movie or book so wonderful that you think 'This absolutely will not fail to move the audience!'?" },
+                    { text: "これまでの人生で、「悔しいから絶対に見返さずにはおかないぞ！」と強く決意した経験はありますか？", eng: "In your life so far, have you ever strongly resolved 'I'm so frustrated, I absolutely will not let it pass without proving them wrong!'?" },
+                    { text: "社会の不正や理不尽なルールに対して、「これは追及せずにはおかない」と思うことはありますか？", eng: "Regarding social injustices or unreasonable rules, is there anything you think 'I absolutely will not let this pass without pursuing it'?" }
+                ]
+            }
+        ],
+        dialogue: {
+            speaker: "Two 40-year-old men (Tanaka and Sato)",
+            context: "Drinking at an izakaya and discussing a shocking corporate scandal recently revealed on the news.",
+            text: "<p><strong>田中:</strong> 「なあ佐藤、今日のニュース見たか？あの大手建設会社のデータ改ざん問題。長年、安全基準を無視して偽装データを提出していたらしいぞ。真面目に働いている俺たちからすると、あんなニュースは本当に腹立たしいな。」</p><p><strong>佐藤:</strong> 「ああ、見たよ。建物の基礎部分のデータを改ざんするなんて、住民の命を危険に晒す行為だ。利益を優先するあまり、倫理観が完全に麻痺していたんだろうな。内部告発者のインタビューも流れていたが、上層部の態度はあまりに酷くて、正直[BLANK1]よ。」</p><p><strong>田中:</strong> 「全くだ。あんな巨大な組織の不正が公になった以上、マスコミや世論は彼らを絶対に[BLANK2]だろう。企業のトップは、涙ながらに謝罪の記者会見を開いていたが、あの薄っぺらい言葉は全く聞くにたえなかったぜ。」</p><p><strong>佐藤:</strong> 「それにしても、被害に遭ったマンションの住人たちのことを思うと、胸が痛むよ。一生の買い物を台無しにされた彼らの悲しみと怒りは、察するにあまりある。彼らが一日でも早く安心できる生活を取り戻せるよう、心から[BLANK3]よ。」</p><p><strong>田中:</strong> 「俺も同感だ。俺たちも一歩間違えれば、会社の利益やプレッシャーに潰されて、あのような不正に加担させられる側になっていたかもしれないからな。仕事のプレッシャーがどんなにキツくても、人としての正しい道だけは踏み外さないようにしないとな。」</p><p><strong>佐藤:</strong> 「そうだな。あの事件は、働くすべての大人たちに強い警告を[BLANK4]。よし、今日はなんだか暗い話になっちまったから、次はもっと楽しい趣味の話でもしようぜ。」</p>",
+            blanks: [
+                { id: "BLANK1", options: ["見るにたえない", "祈ってやまない", "追及せずにはおかない"], answer: "見るにたえない" },
+                { id: "BLANK2", options: ["追及せずにはおかない", "見るにたえない", "祈ってやまない"], answer: "追及せずにはおかない" },
+                { id: "BLANK3", options: ["祈ってやまない", "見るにたえない", "追及せずにはおかない"], answer: "祈ってやまない" },
+                { id: "BLANK4", options: ["与えずにはおかない", "見るにたえない", "祈ってやまない"], answer: "与えずにはおかない" }
+            ]
+        },
+        story: {
+            title: "Rebuilding the Airsoft Community",
+            text: "<p>私たちが週末に運営しているサバイバルゲームのコミュニティ『AOJ』は、常に「安全とフェアプレイ」を最優先の理念として活動してきた。初心者が安心して遊べる環境を提供することこそが、長年この趣味を愛してきた私たちベテラン勢の誇りであり、今後の業界の発展を[BLANK1]からだ。</p><p>しかし先日、他の地域から遠征してきた一部のグループが、私たちのフィールドで最悪のトラブルを引き起こした。彼らはゲーム中に被弾したにもかかわらず「当たっていない」と嘘をつき続けるゾンビ行為を繰り返しただけでなく、注意をした初心者プレイヤーに対して威圧的な暴言を吐いたのだ。その野蛮な態度は、とても大人の遊びとは呼べない、まさに[BLANK2]光景であった。</p><p>私は運営のリーダーとして激しい怒りを覚えた。純粋にゲームを楽しみに来た初心者たちが怯えている姿を見て、この無法者たちを絶対に[BLANK3]と固く決意した。私は即座にゲームを強制終了させ、彼らをセーフティエリアの中央に呼び出した。そして、全参加者の前で彼らのルール違反を厳しく指摘し、フィールドからの永久追放を宣告したのである。</p><p>彼らは捨て台詞を吐きながら帰っていったが、その後に残った参加者たちからは大きな拍手が巻き起こった。「嫌われ役を買って出てでも、正しい環境を守り抜く」。その私の強い姿勢は、コミュニティのメンバーたちに安心感と信頼を[BLANK4]だろう。私はこれからも、この愛してやまない趣味の場所を、全身全霊で守り抜く覚悟である。</p>",
+            blanks: [
+                { id: "BLANK1", options: ["願ってやまない", "見るにたえない", "排除せずにはおかない"], answer: "願ってやまない" },
+                { id: "BLANK2", options: ["見るにたえない", "願ってやまない", "与えずにはおかない"], answer: "見るにたえない" },
+                { id: "BLANK3", options: ["排除せずにはおかない", "見るにたえない", "願ってやまない"], answer: "排除せずにはおかない" },
+                { id: "BLANK4", options: ["与えずにはおかない", "見るにたえない", "願ってやまない"], answer: "与えずにはおかない" }
+            ]
+        }
+    },
+    {
+        id: 57,
+        title: "Lesson 57: Priorities, Comparisons & Foundations",
+        grammar: [
+            {
+                point: "~にかまけて",
+                english: "Too absorbed in / Neglecting Y because of X",
+                structure: "Noun + にかまけて",
+                nuance: "Indicates that someone is so completely preoccupied or busy with one thing (X) that they wrongfully neglect their duty, responsibilities, or something else very important (Y). It always carries a negative, critical tone.",
+                metaphor: "A student staring so intently at a video game screen that they completely ignore the loud smoke alarm ringing right above their head.",
+                examples: [
+                    { topic: "Work-Life", text: "彼は仕事の忙しさにかまけて、家族との時間を全く作らない。", eng: "Being too absorbed in the busyness of work, he makes absolutely no time for his family." },
+                    { topic: "Hobbies", text: "サバゲーの装備集めにかまけて、家賃の支払いを忘れてしまった。", eng: "Being too absorbed in collecting airsoft gear, I forgot to pay the rent." },
+                    { topic: "Study", text: "アルバイトにかまけて、大学の授業を休みがちになっている。", eng: "Being too absorbed in my part-time job, I am tending to skip university classes." },
+                    { topic: "Technology", text: "新しいPCのセッティングにかまけて、大切なメールの返信を忘れていた。", eng: "Being too preoccupied with setting up the new PC, I forgot to reply to an important email." },
+                    { topic: "Social", text: "飲み会にかまけて、本来やるべき準備を完全に怠っていた。", eng: "Being too distracted by drinking parties, I completely neglected the preparation I was originally supposed to do." }
+                ],
+                clickingGames: [
+                    { prompt: "Absorbed in playing games, I completely forgot to do my homework.", target: "ゲームにかまけて宿題を完全に忘れていた", words: ["ゲームに", "かまけて", "宿題を完全に忘れていた"] },
+                    { prompt: "Distracted by the busyness of daily life, I neglected my health.", target: "日々の忙しさにかまけて健康管理を怠った", words: ["日々の忙しさに", "かまけて", "健康管理を怠った"] },
+                    { prompt: "Absorbed in his hobby, he pays no attention to his partner.", target: "彼は趣味にかまけて恋人を放置している", words: ["彼は趣味に", "かまけて", "恋人を放置している"] },
+                    { prompt: "Preoccupied with immediate tasks, I lost sight of the long-term goal.", target: "目先の作業にかまけて長期的な目標を見失った", words: ["目先の作業に", "かまけて", "長期的な目標を見失った"] },
+                    { prompt: "Too busy dealing with complaints, I couldn't develop new products.", target: "クレーム対応にかまけて新製品の開発ができなかった", words: ["クレーム対応に", "かまけて", "新製品の開発ができなかった"] }
+                ],
+                dropdownGames: [
+                    { before: "仕事", options: ["にかまけて", "をかまけて", "がかまけて"], answer: "にかまけて", after: "、子供の学校の行事に一度も参加していない。" },
+                    { before: "趣味のカメラ", options: ["にかまけて", "をかまけて", "がかまけて"], answer: "にかまけて", after: "、家事が全く手につかない状態だ。" },
+                    { before: "恋愛", options: ["にかまけて", "をかまけて", "がかまけて"], answer: "にかまけて", after: "、友人との約束をすっぽかしてしまった。" },
+                    { before: "忙しさ", options: ["にかまけて", "をかまけて", "がかまけて"], answer: "にかまけて", after: "、部屋の掃除を1ヶ月もサボっている。" },
+                    { before: "スマホのゲーム", options: ["にかまけて", "をかまけて", "がかまけて"], answer: "にかまけて", after: "、寝不足の毎日を送っている。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたが最近、「忙しさにかまけて」サボってしまっていることは何ですか？", eng: "Recently, what is something you've been slacking off on 'being too absorbed in busyness'?" },
+                    { text: "「趣味にかまけて恋人（または家族）を放置する」人は、どうしてそうなってしまうのだと思いますか？", eng: "Why do you think people 'neglect their partner (or family) being too absorbed in their hobbies'?" },
+                    { text: "子供時代に「遊び（またはゲーム）にかまけて」、親や先生に怒られた思い出はありますか？", eng: "In your childhood, do you have a memory of being scolded by parents or teachers 'being too absorbed in play (or games)'?" }
+                ]
+            },
+            {
+                point: "~にもまして",
+                english: "Even more than ~",
+                structure: "Noun + にもまして / Question Word (誰 / 何 / いつ) + にもまして",
+                nuance: "Used to emphasize that the current degree or intensity of something is vastly superior to or greater than it was in the past, or greater than anything/anyone else. 'X is great, but Y is *even more* so.'",
+                metaphor: "Adding a massive turbo boost to a sports car that is already driving extremely fast. It pushes the speed beyond the previously known limit.",
+                examples: [
+                    { topic: "Weather", text: "今年の夏は、去年にもまして異常な暑さだ。", eng: "This year's summer is abnormally hot, even more than last year." },
+                    { topic: "Effort", text: "大事な試合の前なので、彼はいつにもまして真剣に練習している。", eng: "Because it's before an important match, he is practicing seriously, even more than usual." },
+                    { topic: "Dating", text: "久しぶりに会った彼女は、以前にもまして美しくなっていた。", eng: "Meeting her after a long time, she had become beautiful even more than before." },
+                    { topic: "Business", text: "次期社長は、誰にもまして会社への強い愛情を持っている。", eng: "The next president has a strong love for the company, even more than anyone else." },
+                    { topic: "General JLPT", text: "今日は寝不足のせいか、普段にもまして体が重く感じる。", eng: "Perhaps due to lack of sleep today, my body feels heavy, even more than usual." }
+                ],
+                clickingGames: [
+                    { prompt: "The tension at today's meeting is even greater than usual.", target: "今日の会議の緊張感はいつにもまして強い", words: ["今日の会議の緊張感は", "いつにもまして", "強い"] },
+                    { prompt: "The new PC is processing data even faster than the previous model.", target: "新しいPCは前モデルにもまして処理が速い", words: ["新しいPCは", "前モデルにもまして", "処理が速い"] },
+                    { prompt: "He wants to succeed even more than anyone else.", target: "彼は誰にもまして成功を強く望んでいる", words: ["彼は", "誰にもまして", "成功を強く望んでいる"] },
+                    { prompt: "The spices in this curry are effective even more than usual.", target: "このカレーは普段にもましてスパイスが効いている", words: ["このカレーは", "普段にもまして", "スパイスが効いている"] },
+                    { prompt: "Her smile today is shining even more than before.", target: "今日の彼女の笑顔は以前にもまして輝いている", words: ["今日の彼女の笑顔は", "以前にもまして", "輝いている"] }
+                ],
+                dropdownGames: [
+                    { before: "試験の合格発表の日、彼は", options: ["いつにもまして", "いつをまして", "いつがまして"], answer: "いつにもまして", after: "落ち着きがなかった。" },
+                    { before: "今年の台風の被害は、", options: ["例年にもまして", "例年をまして", "例年がまして"], answer: "例年にもまして", after: "深刻なものとなった。" },
+                    { before: "彼はチームの", options: ["誰にもまして", "誰をまして", "誰がまして"], answer: "誰にもまして", after: "、豊富な専門知識を持っている。" },
+                    { before: "昨夜は徹夜したため、今日は", options: ["普段にもまして", "普段をまして", "普段がまして"], answer: "普段にもまして", after: "頭が働かない。" },
+                    { before: "今回のプロジェクトは、", options: ["前回にもまして", "前回をまして", "前回がまして"], answer: "前回にもまして", after: "多くの予算が投入されている。" }
+                ],
+                opinionQuestions: [
+                    { text: "最近、「去年にもまして（以前にもまして）〇〇だ」と実感していることは何ですか？", eng: "Recently, what is something you truly realize is 'X even more than last year (or before)'?" },
+                    { text: "あなたが「誰にもまして」自信を持っているスキルや知識は何ですか？", eng: "What is a skill or knowledge you have confidence in 'even more than anyone else'?" },
+                    { text: "「いつにもまして」集中力が高まるのは、どんな環境や状況の時ですか？", eng: "In what kind of environment or situation does your concentration increase 'even more than usual'?" }
+                ]
+            },
+            {
+                point: "~を踏まえて (をふまえて)",
+                english: "Based on / Taking into account",
+                structure: "Noun + を踏まえて",
+                nuance: "Used when making a new plan, decision, or statement *based upon* a solid foundation of past facts, experiences, survey results, or rules. It implies a logical and considered progression from past data to future action.",
+                metaphor: "Stepping firmly onto a solid stepping stone (踏まえる) before leaping across the river to the next rock. You use the solid fact to launch your next idea.",
+                examples: [
+                    { topic: "Business", text: "昨年度の失敗を踏まえて、新しい営業戦略を立てるべきだ。", eng: "Based on the failures of last year, we should formulate a new sales strategy." },
+                    { topic: "Education", text: "学生たちのアンケート結果を踏まえて、カリキュラムを改訂しました。", eng: "Taking into account the students' survey results, we revised the curriculum." },
+                    { topic: "Technology", text: "最新のセキュリティ基準を踏まえて、システムをアップデートする。", eng: "Based on the latest security standards, we will update the system." },
+                    { topic: "Discussion", text: "本日の議論を踏まえまして、後日最終的な結論を出させていただきます。", eng: "Based on today's discussion, we will issue the final conclusion at a later date." },
+                    { topic: "Life", text: "先輩からの厳しいアドバイスを踏まえて、自分の態度を改めた。", eng: "Taking into account the strict advice from my senior, I corrected my attitude." }
+                ],
+                clickingGames: [
+                    { prompt: "Based on the user reviews, we improved the product.", target: "ユーザーのレビューを踏まえて製品を改良した", words: ["ユーザーのレビューを", "踏まえて", "製品を改良した"] },
+                    { prompt: "Based on the current situation, we must take early measures.", target: "現状を踏まえて早急に対策を打つ必要がある", words: ["現状を", "踏まえて", "早急に対策を打つ必要がある"] },
+                    { prompt: "Taking into account past data, we predict the sales.", target: "過去のデータを踏まえて売上を予測する", words: ["過去のデータを", "踏まえて", "売上を予測する"] },
+                    { prompt: "Based on the discussion results, we create the report.", target: "話し合いの結果を踏まえて報告書を作成する", words: ["話し合いの結果を", "踏まえて", "報告書を作成する"] },
+                    { prompt: "Taking into account the rules, we check safety.", target: "ルールを踏まえて安全性を確認する", words: ["ルールを", "踏まえて", "安全性を確認する"] }
+                ],
+                dropdownGames: [
+                    { before: "前回のミス", options: ["を踏まえて", "に踏まえて", "が踏まえて"], answer: "を踏まえて", after: "、ダブルチェックの体制を導入した。" },
+                    { before: "お客様からのご意見", options: ["を踏まえ", "に踏まえ", "が踏まえ"], answer: "を踏まえ", after: "、サービスの質を向上させます。" },
+                    { before: "時代の変化", options: ["を踏まえた", "に踏まえた", "が踏まえた"], answer: "を踏まえた", after: "新しいビジネスモデルが必要だ。" },
+                    { before: "予算の制約", options: ["を踏まえて", "に踏まえて", "が踏まえて"], answer: "を踏まえて", after: "、どの機材を買うか決定しよう。" },
+                    { before: "これらの事実", options: ["を踏まえると", "に踏まえると", "が踏まえると"], answer: "を踏まえると", after: "、彼の主張には無理があると言わざるを得ない。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたが最近、「過去の失敗（または経験）を踏まえて」やり方を変えたことは何ですか？", eng: "Recently, what is something where you changed your method 'based on past failures (or experience)'?" },
+                    { text: "会社や学校は、「人々のどんな意見を踏まえて」ルールを変えていくべきだと思いますか？", eng: "What kind of people's opinions do you think companies or schools should 'take into account' when changing rules?" },
+                    { text: "将来の目標を立てる時、一番「踏まえておくべき」現実的な問題は何だと思いますか？", eng: "When setting future goals, what do you think is the most realistic problem that should be 'taken into account'?" }
+                ]
+            }
+        ],
+        dialogue: {
+            speaker: "Two 40-year-old men (Tanaka and Sato)",
+            context: "Discussing work-life balance and a friend's recent wake-up call regarding his family.",
+            text: "<p><strong>田中:</strong> 「なあ佐藤、営業部の木村さんのことなんだけどさ。最近、奥さんと大きな喧嘩をして、危うく離婚されそうになったらしいぞ。」</p><p><strong>佐藤:</strong> 「えっ、あの木村さんが？彼はいつも誰[BLANK1]仕事熱心で、毎月トップの営業成績を出しているエースじゃないか。どうしてそんなことになったんだ？」</p><p><strong>田中:</strong> 「まさにそれが原因さ。木村さんは会社のプロジェクトや出張[BLANK2]、週末も家に仕事を持ち込んで、家族との時間を完全に放置していたらしいんだ。奥さんからすれば、自分たちが空気のように扱われていると感じて、ついに我慢の限界が来たんだろうな。」</p><p><strong>佐藤:</strong> 「なるほどな。仕事が忙しいのは分かるが、目先の数字[BLANK3]一番大切な家族を失ってしまったら、本末転倒じゃないか。俺たちも40代になって、体力も落ちてきているんだから、いつ[BLANK4]健康や家族との時間を意識しないとダメだな。」</p><p><strong>田中:</strong> 「全くだよ。木村さんも今回の修羅場[BLANK5]、ついに自分の働き方の異常さに気づいたらしい。これからは残業を減らして、週末はスマホの電源を切って子供と遊ぶと反省していたよ。」</p><p><strong>佐藤:</strong> 「それは良いことだ。他人の振り見て我が振り直せってやつだな。俺も最近、サバゲーの装備集めやホームシアターの構築[BLANK6]、妻の機嫌を損ねている自覚があるんだ。木村さんの失敗[BLANK7]、今週末は妻を高級なディナーにでも連れて行くとするよ。」</p><p><strong>田中:</strong> 「ははは、それがいい。仕事の成功[BLANK8]、家庭の平和があってこその人生だからな。」</p>",
+            blanks: [
+                { id: "BLANK1", options: ["にもまして", "にかまけて", "を踏まえて"], answer: "にもまして" },
+                { id: "BLANK2", options: ["にかまけて", "を踏まえて", "にもまして"], answer: "にかまけて" },
+                { id: "BLANK3", options: ["にかまけて", "にもまして", "を踏まえて"], answer: "にかまけて" },
+                { id: "BLANK4", options: ["にもまして", "にかまけて", "を踏まえて"], answer: "にもまして" },
+                { id: "BLANK5", options: ["を踏まえて", "にかまけて", "にもまして"], answer: "を踏まえて" }, // Using the experience/fact to realize something
+                { id: "BLANK6", options: ["にかまけて", "にもまして", "を踏まえて"], answer: "にかまけて" },
+                { id: "BLANK7", options: ["を踏まえて", "にかまけて", "にもまして"], answer: "を踏まえて" },
+                { id: "BLANK8", options: ["にもまして", "にかまけて", "を踏まえて"], answer: "にもまして" }
+            ]
+        },
+        story: {
+            title: "Upgrading the Home Theater Responsibly",
+            text: "<p>私は念願のマイホームを購入して以来、リビングに最高級のホームシアターシステムを構築することに異常なまでの情熱を注いできた。高解像度のプロジェクターを設置し、壁には反響音を防ぐための特殊な吸音材を自作で貼り付けた。休日のたびにアンプの設定やケーブルの配線作業[BLANK1]、妻が話しかけてきても生返事をするような日々が続いていたのである。</p><p>しかしある日、私が重低音の調整に夢中になっている背後で、妻が「最近、あなたが家にいても一人でいるみたいで寂しい」と静かに呟いた。その言葉を聞いた瞬間、私は頭を殴られたような衝撃を受けた。理想の音響空間を追い求めること[BLANK2]、私はこの家で一緒に過ごす一番大切なパートナーの感情を完全に無視していたのだ。</p><p>この苦い反省[BLANK3]、私は自分の休日の過ごし方を根本から見直すことにした。もちろん、ホームシアターの趣味をやめるわけではない。しかし、一人で楽しむのではなく、妻が好きな映画やアーティストのライブ映像を最高の音響で一緒に楽しむ時間を作るようにしたのだ。週末の夜には二人でソファに座り、ポップコーンを食べながら大画面で映画を鑑賞するようになった。</p><p>妻は「映画館に行くよりも迫力があるわね」と笑顔を見せてくれた。その笑顔を見た時、私は最新の機材を手に入れた時[BLANK4]深い満足感と幸福感を感じた。趣味の空間というものは、ただ高価な機材を並べるだけではなく、それを誰とどう共有するかという視点[BLANK5]設計されて初めて、真の価値を生むのだと深く悟ったのである。</p>",
+            blanks: [
+                { id: "BLANK1", options: ["にかまけて", "を踏まえて", "にもまして"], answer: "にかまけて" },
+                { id: "BLANK2", options: ["にかまけて", "にもまして", "を踏まえて"], answer: "にかまけて" },
+                { id: "BLANK3", options: ["を踏まえて", "にかまけて", "にもまして"], answer: "を踏まえて" },
+                { id: "BLANK4", options: ["にもまして", "にかまけて", "を踏まえて"], answer: "にもまして" },
+                { id: "BLANK5", options: ["を踏まえて", "にかまけて", "にもまして"], answer: "を踏まえて" }
+            ]
+        }
+    }, {
+        id: 58,
+        title: "Lesson 58: Assumptions, Turning Points & Disregard",
+        grammar: [
+            {
+                point: "~を前提として / ~を前提に (をぜんていに)",
+                english: "Based on the assumption that / On the premise of",
+                structure: "Noun + を前提として / を前提に",
+                nuance: "Indicates that a plan, discussion, or action is built entirely upon a specific foundational condition or assumption. If this condition is removed, the whole plan falls apart.",
+                metaphor: "Building a house based on the exact blueprints. Every wall and window is placed *on the premise* that the foundation matches the drawing perfectly.",
+                examples: [
+                    { topic: "Dating", text: "私たちは、将来の結婚を前提としてお付き合いをしています。", eng: "We are dating on the premise of future marriage." },
+                    { topic: "Business", text: "来月の予算が承認されることを前提に、プロジェクトを進めよう。", eng: "Let's proceed with the project based on the assumption that next month's budget will be approved." },
+                    { topic: "Technology", text: "このソフトウェアは、最新のOSがインストールされていることを前提に開発された。", eng: "This software was developed on the assumption that the latest OS is installed." },
+                    { topic: "Travel", text: "車で移動することを前提として、旅行のスケジュールを組んだ。", eng: "I put together the travel schedule on the premise of moving by car." },
+                    { topic: "Safety", text: "最悪の事態が起こることを前提に、避難訓練を行わなければならない。", eng: "We must conduct evacuation drills on the assumption that the worst-case scenario will occur." }
+                ],
+                clickingGames: [
+                    { prompt: "We made the business plan based on the premise of selling overseas.", target: "海外での販売を前提として事業計画を作成した", words: ["海外での販売を", "前提として", "事業計画を作成した"] },
+                    { prompt: "I bought the large monitor assuming I would work from home.", target: "在宅勤務を前提に大きなモニターを購入した", words: ["在宅勤務を", "前提に", "大きなモニターを購入した"] },
+                    { prompt: "We are developing it based on the assumption that it will be used on smartphones.", target: "スマホで利用されることを前提に開発している", words: ["スマホで利用されることを", "前提に", "開発している"] },
+                    { prompt: "Please reply based on the premise of participating.", target: "イベントに参加することを前提としてお返事ください", words: ["イベントに参加することを", "前提として", "お返事ください"] },
+                    { prompt: "I signed the contract assuming there would be a pay raise.", target: "給料が上がることを前提に契約書にサインした", words: ["給料が上がることを", "前提に", "契約書にサインした"] }
+                ],
+                dropdownGames: [
+                    { before: "リモートワーク", options: ["を前提として", "が前提として", "に前提として"], answer: "を前提として", after: "、新しいオフィスはかなり小さく設計されている。" },
+                    { before: "チーム全員が参加すること", options: ["を前提に", "が前提に", "の前提に"], answer: "を前提に", after: "、スケジュールの調整をお願いします。" },
+                    { before: "プロの技術があること", options: ["を前提とした", "を前提として", "に前提とした"], answer: "を前提とした", after: "非常に難しいコンテストだ。" }, // Using noun modifier
+                    { before: "長期的な関係", options: ["を前提に", "が前提に", "の前提に"], answer: "を前提に", after: "、この取引先と契約を結びたい。" },
+                    { before: "英語が流暢であること", options: ["を前提として", "が前提として", "に前提として"], answer: "を前提として", after: "採用面接が行われる。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたが新しく家や部屋を探す時、「絶対に〇〇を前提として」探す条件は何ですか？", eng: "When you look for a new house or room, what is a condition you search for 'absolutely based on the premise of X'?" },
+                    { text: "「失敗することを前提に」計画を立てることは、ビジネスにおいて重要だと思いますか？", eng: "Do you think making plans 'on the assumption of failing' is important in business?" },
+                    { text: "もしペットを飼うとしたら、どんなことを「前提として」覚悟しておくべきだと思いますか？", eng: "If you were to keep a pet, what do you think you should be prepared for 'on the premise of'?" }
+                ]
+            },
+            {
+                point: "~を境に / ~を境にして (をさかいに)",
+                english: "With ~ as a turning point",
+                structure: "Noun + を境に(して)",
+                nuance: "Indicates a distinct boundary in time or an event. Before this point, things were one way; immediately after this point, the situation changed dramatically and permanently.",
+                metaphor: "Crossing a massive border checkpoint. The moment you step your foot over the line, the language, currency, and landscape change completely.",
+                examples: [
+                    { topic: "Health", text: "40歳の誕生日を境に、急に体力が落ちたように感じる。", eng: "With my 40th birthday as a turning point, I feel like my stamina suddenly dropped." },
+                    { topic: "History", text: "その大規模な戦争を境にして、世界の経済状況は一変した。", eng: "With that large-scale war as a turning point, the global economic situation completely changed." },
+                    { topic: "Business", text: "新しい社長の就任を境に、社内の雰囲気がとても明るくなった。", eng: "With the inauguration of the new president as a turning point, the atmosphere in the company became very bright." },
+                    { topic: "Technology", text: "スマートフォンの登場を境に、人々のコミュニケーションの方法が激変した。", eng: "With the appearance of smartphones as a turning point, people's methods of communication drastically changed." },
+                    { topic: "Lifestyle", text: "横須賀に引っ越したことを境にして、週末は海辺を散歩するようになった。", eng: "With moving to Yokosuka as a turning point, I started taking walks on the beach on weekends." }
+                ],
+                clickingGames: [
+                    { prompt: "With his retirement as a turning point, the team's strength dropped.", target: "彼の引退を境にチームの戦力が落ちた", words: ["彼の引退を", "境に", "チームの戦力が落ちた"] },
+                    { prompt: "With the Tokyo Olympics as a turning point, the city became beautiful.", target: "東京オリンピックを境に街が綺麗になった", words: ["東京オリンピックを", "境に", "街が綺麗になった"] },
+                    { prompt: "With graduation as a turning point, I completely lost contact with my friends.", target: "卒業を境にして友人たちと全く連絡を取らなくなった", words: ["卒業を", "境にして", "友人たちと全く連絡を取らなくなった"] },
+                    { prompt: "With the release of that game as a turning point, the industry changed.", target: "あのゲームの発売を境に業界の常識が変わった", words: ["あのゲームの", "発売を境に", "業界の常識が変わった"] },
+                    { prompt: "With getting married as a turning point, I quit gambling completely.", target: "結婚を境にしてギャンブルを完全に辞めた", words: ["結婚を", "境にして", "ギャンブルを完全に辞めた"] }
+                ],
+                dropdownGames: [
+                    { before: "大雨の被害", options: ["を境に", "が境に", "に境に"], answer: "を境に", after: "、防災への意識が急激に高まった。" },
+                    { before: "子供が生まれたこと", options: ["を境にして", "が境にして", "に境にして"], answer: "を境にして", after: "、彼の性格はとても丸くなった。" },
+                    { before: "あの大きな失敗", options: ["を境に", "が境に", "に境に"], answer: "を境に", after: "、二度と無理な投資はしないと誓った。" },
+                    { before: "30歳", options: ["を境にして", "が境にして", "に境にして"], answer: "を境にして", after: "、健康食品を毎日飲むようになった。" },
+                    { before: "システムのアップデート", options: ["を境に", "が境に", "に境に"], answer: "を境に", after: "、エラーの発生率が激減した。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたのこれまでの人生で、「あれを境に、自分が大きく変わった」と思うターニングポイントは何ですか？", eng: "In your life so far, what is the turning point where you think 'With that as a boundary, I changed greatly'?" },
+                    { text: "世の中のテクノロジーで、「〇〇の登場を境に、世界が変わった」と一番強く感じるものは何ですか？", eng: "Among worldly technologies, what makes you feel most strongly that 'With the appearance of X as a turning point, the world changed'?" },
+                    { text: "年齢の節目（20歳、30歳、40歳など）を「境にして」、健康や趣味に対する考え方は変わりましたか？", eng: "With age milestones (20, 30, 40, etc.) 'as a turning point', did your way of thinking towards health or hobbies change?" }
+                ]
+            },
+            {
+                point: "~をよそに",
+                english: "Ignoring / Indifferent to / Regardless of",
+                structure: "Noun + をよそに",
+                nuance: "Means to proceed with an action while completely ignoring the feelings, worries, expectations, or criticism of surrounding people. It highlights a strong contrast between the surrounding atmosphere and the subject's independent (and often reckless) action.",
+                metaphor: "Putting on heavy noise-canceling headphones and dancing wildly in the middle of a serious library, completely indifferent to the shocked stares of everyone around you.",
+                examples: [
+                    { topic: "Family", text: "親の心配をよそに、彼は危険な海外旅行へと旅立った。", eng: "Ignoring his parents' worries, he departed on a dangerous overseas trip." },
+                    { topic: "Business", text: "世間の批判をよそに、その企業は値上げを断行した。", eng: "Indifferent to public criticism, the company carried out the price increase." },
+                    { topic: "Sports", text: "ファンの期待をよそに、エース選手はあっさりと一回戦で負けてしまった。", eng: "Ignoring the fans' expectations, the ace player was easily defeated in the first round." },
+                    { topic: "Weather", text: "住民たちの不安をよそに、台風はさらに勢力を増して接近している。", eng: "Indifferent to the residents' anxiety, the typhoon is approaching with even more increased power." },
+                    { topic: "School", text: "教師の厳しい警告をよそに、学生たちは全く勉強しなかった。", eng: "Ignoring the teacher's strict warnings, the students didn't study at all." }
+                ],
+                clickingGames: [
+                    { prompt: "He slept deeply, ignoring the loud noise outside.", target: "彼は外の大騒ぎをよそにぐっすり眠っていた", words: ["彼は外の大騒ぎを", "よそに", "ぐっすり眠っていた"] },
+                    { prompt: "Indifferent to the team's mood, she acted selfishly.", target: "チームの雰囲気をよそに彼女は勝手に行動した", words: ["チームの雰囲気を", "よそに", "彼女は勝手に行動した"] },
+                    { prompt: "Ignoring everyone's opposition, he started his own company.", target: "周囲の反対をよそに彼は起業した", words: ["周囲の反対を", "よそに", "彼は起業した"] },
+                    { prompt: "Indifferent to my busy schedule, the cat demands food.", target: "私の忙しさをよそに猫はエサを要求してくる", words: ["私の忙しさを", "よそに", "猫はエサを要求してくる"] },
+                    { prompt: "Ignoring the heavy rain, the children played outside.", target: "大雨をよそに子供たちは外で遊び続けた", words: ["大雨を", "よそに", "子供たちは外で遊び続けた"] }
+                ],
+                dropdownGames: [
+                    { before: "周りの", options: ["心配をよそに", "心配によそに", "心配がよそに"], answer: "心配をよそに", after: "、彼は一人で危険な雪山へ向かった。" },
+                    { before: "観客の", options: ["期待をよそに", "期待によそに", "期待がよそに"], answer: "期待をよそに", after: "、ライブはたったの30分で終了してしまった。" },
+                    { before: "上司からの", options: ["忠告をよそに", "忠告によそに", "忠告がよそに"], answer: "忠告をよそに", after: "、彼は無謀な契約を結んで大失敗した。" },
+                    { before: "世間の", options: ["冷たい視線をよそに", "冷たい視線によそに", "冷たい視線がよそに"], answer: "冷たい視線をよそに", after: "、彼女は自分の信じるアートを作り続けた。" },
+                    { before: "社員たちの", options: ["不安をよそに", "不安によそに", "不安がよそに"], answer: "不安をよそに", after: "、経営陣は突然の大規模なリストラを発表した。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたが過去に、「親や友人の心配をよそに」思い切って挑戦したことはありますか？", eng: "Have you ever taken a bold challenge in the past, 'ignoring the worries of your parents or friends'?" },
+                    { text: "ニュースで、「世間の批判をよそに〜した」という出来事を見て、一番驚いたことは何ですか？", eng: "Watching the news, what surprised you the most seeing an event where someone 'acted indifferent to public criticism'?" },
+                    { text: "「周囲の期待をよそに」、全く違う結果になってしまった映画やスポーツの試合はありますか？", eng: "Is there a movie or sports match that ended in a completely different result, 'ignoring the expectations of the surroundings'?" }
+                ]
+            }
+        ],
+        dialogue: {
+            speaker: "Two 40-year-old men (Tanaka and Sato)",
+            context: "Discussing a mutual friend's bold career move to open a specialized spicy curry restaurant.",
+            text: "<p><strong>田中:</strong> 「なあ佐藤、大学時代の後輩の健太のこと覚えてるか？あいつ、長年勤めていた安定した商社を突然辞めて、来月から横須賀で激辛メキシカンカレーの専門店をオープンするらしいぞ。」</p><p><strong>佐藤:</strong> 「マジかよ。あいつ、奥さんも子供もいるんだろ？家族や親戚の猛烈な反対と心配[BLANK1]、そんなリスキーな飲食業に飛び込むなんて、いくらなんでも無謀すぎるんじゃないか？今の時代、飲食店の生存競争は過酷だぞ。」</p><p><strong>田中:</strong> 「俺も最初はそう思ったんだが、あいつの話を聞いて少し考えが変わったよ。健太はただ勢いで辞めたわけじゃなくて、ネット販売でのテストマーケティングで確実に需要があること[BLANK2]、緻密な事業計画を立てていたんだ。世界一辛いと言われるキャロライナ・リーパーを使った独自のソースが、マニアの間でバカ売れしてるらしい。」</p><p><strong>佐藤:</strong> 「へえ、しっかり裏付けがあっての決断だったのか。それなら納得だ。でも、あいつがそこまでスパイスに狂い始めたのはいつからなんだ？昔は普通に甘口カレーを食べてた記憶があるんだが。」</p><p><strong>田中:</strong> 「数年前に、仕事の出張でメキシコに1ヶ月滞在したこと[BLANK3]、あいつの味覚と人生観が完全に変わっちまったらしいんだよ。本場の容赦ないスパイスの洗礼を受けて、日本のマイルドな味付けじゃ我慢できなくなったんだとさ。」</p><p><strong>佐藤:</strong> 「なるほどな。人生、何がきっかけで情熱に火がつくか分からないものだな。周囲の冷ややかな視線[BLANK4]自分の信念を貫くその姿勢、同じアラフォーとして少し羨ましくもあるよ。」</p><p><strong>田中:</strong> 「そうだな。健太のカレー屋が成功すること[BLANK5]、俺たちもオープン初日には必ず顔を出して、胃袋が破裂するくらい激辛カレーを食ってやろうぜ！」</p><p><strong>佐藤:</strong> 「よし、胃薬を持参して乗り込むとしよう。」</p>",
+            blanks: [
+                { id: "BLANK1", options: ["をよそに", "を境に", "を前提として"], answer: "をよそに" },
+                { id: "BLANK2", options: ["を前提として", "をよそに", "を境に"], answer: "を前提として" },
+                { id: "BLANK3", options: ["を境に", "を前提として", "をよそに"], answer: "を境に" },
+                { id: "BLANK4", options: ["をよそに", "を前提として", "を境に"], answer: "をよそに" },
+                { id: "BLANK5", options: ["を前提として", "を境に", "をよそに"], answer: "を前提として" }
+            ]
+        },
+        story: {
+            title: "A New Chapter in Kurihama",
+            text: "<p>数年前、私は長年住み慣れた都心の喧騒から離れ、神奈川県の横須賀市・久里浜に一軒家を購入して移住した。都心で働く多くの友人たちは、「通勤に時間がかかりすぎる」「田舎暮らしはすぐに飽きる」と忠告してくれたが、私は彼らの心配[BLANK1]、海が近く自然豊かなこの街での生活を強く望んでいたのだ。私の仕事が完全にフルリモートワークへ移行すること[BLANK2]、毎日満員電車に乗る必要がなくなったことが、最大の決め手であった。</p><p>引っ越しの完了[BLANK3]、私のライフスタイルは劇的に変化した。週末になれば、コンクリートの壁に囲まれたショッピングモールに行く代わりに、近くの海辺を散歩し、新鮮な地元の魚介類を買い求めるようになった。庭では自作のウッドデッキの上で、趣味のキャンプ道具のメンテナンスや、激辛スパイスの栽培に没頭している。都会の狭いマンションでは決して味わえなかった、ゆったりとした時間がここには流れている。</p><p>もちろん、地方移住には不便な点もある。ネット通販の翌日配送がギリギリ届かないこともあれば、大型の家電量販店に行くには車を出さなければならない。しかし、「生活の不便さをDIYの精神で楽しむこと」[BLANK4]移住を決断した私にとって、それは苦痛どころか新鮮なエンターテインメントとなっている。周囲の都会志向の意見[BLANK5]、自分の直感を信じてこの街に根を下ろしたことは、私の40代以降の人生において最高の選択だったと心から言える。</p>",
+            blanks: [
+                { id: "BLANK1", options: ["をよそに", "を前提として", "を境に"], answer: "をよそに" },
+                { id: "BLANK2", options: ["を前提として", "をよそに", "を境に"], answer: "を前提として" },
+                { id: "BLANK3", options: ["を境に", "をよそに", "を前提として"], answer: "を境に" },
+                { id: "BLANK4", options: ["を前提として", "を境に", "をよそに"], answer: "を前提として" },
+                { id: "BLANK5", options: ["をよそに", "を前提として", "を境に"], answer: "をよそに" }
+            ]
+        }
+    },
+    {
+        id: 59,
+        title: "Lesson 59: Limits, Contrasts & Crucial Impacts",
+        grammar: [
+            {
+                point: "~にもほどがある",
+                english: "There is a limit to / Goes too far",
+                structure: "Noun / Verb (Dictionary form) / Adj (い/な) + にもほどがある",
+                nuance: "A strong phrase used to criticize someone or something for excessively crossing the line of common sense. It means 'I can tolerate some degree of this, but your level of X is absolutely ridiculous and unacceptable.'",
+                metaphor: "A cup of coffee that usually takes one sugar cube. Someone pours in thirty cubes until the cup is overflowing. It is no longer coffee; the sweetness has gone completely past the acceptable limit.",
+                examples: [
+                    { topic: "Manners", text: "いくら親しい仲でも、そんな暴言を吐くなんて失礼にもほどがある。", eng: "No matter how close we are, spitting out such abusive language goes way too far in rudeness." },
+                    { topic: "Business", text: "連絡もなしに3時間も会議に遅刻するなんて、非常識にもほどがある。", eng: "Being 3 hours late to a meeting without even contacting us is lacking common sense beyond the limit." },
+                    { topic: "Shopping", text: "この小さなケーキが一つ5000円だなんて、高いにもほどがある。", eng: "This tiny cake being 5000 yen a piece is expensive beyond the limit." },
+                    { topic: "Excuses", text: "「犬が宿題を食べた」なんて、言い訳にもほどがあるよ。", eng: "Saying 'my dog ate my homework' goes too far as an excuse (it's absurd)." },
+                    { topic: "Selfishness", text: "他人のものを勝手に使っておいて謝らないなんて、図々しいにもほどがある。", eng: "Using other people's things without permission and not apologizing goes way too far in impudence." }
+                ],
+                clickingGames: [
+                    { prompt: "To fall asleep during an important test goes too far in being careless.", target: "大事なテスト中に寝るなんて不注意にもほどがある", words: ["大事なテスト中に", "寝るなんて", "不注意にもほどがある"] },
+                    { prompt: "It's been a month since I ordered; being late has its limits.", target: "注文して1ヶ月も経つのに遅いにもほどがある", words: ["注文して1ヶ月も", "経つのに", "遅いにもほどがある"] },
+                    { prompt: "Not contacting us for a week goes too far in being irresponsible.", target: "一週間も連絡してこないなんて無責任にもほどがある", words: ["一週間も連絡してこないなんて", "無責任にも", "ほどがある"] },
+                    { prompt: "Throwing away perfectly good food is wasteful beyond the limit.", target: "まだ食べられるものを捨てるなんてもったいないにもほどがある", words: ["まだ食べられるものを", "捨てるなんて", "もったいないにもほどがある"] },
+                    { prompt: "Jokes have their limits; you shouldn't say that.", target: "冗談にもほどがあるそんなことは言うべきではない", words: ["冗談にもほどがある", "そんなことは", "言うべきではない"] }
+                ],
+                dropdownGames: [
+                    { before: "毎日毎日、同じミスばかり繰り返すなんて、", options: ["馬鹿げているにもほどがある", "馬鹿げているのをほどがある", "馬鹿げているがほどがある"], answer: "馬鹿げているにもほどがある", after: "。" },
+                    { before: "いくらお腹が空いているからといって、5人前を一人で食べるなんて", options: ["欲張りにもほどがある", "欲張りなのをほどがある", "欲張りだをほどがある"], answer: "欲張りにもほどがある", after: "。" },
+                    { before: "説明書がたったの1ページだなんて、", options: ["不親切にもほどがある", "不親切なのほどがある", "不親切をほどがある"], answer: "不親切にもほどがある", after: "。" },
+                    { before: "彼に仕事を任せたが、納期を一週間も過ぎてからやり直すなんて", options: ["遅いにもほどがある", "遅いのをほどがある", "遅くてもほどがある"], answer: "遅いにもほどがある", after: "。" },
+                    { before: "こんな薄着で雪山に登ろうとするなんて、", options: ["無謀にもほどがある", "無謀なのほどがある", "無謀をほどがある"], answer: "無謀にもほどがある", after: "。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたが最近、他人の行動を見て「いくらなんでも〇〇にもほどがある！」と怒ったことはありますか？", eng: "Recently, have you seen someone's action and gotten angry thinking 'No matter what, this goes too far in being X!'?" },
+                    { text: "お店のサービスや商品で、「高いにもほどがある（または不親切にもほどがある）」と呆れた経験を教えてください。", eng: "Tell me an experience where you were exasperated by a store's service or product thinking 'It goes too far in being expensive (or unkind)'." },
+                    { text: "「冗談にもほどがある」と感じるような、絶対に言ってはいけないブラックジョークの境界線はどこだと思いますか？", eng: "Where do you think the boundary line is for dark jokes that you absolutely shouldn't say, feeling 'Jokes have their limit'?" }
+                ]
+            },
+            {
+                point: "~にひきかえ",
+                english: "In stark contrast to",
+                structure: "Noun + にひきかえ / Verb (Plain)・Adj + のにひきかえ",
+                nuance: "A strong comparative expression used to highlight that two things (often brothers, products, or time periods) are completely, surprisingly opposite. Often carries a subjective judgment (praising one while criticizing the other).",
+                metaphor: "Putting a brilliant, shining diamond directly next to a dull lump of coal on a black velvet cloth to make the difference overwhelmingly obvious.",
+                examples: [
+                    { topic: "Family", text: "優秀で真面目な兄にひきかえ、弟は遊んでばかりいる。", eng: "In stark contrast to the excellent and serious older brother, the younger brother does nothing but play." },
+                    { topic: "Weather", text: "猛暑だった去年の夏にひきかえ、今年は信じられないほど涼しい。", eng: "In stark contrast to last year's summer which was a fierce heat, this year is unbelievably cool." },
+                    { topic: "Technology", text: "エラーだらけだった旧モデルにひきかえ、新モデルは非常に安定している。", eng: "In stark contrast to the old model which was full of errors, the new model is extremely stable." },
+                    { topic: "Customer Service", text: "対応が丁寧なA社にひきかえ、B社のサポートは不親切にもほどがある。", eng: "In stark contrast to Company A whose response is polite, Company B's support is unkind beyond the limit." },
+                    { topic: "Study", text: "毎日勉強している彼女にひきかえ、私は全く試験の準備をしていない。", eng: "In stark contrast to her who studies every day, I am absolutely not preparing for the exam." }
+                ],
+                clickingGames: [
+                    { prompt: "In stark contrast to yesterday's heavy rain, today is completely clear.", target: "昨日の大雨にひきかえ今日は見事な快晴だ", words: ["昨日の大雨に", "ひきかえ", "今日は見事な快晴だ"] },
+                    { prompt: "In stark contrast to the lively city, the countryside is quiet.", target: "賑やかな都会にひきかえ田舎はとても静かだ", words: ["賑やかな都会に", "ひきかえ", "田舎はとても静かだ"] },
+                    { prompt: "In stark contrast to the strict former boss, the current boss is gentle.", target: "厳しかった元の上司にひきかえ今の上司は優しい", words: ["厳しかった元の上司に", "ひきかえ", "今の上司は優しい"] },
+                    { prompt: "In stark contrast to the fun outbound trip, the return trip was lonely.", target: "楽しかった行きにひきかえ帰りは寂しかった", words: ["楽しかった行きに", "ひきかえ", "帰りは寂しかった"] },
+                    { prompt: "In stark contrast to my wife who is good at cooking, I can only boil water.", target: "料理上手な妻にひきかえ私はお湯を沸かすことしかできない", words: ["料理上手な妻に", "ひきかえ", "私はお湯を沸かすことしかできない"] }
+                ],
+                dropdownGames: [
+                    { before: "活発な姉", options: ["にひきかえ", "をひきかえ", "がひきかえ"], answer: "にひきかえ", after: "、妹は家で本を読むのが好きだ。" },
+                    { before: "大混雑していた昨日", options: ["にひきかえ", "をひきかえ", "がひきかえ"], answer: "にひきかえ", after: "、今日の遊園地はガラガラだ。" },
+                    { before: "頑丈で壊れない日本製", options: ["にひきかえ", "をひきかえ", "がひきかえ"], answer: "にひきかえ", after: "、その安い海外製品はすぐに壊れた。" },
+                    { before: "前作が大ヒットしたの", options: ["にひきかえ", "をひきかえ", "がひきかえ"], answer: "にひきかえ", after: "、今回の続編は全く売れていない。" }, // Verbs/sentences take のにひきかえ
+                    { before: "常に冷静な彼", options: ["にひきかえ", "をひきかえ", "がひきかえ"], answer: "にひきかえ", after: "、私はすぐにパニックになってしまう。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたの性格は、ご兄弟（またはご両親）と比べて「〇〇にひきかえ、自分は〜だ」と大きく違う部分はありますか？", eng: "Compared to your siblings (or parents), is there a part of your personality that is vastly different, like 'In stark contrast to X, I am ~'?" },
+                    { text: "「昔の〇〇にひきかえ、今の〇〇は素晴らしい（またはひどい）」と感じるテクノロジーやサービスは何ですか？", eng: "What technology or service makes you feel 'In stark contrast to the old X, the current X is wonderful (or terrible)'?" },
+                    { text: "あなた自身の中で、「休日の自分にひきかえ、平日の自分は〜だ」というギャップはありますか？", eng: "Within yourself, is there a gap where 'In stark contrast to my weekend self, my weekday self is ~'?" }
+                ]
+            },
+            {
+                point: "~にかかわる",
+                english: "Affecting / Concerning / Involving",
+                structure: "Noun + にかかわる + Noun",
+                nuance: "Used for matters that have a serious, profound, or critical impact on a highly important noun (such as life, honor, security, privacy). It implies that the outcome of this issue could deeply damage or alter that important thing.",
+                metaphor: "A surgeon operating right next to a patient's beating heart. One tiny slip of the scalpel isn't just a mistake; it directly affects the patient's very survival.",
+                examples: [
+                    { topic: "Health", text: "このアレルギーは、一歩間違えれば命にかかわる深刻な問題だ。", eng: "This allergy, if one makes a single mistake, is a serious problem affecting one's life." },
+                    { topic: "Security", text: "パスワードの漏洩は、個人のプライバシーにかかわる重大な事件だ。", eng: "The leaking of passwords is a grave incident concerning personal privacy." },
+                    { topic: "Pride", text: "ここで負けることは、プロとしての名誉にかかわる。", eng: "Losing here affects my honor as a professional." },
+                    { topic: "Safety", text: "車のブレーキの点検は、乗客の安全にかかわる重要な作業だ。", eng: "Inspecting the car's brakes is an important task affecting the safety of the passengers." },
+                    { topic: "Business", text: "品質の低下は、会社の存続にかかわる危機を招く。", eng: "The decline in quality invites a crisis affecting the survival of the company." }
+                ],
+                clickingGames: [
+                    { prompt: "Even a small mistake can lead to an accident affecting lives.", target: "小さなミスが命にかかわる事故に繋がりかねない", words: ["小さなミスが", "命にかかわる", "事故に繋がりかねない"] },
+                    { prompt: "Because it's information concerning national security, it is highly classified.", target: "国家の安全にかかわる情報なので極秘扱いだ", words: ["国家の安全に", "かかわる情報なので", "極秘扱いだ"] },
+                    { prompt: "You shouldn't easily answer questions concerning privacy.", target: "個人のプライバシーにかかわる質問には安易に答えるべきではない", words: ["個人のプライバシーに", "かかわる質問には", "安易に答えるべきではない"] },
+                    { prompt: "He is doing research concerning human brain functions.", target: "彼は人間の脳機能にかかわる研究をしている", words: ["彼は人間の脳機能に", "かかわる", "研究をしている"] },
+                    { prompt: "Failing this test affects my pride.", target: "このテストに落ちることは私のプライドにかかわる", words: ["このテストに落ちることは", "私のプライドに", "かかわる"] }
+                ],
+                dropdownGames: [
+                    { before: "患者の命", options: ["にかかわる", "をかかわる", "がかかわる"], answer: "にかかわる", after: "手術なので、執刀医は極度の緊張状態にあった。" },
+                    { before: "これは会社の信用", options: ["にかかわる", "をかかわる", "がかかわる"], answer: "にかかわる", after: "問題なので、徹底的に調査してください。" },
+                    { before: "個人の尊厳", options: ["にかかわる", "をかかわる", "がかかわる"], answer: "にかかわる", after: "ような差別的な発言は絶対に許されない。" },
+                    { before: "教育は、子供たちの未来", options: ["にかかわる", "をかかわる", "がかかわる"], answer: "にかかわる", after: "最も重要な投資だ。" },
+                    { before: "食品の衛生管理は、消費者の健康", options: ["にかかわる", "をかかわる", "がかかわる"], answer: "にかかわる", after: "ため一切の妥協はできない。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたの仕事や日常生活で、「これは一歩間違えると命にかかわる」と注意していることは何ですか？", eng: "In your work or daily life, what is something you are careful about, thinking 'If I make one mistake, this affects lives'?" },
+                    { text: "インターネット上で、「個人のプライバシーにかかわる」情報を守るために気をつけていることは何ですか？", eng: "On the internet, what are you careful about to protect information 'concerning personal privacy'?" },
+                    { text: "誰かに言われた一言で、「自分の名誉（プライド）にかかわる！」と強く反発したくなった経験はありますか？", eng: "Have you ever wanted to push back strongly against a word someone said to you, thinking 'This affects my honor (pride)!'?" }
+                ]
+            }
+        ],
+        dialogue: {
+            speaker: "Two 40-year-old men (Tanaka and Sato)",
+            context: "Complaining about a terrible experience at a heavily advertised PC repair shop.",
+            text: "<p><strong>田中:</strong> 「なあ佐藤、この前俺のメインPCの電源が急に入らなくなったって話したよな。自分で直そうとしたけど原因が分からなくて、ネットで一番広告を出してる大手の修理業者に依頼したんだよ。」</p><p><strong>佐藤:</strong> 「ああ、あの『最速で安く直します』って派手に宣伝してるチェーン店だろ？あそこ、ネットの評判は真っ二つに分かれてるみたいだが、無事に直ったのか？」</p><p><strong>田中:</strong> 「それがさ、聞いて呆れるぜ。店舗に持っていって診断してもらうだけで1週間も待たされたんだ。しかも、マザーボードの交換が必要だからって、新品のPCが買えるくらいの法外な見積もりを出してきたんだよ。いくら人件費がかかるとはいえ、高い[BLANK1]ぜ。」</p><p><strong>佐藤:</strong> 「そりゃひどいな！昔俺がお前に紹介した、秋葉原の小さな個人経営の修理屋[BLANK2]、対応のスピードも良心的な価格設定も雲泥の差じゃないか。」</p><p><strong>田中:</strong> 「全くだ。あの秋葉原の店長は、本当に客の立場に立って親身にアドバイスをくれたのにな。しかも一番の問題は、修理をキャンセルしてPCを返してもらった後、ハードディスクの中に保存してあった仕事のデータフォルダのアクセス履歴が更新されていたことなんだ。俺の重要な個人情報や仕事の機密データ[BLANK3]部分を、勝手に覗き見された可能性があるんだよ。」</p><p><strong>佐藤:</strong> 「おいおい、それは修理の手抜きとかそういうレベルの話じゃないぞ。顧客のプライバシー[BLANK4]大問題じゃないか！悪質な業者だと、データを抜き取って悪用するケースもあるって聞くぞ。警察や消費者センターに相談すべきレベルだろ。」</p><p><strong>田中:</strong> 「ああ、証拠は少ないけど、会社のセキュリティ部門には一応報告しておいたよ。華やかな広告で客を釣っておいて、裏でそんなずさんな管理をしているなんて、悪質[BLANK5]。今度からは、安易なネットの広告に騙されず、信頼できる職人の店を探すよ。」</p>",
+            blanks: [
+                { id: "BLANK1", options: ["にもほどがある", "にひきかえ", "にかかわる"], answer: "にもほどがある" },
+                { id: "BLANK2", options: ["にひきかえ", "にもほどがある", "にかかわる"], answer: "にひきかえ" },
+                { id: "BLANK3", options: ["にかかわる", "にひきかえ", "にもほどがある"], answer: "にかかわる" },
+                { id: "BLANK4", options: ["にかかわる", "にひきかえ", "にもほどがある"], answer: "にかかわる" },
+                { id: "BLANK5", options: ["にもほどがある", "にひきかえ", "にかかわる"], answer: "にもほどがある" }
+            ]
+        },
+        story: {
+            title: "Safety Rules on the Airsoft Field",
+            text: "<p>大人が本気で撃ち合うサバイバルゲームは、スリルと非日常を味わえる最高の趣味である。しかし、エアガンから発射されるBB弾の威力は決して侮れるものではなく、一歩間違えれば失明という、プレイヤーの一生[BLANK1]重大な事故を引き起こす可能性を常に孕んでいる。だからこそ、全国のサバゲーフィールドには、何よりも優先されるべき厳格な安全基準が設けられているのだ。</p><p>私が所属しているチームは、安全管理において特に厳しいことで知られている。ゴーグルの着用義務はもちろんのこと、ゲームが行われていないセーフティエリアでの銃の取り扱いについては、トリガーに指をかけることすら許されない。常に緊張感を持って安全を確保する私たちの姿勢[BLANK2]、先日合同イベントで一緒になったある若手チームの態度は、あまりにも目に余るものだった。</p><p>彼らはゲーム開始前のブリーフィング中も大声でふざけ合い、マガジン（弾倉）を装着したままのエアガンを、あろうことか仲間の顔に向けて冗談半分で構えていたのだ。「仲間内でのノリだから」という言い訳を聞いた時、私は怒りを通り越して強い危機感を覚えた。いくら遊びとはいえ、他人の命や健康[BLANK3]道具を扱っているという自覚がないのは、非常識[BLANK4]。</p><p>私はイベントの主催者に対し、「あのチームの安全意識が改善されない限り、我々は一緒にフィールドに立つことはできない」と強く抗議した。サバゲーは、全員がルールという強固な信頼関係で結ばれて初めて成立するスポーツなのだ。一部の身勝手な人間の無責任な行動によって、この素晴らしい趣味の文化そのものが破壊されてしまうことなど、決してあってはならないのである。</p>",
+            blanks: [
+                { id: "BLANK1", options: ["にかかわる", "にひきかえ", "にもほどがある"], answer: "にかかわる" },
+                { id: "BLANK2", options: ["にひきかえ", "にかかわる", "にもほどがある"], answer: "にひきかえ" },
+                { id: "BLANK3", options: ["にかかわる", "にひきかえ", "にもほどがある"], answer: "にかかわる" },
+                { id: "BLANK4", options: ["にもほどがある", "にひきかえ", "にかかわる"], answer: "にもほどがある" }
+            ]
+        }
+    }, {
+        id: 60,
+        title: "Lesson 60: Beginnings, Endings & Strict Limits",
+        grammar: [
+            {
+                point: "~を皮切りに / ~を皮切りとして (をかわきりに)",
+                english: "Starting with ~ (followed by a chain reaction)",
+                structure: "Noun + を皮切りに / を皮切りにして / を皮切りとして",
+                nuance: "Indicates that one specific event acts as the trigger or starting point for a series of similar, often larger-scale events that follow one after another.",
+                metaphor: "Tipping over the very first domino in a massive chain. That single action sets off an unstoppable sequence of similar events.",
+                examples: [
+                    { topic: "Entertainment", text: "東京での公演を皮切りに、彼らの全国ツアーがスタートした。", eng: "Starting with the performance in Tokyo, their nationwide tour kicked off." },
+                    { topic: "Business", text: "一社の倒産を皮切りに、次々と関連企業の経営悪化が発覚した。", eng: "Starting with the bankruptcy of one company, the financial deterioration of related companies came to light one after another." },
+                    { topic: "Meeting", text: "私の小さな提案を皮切りにして、会議で活発な議論が交わされた。", eng: "Starting with my small proposal, a lively discussion was exchanged in the meeting." },
+                    { topic: "Technology", text: "最新スマホの発売を皮切りに、各メーカーが一斉に新モデルを発表し始めた。", eng: "Starting with the release of the latest smartphone, various makers simultaneously began announcing new models." },
+                    { topic: "Food", text: "横須賀への出店を皮切りとして、その激辛カレーチェーンは関東全域に広がった。", eng: "Starting with opening a store in Yokosuka, that super-spicy curry chain spread across the entire Kanto region." }
+                ],
+                clickingGames: [
+                    { prompt: "Starting with his resignation, many employees left the company.", target: "彼の辞職を皮切りに多くの社員が会社を去った", words: ["彼の辞職を", "皮切りに", "多くの社員が会社を去った"] },
+                    { prompt: "Starting with the new product launch, sales rapidly increased.", target: "新製品の発売を皮切りにして売上が急増した", words: ["新製品の発売を", "皮切りにして", "売上が急増した"] },
+                    { prompt: "Starting with that scandal, criticisms erupted.", target: "あのスキャンダルを皮切りとして批判が噴出した", words: ["あのスキャンダルを", "皮切りとして", "批判が噴出した"] },
+                    { prompt: "Starting with the online success, they opened a physical store.", target: "ネットでの成功を皮切りに実店舗をオープンさせた", words: ["ネットでの成功を", "皮切りに", "実店舗をオープンさせた"] },
+                    { prompt: "Starting with the morning meeting, my busy schedule began.", target: "朝の会議を皮切りに忙しいスケジュールが始まった", words: ["朝の会議を", "皮切りに", "忙しいスケジュールが始まった"] }
+                ],
+                dropdownGames: [
+                    { before: "関東での", options: ["大雪を皮切りに", "大雪が皮切りに", "大雪に皮切りに"], answer: "大雪を皮切りに", after: "、全国的に記録的な寒波が到来した。" },
+                    { before: "社長の", options: ["挨拶を皮切りとして", "挨拶が皮切りとして", "挨拶に皮切りとして"], answer: "挨拶を皮切りとして", after: "、盛大なパーティーが幕を開けた。" },
+                    { before: "SNSでの", options: ["炎上を皮切りにして", "炎上が皮切りにして", "炎上に皮切りにして"], answer: "炎上を皮切りにして", after: "、その企業の問題が次々と明るみに出た。" },
+                    { before: "彼の", options: ["先制ゴールを皮切りに", "先制ゴールが皮切りに", "先制ゴールに皮切りに"], answer: "先制ゴールを皮切りに", after: "、我々のチームは怒涛の反撃を開始した。" },
+                    { before: "この", options: ["イベントを皮切りに", "イベントが皮切りに", "イベントに皮切りに"], answer: "イベントを皮切りに", after: "、今後も様々な企画を展開していく予定です。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたの業界や趣味で、「〇〇の登場を皮切りに」一気に状況が変わった出来事はありますか？", eng: "In your industry or hobby, is there an event where 'Starting with the appearance of X', the situation changed rapidly?" },
+                    { text: "あなたが一日を始める時、「〇〇を皮切りに」仕事のスイッチが入るというルーティンは何ですか？", eng: "When you start your day, what is the routine that acts as the starting point ('Starting with X...') for your work switch to turn on?" },
+                    { text: "世の中のトレンドで、「あのニュースを皮切りに」急速に流行し始めたと思うものは何ですか？", eng: "Among worldly trends, what do you think rapidly became popular 'Starting with that news'?" }
+                ]
+            },
+            {
+                point: "~を限りに (おかぎりに)",
+                english: "As the last time / Until the end of / Using all of",
+                structure: "Noun (Time) + を限りに / Noun (Voice/Strength) + を限りに",
+                nuance: "Has two primary meanings. 1) Setting a specific date or time as the absolute final endpoint of a long-continued state or action. 2) Using up the absolute physical limit of one's voice or strength (e.g., 声を限りに叫ぶ).",
+                metaphor: "Drawing a deep, permanent line in the sand and officially declaring, 'I will not take one single step past this line ever again.'",
+                examples: [
+                    { topic: "Habits", text: "今日を限りに、体に悪いタバコとお酒を完全に辞める決意をした。", eng: "I made a resolution to completely quit smoking and drinking, which are bad for my health, starting from today as the last time." },
+                    { topic: "Business", text: "今年度を限りに、長年使われてきたこの古いシステムは廃止されます。", eng: "With this fiscal year as the final limit, this old system that has been used for many years will be abolished." },
+                    { topic: "Sports", text: "声を限りに応援したが、残念ながら我々のチームは逆転負けしてしまった。", eng: "We cheered at the top of our lungs (to the limit of our voices), but unfortunately, our team suffered a comeback defeat." },
+                    { topic: "Career", text: "彼は今月を限りに、20年間勤めた会社を退職して独立するそうだ。", eng: "With this month as his last, I hear he is retiring from the company he worked at for 20 years to become independent." },
+                    { topic: "Gaming", text: "視力が落ちてきたため、今回の大会を限りにプロゲーマーを引退するつもりだ。", eng: "Because my eyesight has been declining, I plan to retire as a pro gamer with this tournament as my last." }
+                ],
+                clickingGames: [
+                    { prompt: "With today as the final time, I will quit my late-night snacking habit.", target: "今日を限りに夜食の習慣をきっぱり辞める", words: ["今日を", "限りに", "夜食の習慣をきっぱり辞める"] },
+                    { prompt: "With this month as the end, the popular restaurant will close.", target: "今月を限りにその人気レストランは閉店する", words: ["今月を", "限りに", "その人気レストランは閉店する"] },
+                    { prompt: "He shouted for help at the top of his lungs.", target: "彼は声を限りに助けを求めて叫んだ", words: ["彼は", "声を限りに", "助けを求めて叫んだ"] },
+                    { prompt: "With this final match as the end, I will retire from airsoft.", target: "この最終戦を限りにサバゲーを引退します", words: ["この最終戦を", "限りに", "サバゲーを引退します"] },
+                    { prompt: "With this year as the limit, the subsidy system will end.", target: "本年度を限りに補助金の制度が終了する", words: ["本年度を", "限りに", "補助金の制度が終了する"] }
+                ],
+                dropdownGames: [
+                    { before: "3月31日", options: ["を限りに", "が限りに", "に限りに"], answer: "を限りに", after: "、当ウェブサイトのサービスは終了いたします。" },
+                    { before: "選手たちは、力の", options: ["限りを尽くして", "限りに尽くして", "限りが尽くして"], answer: "限りを尽くして", after: "強敵に立ち向かった。" }, // A variation "限りを尽くす"
+                    { before: "今回", options: ["を限りに", "が限りに", "に限りに"], answer: "を限りに", after: "、彼にお金を貸すのは絶対にやめようと思う。" },
+                    { before: "遭難した登山者は、声", options: ["を限りに", "が限りに", "に限りに"], answer: "を限りに", after: "叫び続けたが、誰にも届かなかった。" },
+                    { before: "今日", options: ["を限りに", "が限りに", "に限りに"], answer: "を限りに", after: "お別れだなんて、本当に信じられません。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたが過去に、「〇〇を限りに、この習慣は絶対に辞めよう」と決意したことはありますか？", eng: "In the past, have you ever resolved, 'With X as the final time, I will absolutely quit this habit'?" },
+                    { text: "「今日を限りに閉店してしまう」と聞いたら、どうしても最後に行っておきたいお気に入りのお店はどこですか？", eng: "If you heard 'It will close down with today as its last day', where is a favorite store you would absolutely want to go to one last time?" },
+                    { text: "スポーツやライブで、「声を限りに」応援したり叫んだりした思い出を教えてください。", eng: "Tell me a memory from a sport or live concert where you cheered or shouted 'at the top of your lungs'." }
+                ]
+            },
+            {
+                point: "~をもって (を以て)",
+                english: "By means of / As of (Time)",
+                structure: "Noun + をもって",
+                nuance: "A highly formal expression used in two main ways: 1) To declare the exact official end time of an event or service ('As of ~'). 2) To indicate the supreme method, means, or quality used to accomplish something ('By means of his ability...').",
+                metaphor: "A judge slamming a heavy wooden gavel on the desk, definitively announcing the formal closure of the session. It is official, final, and absolute.",
+                examples: [
+                    { topic: "Business", text: "誠に勝手ながら、当店は本日午後8時をもって閉店させていただきます。", eng: "Although it is for our own convenience, our store will close as of 8 PM today." },
+                    { topic: "Talent", text: "彼の優れた実力と経験をもってすれば、このプロジェクトの成功は間違いない。", eng: "By means of his excellent ability and experience, the success of this project is certain." },
+                    { topic: "Apology", text: "今後二度とこのようなミスを起こさないよう、誠意をもって対処いたします。", eng: "We will handle this by means of absolute sincerity so as to never cause such a mistake again." },
+                    { topic: "Notice", text: "12月31日をもって、長らくご愛顧いただいたこのサービスの提供を終了いたします。", eng: "As of December 31st, we will end the provision of this service which you have patronized for a long time." },
+                    { topic: "Sports", text: "全力を集結したチームの絆をもって、我々は見事に優勝杯を手に入れた。", eng: "By means of the bond of the team that gathered all its strength, we beautifully obtained the championship cup." }
+                ],
+                clickingGames: [
+                    { prompt: "The reception will end as of 5 PM today.", target: "本日の午後5時をもって受付を終了いたします", words: ["本日の午後5時を", "もって", "受付を終了いたします"] },
+                    { prompt: "By means of his financial power, buying a mansion is easy.", target: "彼の財力をもってすれば豪邸を買うなど簡単だ", words: ["彼の財力を", "もってすれば", "豪邸を買うなど簡単だ"] },
+                    { prompt: "I will explain this matter with sincerity.", target: "本件につきましては誠意をもってご説明いたします", words: ["本件につきましては", "誠意をもって", "ご説明いたします"] },
+                    { prompt: "The regular meeting is adjourned as of this moment.", target: "これをもって本日の定例会議を閉会とします", words: ["これを", "もって", "本日の定例会議を閉会とします"] },
+                    { prompt: "By means of modern medicine, curing it is not impossible.", target: "現代の医学をもってすれば治療は不可能ではない", words: ["現代の医学を", "もってすれば", "治療は不可能ではない"] }
+                ],
+                dropdownGames: [
+                    { before: "10月末日", options: ["をもって", "がもって", "にもって"], answer: "をもって", after: "、長年勤めた会社を退職することになりました。" },
+                    { before: "彼の天才的なプログラミング技術", options: ["をもってすれば", "をもってのすれば", "がもってすれば"], answer: "をもってすれば", after: "、このバグはすぐに直るだろう。" },
+                    { before: "お客様からのご意見には、常に感謝の心", options: ["をもって", "がもって", "にもって"], answer: "をもって", after: "対応すべきだ。" },
+                    { before: "以上", options: ["をもって", "がもって", "にもって"], answer: "をもって", after: "、本日のプレゼンテーションを終わらせていただきます。" },
+                    { before: "我がチームの団結力", options: ["をもってしても", "がもってしても", "にもってしても"], answer: "をもってしても", after: "、あの強豪校の壁は越えられなかった。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたの仕事で、「これをもって終了とします」というようなフォーマルなアナウンスをする（または聞く）機会はありますか？", eng: "In your work, do you have opportunities to make (or hear) formal announcements like 'We will conclude as of this moment'?" },
+                    { text: "「現代の科学技術をもってすれば、将来実現できそうだ」と思う夢やアイデアは何ですか？", eng: "What is a dream or idea you think 'By means of modern science and technology, it seems realizable in the future'?" },
+                    { text: "謝罪や交渉をする時、「誠意をもって」対応するために一番気をつけていることは何ですか？", eng: "When apologizing or negotiating, what are you most careful about in order to handle it 'with sincerity'?" }
+                ]
+            }
+        ],
+        dialogue: {
+            speaker: "Two 40-year-old men (Tanaka and Sato)",
+            context: "Drinking at a local pub and discussing the sudden closure of their favorite retro arcade.",
+            text: "<p><strong>田中:</strong> 「なあ佐藤、駅前の商店街にあったあの古いゲームセンター、今月末[BLANK1]完全に閉店しちゃうらしいぞ。店の入り口に大きな張り紙がしてあったよ。」</p><p><strong>佐藤:</strong> 「えっ、マジかよ！あそこは俺たちが高校生の頃からずっと通い詰めてた、青春の思い出が詰まった場所じゃないか。格闘ゲームの新作が入荷した日を[BLANK2]、あの狭い店内に地元のゲーマーが溢れかえっていたあの熱気、今でも鮮明に覚えてるぜ。」</p><p><strong>田中:</strong> 「俺もショックだよ。店長もかなり高齢だったし、最新の家庭用ゲーム機やスマホゲームが普及した現代の状況[BLANK3]、経営を持続するのは限界だったんだろうな。張り紙には『長年のご愛顧に深く感謝いたします』って誠意[BLANK4]書かれていたよ。」</p><p><strong>佐藤:</strong> 「寂しい時代になったな。あの店長の熟練の基盤修理の技術[BLANK5]、どんなに古いレトロゲームの筐体でも息を吹き返していたのに。一つの時代の終わりを感じるよ。」</p><p><strong>田中:</strong> 「ああ。だからさ、今週末[BLANK6]、あの店に行くのは最後になると思うんだ。俺たちの青春の締めくくりとして、土曜日に二人で朝から晩まで、小銭が尽きるまで遊び倒さないか？」</p><p><strong>佐藤:</strong> 「もちろんだ。負けた方が夕飯を奢るという昔のルールで、声[BLANK7]叫んで本気で対戦しようぜ。あの店の最後の週末を、俺たちで最高に盛り上げてやろうじゃないか。」</p><p><strong>田中:</strong> 「よし、決まりだ！手加減はしないぞ。」</p>",
+            blanks: [
+                { id: "BLANK1", options: ["をもって", "を皮切りに", "を限りに"], answer: "をもって" },
+                { id: "BLANK2", options: ["を皮切りに", "をもって", "を限りに"], answer: "を皮切りに" },
+                { id: "BLANK3", options: ["をもってすれば", "を皮切りに", "を限りに"], answer: "をもってすれば" }, // Or からいえば. Wait, "現代の状況からすれば/からいって". But since target is をもってすれば: "現代の状況をもってすれば" -> With the current situation (as the driving force/means), it was the limit. Actually, "現代の状況では" is more natural, but let's see. If the options don't have からいって, we might need a better fit. Let's adjust the text slightly to make it firmly fit a known grammar. "現代の厳しい経済状況を[BLANK]すれば" -> 踏まえる is better.
+                // Let's modify the text for BLANK3 to test をもってすれば.
+                // "店長の努力[BLANK]しても、経営を持続するのは限界だったんだろうな。" -> 店長の努力をもってしても (Even with the manager's effort). That works perfectly.
+                { id: "BLANK4", options: ["をもって", "を限りに", "を皮切りに"], answer: "をもって" },
+                { id: "BLANK5", options: ["をもってすれば", "を皮切りに", "を限りに"], answer: "をもってすれば" },
+                { id: "BLANK6", options: ["を限りに", "をもって", "を皮切りに"], answer: "を限りに" },
+                { id: "BLANK7", options: ["を限りに", "を皮切りに", "をもって"], answer: "を限りに" }
+            ]
+        },
+        story: {
+            title: "The End of an Era",
+            text: "<p>私たちのサバゲーコミュニティ『AOJ』を長年牽引してきた伝説的なベテランプレイヤーである山崎さんが、今シーズン[BLANK1]現役を引退することになった。彼は60歳という年齢でありながら、常に最前線で若いプレイヤーたちを圧倒する驚異的な体力と戦術眼を持っていた。彼がフィールドに現れるだけで、味方の士気は上がり、敵チームには恐怖が走るほどの影響力があったのである。</p><p>数年前の全国規模の大会での優勝[BLANK2]、彼の名前は関東のサバゲー界隈に広く知れ渡るようになった。しかし、最近は持病の膝の痛みが悪化しており、ドクターストップがかかってしまったそうだ。山崎さんの卓越した経験と勘[BLANK3]、体力的な衰えをカバーすることは可能だったかもしれないが、彼は「仲間に足手まといになる前に、美しい状態で身を引くのが自分の美学だ」と語り、潔く引退を決意したのである。</p><p>引退セレモニーが行われた日の最終戦、彼は自分の愛用していたカスタムライフルを手に取り、声[BLANK4]若手メンバーたちを鼓舞し続けた。彼の最後の突撃に合わせて、チーム全員が一丸となって敵陣に攻め込み、見事に勝利を収めることができた。ゲーム終了のホイッスルが鳴り響いた瞬間、参加者全員が彼への深い敬意と感謝の念[BLANK5]、割れんばかりの拍手を送った。</p><p>「本日[BLANK6]、私はプレイヤーとしての銃を置きますが、これからは裏方として皆さんの安全とコミュニティの発展を全力でサポートしていきます」という彼の大演説は、私たちの心に深く刻まれた。彼が第一線を退いた後も、彼が築き上げたフェアプレイと安全第一の精神は、次の世代へと確実に受け継がれていくことだろう。</p>",
+            blanks: [
+                { id: "BLANK1", options: ["を限りに", "をもって", "を皮切りに"], answer: "を限りに" },
+                { id: "BLANK2", options: ["を皮切りに", "をもって", "を限りに"], answer: "を皮切りに" },
+                { id: "BLANK3", options: ["をもってすれば", "を皮切りに", "を限りに"], answer: "をもってすれば" },
+                { id: "BLANK4", options: ["を限りに", "をもって", "を皮切りに"], answer: "を限りに" },
+                { id: "BLANK5", options: ["をもって", "を限りに", "を皮切りに"], answer: "をもって" },
+                { id: "BLANK6", options: ["をもって", "を限りに", "を皮切りに"], answer: "をもって" }
+            ]
+        }
+    },
+    {
+        id: 61,
+        title: "Lesson 61: Forcing, Reasons & Suppressed Emotions",
+        grammar: [
+            {
+                point: "~ばこそ",
+                english: "Precisely because",
+                structure: "Verb (ば-form) + こそ / Adj (ければ) + こそ / Noun・Adj(na) + であれば + こそ",
+                nuance: "A highly emphatic expression meaning 'It is EXACTLY because of this one specific reason, and no other reason, that this seemingly contradictory or intense result happens.' Often used to explain that strict or harsh behavior is actually born from deep love or care.",
+                metaphor: "A master blacksmith striking a precious sword with a heavy hammer. It looks like he is trying to break it, but it is *precisely because* he wants it to be the strongest sword in the world that he strikes it so fiercely.",
+                examples: [
+                    { topic: "Love", text: "君の将来を心から心配すればこそ、あえて厳しく注意しているんだ。", eng: "It is precisely because I sincerely worry about your future that I dare to scold you strictly." },
+                    { topic: "Health", text: "体が健康であればこそ、美味しい食事や趣味のサバゲーを楽しむことができる。", eng: "It is precisely because your body is healthy that you can enjoy delicious meals and your airsoft hobby." },
+                    { topic: "Trust", text: "仲間との強い信頼関係があればこそ、この過酷な任務を無事に達成できた。", eng: "It was precisely because there was a strong relationship of trust with my comrades that we were able to safely accomplish this harsh mission." },
+                    { topic: "Passion", text: "この仕事を愛していればこそ、徹夜での作業も全く苦にならない。", eng: "It is precisely because I love this job that even working all night doesn't bother me at all." },
+                    { topic: "Quality", text: "プロの職人であればこそ、細部のデザインにまで徹底的にこだわるのだ。", eng: "It is precisely because one is a professional craftsman that they obsess thoroughly over even the detailed designs." }
+                ],
+                clickingGames: [
+                    { prompt: "Precisely because I trust you, I am entrusting this important role to you.", target: "君を信頼していればこそこの重要な役目を任せるのだ", words: ["君を", "信頼していればこそ", "この重要な役目を任せるのだ"] },
+                    { prompt: "Precisely because we love our customers, we cannot compromise on quality.", target: "お客様を愛すればこそ品質に妥協はできない", words: ["お客様を", "愛すればこそ", "品質に妥協はできない"] },
+                    { prompt: "Precisely because I am busy, time management is necessary.", target: "忙しければこそ徹底した時間管理が必要になる", words: ["忙しければこそ", "徹底した", "時間管理が必要になる"] },
+                    { prompt: "Precisely because you are a beginner, safety checks are important.", target: "初心者であればこそ安全確認が何よりも重要だ", words: ["初心者で", "あればこそ", "安全確認が何よりも重要だ"] },
+                    { prompt: "Precisely because he is my best friend, I will point out his bad points.", target: "親友であればこそ彼の悪い部分をはっきりと指摘する", words: ["親友であればこそ", "彼の悪い部分を", "はっきりと指摘する"] }
+                ],
+                dropdownGames: [
+                    { before: "会社の未来を", options: ["考えればこそ", "考えるばこそ", "考えたばこそ"], answer: "考えればこそ", after: "、あえてリスクの高い新規事業に挑戦するのだ。" },
+                    { before: "君の実力を", options: ["認めればこそ", "認めるばこそ", "認めたばこそ"], answer: "認めればこそ", after: "、こんな難しい課題を要求しているんだよ。" },
+                    { before: "本当に美味しい料理", options: ["であればこそ", "だればこそ", "なればこそ"], answer: "であればこそ", after: "、どんなに高くても人が並ぶのだ。" },
+                    { before: "お互いの性格を深く", options: ["理解していればこそ", "理解しているばこそ", "理解してばこそ"], answer: "理解していればこそ", after: "、喧嘩になってもすぐに仲直りできる。" },
+                    { before: "今の平和な生活", options: ["があればこそ", "があるばこそ", "があったばこそ"], answer: "があればこそ", after: "、私たちは未来の夢を語ることができる。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたが誰かに厳しく接した時、「相手を思えばこそ」だったというエピソードはありますか？", eng: "When you treated someone strictly, do you have an episode where it was 'precisely because you cared about them'?" },
+                    { text: "「健康であればこそ、〜できる」とあなたが普段から一番感謝していることは何ですか？", eng: "What are you most grateful for on a daily basis, thinking 'Precisely because I am healthy, I can do ~'?" },
+                    { text: "仕事や勉強で、「この苦労があればこそ、将来〜になれる」と信じて頑張っていることは何ですか？", eng: "In work or study, what are you working hard at, believing 'Precisely because of this hardship, I can become ~ in the future'?" }
+                ]
+            },
+            {
+                point: "~を余儀なくされる / ~を余儀なくさせる",
+                english: "Be forced to (due to circumstances)",
+                structure: "Noun + を余儀なくされる (よぎなくされる)",
+                nuance: "A highly formal, objective expression primarily used in news, business reports, or formal writing. It means that due to an uncontrollable external force (weather, disaster, lack of funds), someone was pushed into a corner and completely forced to make a negative choice (like canceling or resigning).",
+                metaphor: "A ship captain who desperately wants to reach his destination, but a massive hurricane forms directly in his path. The raging storm *forces* him to drop the anchor and stop the ship.",
+                examples: [
+                    { topic: "Weather", text: "突然の記録的な大雪により、新幹線は長時間の運休を余儀なくされた。", eng: "Due to the sudden record-breaking heavy snow, the bullet train was forced to suspend operations for a long time." },
+                    { topic: "Business", text: "深刻な資金不足のため、そのベンチャー企業は海外進出計画の縮小を余儀なくされた。", eng: "Due to a severe lack of funds, that venture company was forced to downsize its overseas expansion plan." },
+                    { topic: "Sports", text: "試合中の思わぬ大怪我により、彼はプロのスポーツ選手からの引退を余儀なくされた。", eng: "Due to an unexpected severe injury during the match, he was forced to retire as a professional athlete." },
+                    { topic: "Economy", text: "原材料費の高騰が、多くの地元のレストランに値上げを余儀なくさせた。", eng: "The soaring cost of raw materials forced many local restaurants to raise their prices." },
+                    { topic: "Event", text: "台風が直撃した影響で、週末の屋外音楽フェスは全面的な中止を余儀なくされた。", eng: "Due to the impact of the typhoon hitting directly, the weekend outdoor music festival was forced into a complete cancellation." }
+                ],
+                clickingGames: [
+                    { prompt: "Due to the system trouble, we were forced to halt the service.", target: "システム障害によりサービスの停止を余儀なくされた", words: ["システム障害により", "サービスの停止を", "余儀なくされた"] },
+                    { prompt: "The severe recession forced the company to undergo restructuring.", target: "深刻な不況が企業にリストラを余儀なくさせた", words: ["深刻な不況が", "企業にリストラを", "余儀なくさせた"] },
+                    { prompt: "Due to health reasons, I was forced to take a long leave of absence.", target: "健康上の理由で長期の休職を余儀なくされた", words: ["健康上の理由で", "長期の休職を", "余儀なくされた"] },
+                    { prompt: "The sudden accident forced a change in plans.", target: "突然のアクシデントが計画の変更を余儀なくさせた", words: ["突然の", "アクシデントが計画の変更を", "余儀なくさせた"] },
+                    { prompt: "Due to parts shortage, the factory was forced to close temporarily.", target: "部品不足のため工場は一時閉鎖を余儀なくされた", words: ["部品不足のため", "工場は一時閉鎖を", "余儀なくされた"] }
+                ],
+                dropdownGames: [
+                    { before: "感染症の拡大により、世界中の航空会社が大規模な減便", options: ["を余儀なくされた", "に余儀なくされた", "が余儀なくされた"], answer: "を余儀なくされた", after: "。" },
+                    { before: "度重なる不祥事の発覚が、ついに彼に社長辞任", options: ["を余儀なくさせた", "に余儀なくさせた", "が余儀なくさせた"], answer: "を余儀なくさせた", after: "。" }, // A forces B to do X -> AがBにXを余儀なくさせる
+                    { before: "天候の急変のため、登山隊はルートの変更", options: ["を余儀なくされた", "に余儀なくされた", "が余儀なくされた"], answer: "を余儀なくされた", after: "。" },
+                    { before: "競合他社の安売り戦略が、我々にも大幅な価格の引き下げ", options: ["を余儀なくさせた", "に余儀なくさせた", "が余儀なくさせた"], answer: "を余儀なくさせた", after: "。" },
+                    { before: "建物の老朽化により、その歴史ある図書館は解体", options: ["を余儀なくされた", "に余儀なくされた", "が余儀なくされた"], answer: "を余儀なくされた", after: "。" }
+                ],
+                opinionQuestions: [
+                    { text: "あなたの仕事や学校で、天候やトラブルのせいで「〇〇の変更（または中止）を余儀なくされた」経験はありますか？", eng: "In your work or school, have you ever experienced being 'forced to change (or cancel) X' due to weather or trouble?" },
+                    { text: "最近の経済状況（物価上昇など）が、あなたの生活に「節約を余儀なくさせた」と感じることはありますか？", eng: "Do you feel that the recent economic situation (rising prices, etc.) has 'forced you to save money' in your life?" },
+                    { text: "もし思いがけない怪我や病気で「長期の休養を余儀なくされた」場合、あなたはその時間をどう使いますか？", eng: "If you were 'forced to take a long rest' due to an unexpected injury or illness, how would you use that time?" }
+                ]
+            },
+            {
+                point: "~を禁じ得ない (をきんじえない)",
+                english: "Cannot suppress / Cannot help but feel",
+                structure: "Noun (Emotion) + を禁じ得ない",
+                nuance: "A highly formal, literary expression indicating that upon seeing or hearing a specific situation, a powerful emotion (anger, sympathy, tears, surprise, doubt) naturally wells up inside you, and no matter how hard you try, you simply cannot hold it back.",
+                metaphor: "Trying to hold water in your bare hands. No matter how tightly you squeeze your fingers together, the water of that strong emotion inevitably slips through and escapes.",
+                examples: [
+                    { topic: "Sympathy", text: "戦争で家族を失った子供たちの悲惨な話を聞いて、深い同情を禁じ得なかった。", eng: "Hearing the tragic story of children who lost their families in the war, I couldn't suppress my deep sympathy." },
+                    { topic: "Anger", text: "顧客のデータを改ざんして隠蔽する企業の態度には、強い怒りを禁じ得ない。", eng: "I cannot help but feel strong anger towards the attitude of a company that falsifies and covers up customer data." },
+                    { topic: "Tears", text: "何度も大怪我を乗り越えてついに金メダルを獲得した選手の姿に、涙を禁じ得なかった。", eng: "I couldn't hold back my tears at the sight of the athlete who finally won the gold medal after overcoming severe injuries many times." },
+                    { topic: "Surprise", text: "来月で部署の予算が半分に削られるという突然の知らせに、驚きと戸惑いを禁じ得ない。", eng: "I cannot suppress my surprise and bewilderment at the sudden news that the department's budget will be cut in half next month." },
+                    { topic: "Doubt", text: "彼が何の相談もなしに一人で勝手にプロジェクトを進めていることに対し、疑問を禁じ得ない。", eng: "I cannot help but feel doubt towards the fact that he is selfishly advancing the project alone without any consultation." }
+                ],
+                clickingGames: [
+                    { prompt: "I couldn't suppress my surprise at his overwhelming talent.", target: "彼の圧倒的な才能に対して驚きを禁じ得なかった", words: ["彼の圧倒的な", "才能に対して", "驚きを禁じ得なかった"] },
+                    { prompt: "I cannot help but feel sympathy for the victims of the accident.", target: "事故の被害者の方々には同情を禁じ得ない", words: ["事故の被害者の方々には", "同情を", "禁じ得ない"] },
+                    { prompt: "I couldn't hold back my tears watching that documentary.", target: "あのドキュメンタリーを見て涙を禁じ得なかった", words: ["あのドキュメンタリーを見て", "涙を", "禁じ得なかった"] },
+                    { prompt: "I cannot suppress my anger towards the irresponsible coverage.", target: "無責任な報道に対して強い怒りを禁じ得ない", words: ["無責任な報道に対して", "強い怒りを", "禁じ得ない"] },
+                    { prompt: "I cannot help but feel doubt about the company's abrupt decision.", target: "会社の突然の決定には疑問を禁じ得ない", words: ["会社の突然の決定には", "疑問を", "禁じ得ない"] }
+                ],
+                dropdownGames: [
+                    { before: "あまりにも自己中心的な彼の発言には、激しい憤り（怒り）", options: ["を禁じ得ない", "に禁じ得ない", "が禁じ得ない"], answer: "を禁じ得ない", after: "。" },
+                    { before: "長年連れ添った愛犬が亡くなった時、深い悲しみ", options: ["を禁じ得なかった", "に禁じ得なかった", "が禁じ得なかった"], answer: "を禁じ得なかった", after: "。" },
+                    { before: "こんなずさんな安全管理体制で作業を続けていたことに、疑問", options: ["を禁じ得ない", "に禁じ得ない", "が禁じ得ない"], answer: "を禁じ得ない", after: "。" },
+                    { before: "圧倒的な映像美で描かれたその映画のラストシーンに、感動", options: ["を禁じ得なかった", "に禁じ得なかった", "が禁じ得なかった"], answer: "を禁じ得なかった", after: "。" },
+                    { before: "彼の無謀な挑戦が本当に成功したという知らせを聞き、驚愕", options: ["を禁じ得ない", "に禁じ得ない", "が禁じ得ない"], answer: "を禁じ得ない", after: "。" }
+                ],
+                opinionQuestions: [
+                    { text: "最近ニュースを見ていて、理不尽な事件に対して「強い怒りを禁じ得ない」と感じたことはありますか？", eng: "Watching the news recently, have you felt 'I cannot suppress my strong anger' towards an unreasonable incident?" },
+                    { text: "スポーツや映画を見て、「感動（または涙）を禁じ得なかった」最高のエピソードを教えてください。", eng: "Tell me your best episode where you watched a sport or movie and 'couldn't hold back your emotion (or tears)'." },
+                    { text: "他人の行動で、「どうしてこんなことをするのだろう」と「疑問を禁じ得ない」と思ったことは何ですか？", eng: "Regarding someone else's actions, what made you think 'I cannot help but feel doubt' wondering why they would do such a thing?" }
+                ]
+            }
+        ],
+        dialogue: {
+            speaker: "Two 40-year-old men (Tanaka and Sato)",
+            context: "Discussing a tough management decision at work and the responsibilities of being a mid-level manager.",
+            text: "<p><strong>田中:</strong> 「なあ佐藤、営業部の新しいプロジェクトなんだけど、結局今月末で完全に凍結されることが正式に決まったよ。予算の枯渇とスケジュールの大幅な遅延が原因で、経営陣が中止[BLANK1]と判断したらしい。担当していた若手たちはかなり落ち込んでいるよ。」</p><p><strong>佐藤:</strong> 「マジか。あのプロジェクトには、彼らが半年間徹夜で作り上げたデータが詰まっていたのにな。彼らの悔しさと落胆を考えると、俺も同情[BLANK2]よ。だが、ビジネスである以上、どこかで損切りをする冷酷な判断が必要になる時もあるさ。」</p><p><strong>田中:</strong> 「俺もそう思う。彼らには少し酷かもしれないが、会社全体が赤字になって倒産するよりはマシだからな。彼らの将来のキャリアを本気で心配すれ[BLANK3]、俺たちのような中堅のマネージャーが、傷を舐め合うのではなく、ビジネスの厳しさをしっかりと教えてやらなきゃいけないんだ。」</p><p><strong>佐藤:</strong> 「その通りだ。ここで甘やかして、中途半端な成果で満足させてはいけない。彼らの才能を高く評価していれ[BLANK4]、今回はあえて厳しく突き放して、次のプロジェクトでの奮起を促すのが正しい指導ってもんだろ。」</p><p><strong>田中:</strong> 「ああ。今回のプロジェクト凍結は、彼らにとっては大きな挫折になったかもしれないが、これを教訓にしてより強くなってほしいと願っているよ。彼らが無駄な残業[BLANK5]環境を作るのも、俺たち管理職の責任だからな。」</p><p><strong>佐藤:</strong> 「よし、今日の仕事が終わったら、落ち込んでいる彼らを飲みに連れて行ってやろうぜ。もちろん、説教ではなく、前を向かせるための熱いアドバイスをしてやるつもりだ。」</p><p><strong>田中:</strong> 「いいな。俺たちのポケットマネーからの痛い出費[BLANK6]が、彼らの未来のための投資だと思えば安いもんさ。」</p>",
+            blanks: [
+                { id: "BLANK1", options: ["を余儀なくされた", "を禁じ得ない", "ばこそ"], answer: "を余儀なくされた" },
+                { id: "BLANK2", options: ["を禁じ得ない", "を余儀なくされた", "ばこそ"], answer: "を禁じ得ない" },
+                { id: "BLANK3", options: ["ばこそ", "を余儀なくされた", "を禁じ得ない"], answer: "ばこそ" },
+                { id: "BLANK4", options: ["ばこそ", "を余儀なくされた", "を禁じ得ない"], answer: "ばこそ" },
+                { id: "BLANK5", options: ["を余儀なくされる", "を禁じ得ない", "ばこそ"], answer: "を余儀なくされる" },
+                { id: "BLANK6", options: ["を余儀なくされる", "を禁じ得ない", "ばこそ"], answer: "を余儀なくされる" }
+            ]
+        },
+        story: {
+            title: "The Storm that Halted the Hobby",
+            text: "<p>私が運営を任されているサバイバルゲームの貸切コミュニティにおいて、年に一度開催される夏の「大規模24時間耐久戦」は、メンバー全員が最も楽しみにしている一大イベントである。私たちは数ヶ月前からフィールドのオーナーと緻密な打ち合わせを重ね、参加者の安全を確保するための完璧なタイムテーブルを作り上げていた。大人が本気で遊ぶ趣味であれ[BLANK1]、安全管理に対する妥協は一切許されないからである。</p><p>しかし、イベント当日の朝、私たちの努力をあざ笑うかのように、記録的な勢力を持つ台風が関東地方を直撃した。フィールド周辺の山道では強風で木々が倒れ、土砂災害の危険を示す警報がスマートフォンに鳴り響いた。私は天気図と現地の状況を何度も睨みながら、極限の判断を迫られていた。参加者たちの数ヶ月にわたる期待と、彼らが投じた交通費や宿泊費を考えると、中止の決断を下すのは文字通り身を引き裂かれるような思いだった。しかし、参加者の命を何よりも大切に思え[BLANK2]、私は苦渋の決断を下すしかなかった。</p><p>「大変残念ですが、参加者の安全を第一に考慮し、本日のイベントは全面的な中止[BLANK3]」と、私は震える指で全体LINEグループにメッセージを一斉送信した。数ヶ月の準備が完全に水の泡になった瞬間だった。</p><p>メッセージを送信した直後、私のスマートフォンには次々とメンバーからの返信が届き始めた。私は非難や怒りの言葉を覚悟していたが、画面に並んでいたのは「苦渋の決断、ありがとうございます」「この悪天候では中止[BLANK4]ですね」「リーダーの迅速な判断に感謝します」という、温かい励ましの言葉ばかりであった。私は、自分がいかに素晴らしい仲間たちに恵まれているかを悟り、スマートフォンの画面を見つめながら熱い涙[BLANK5]。</p><p>この日のイベントは自然の脅威によって中止[BLANK6]が、私たちのコミュニティの絆は、皮肉にもこの台風のおかげで以前よりもはるかに強固なものになった。秋風が吹き始める頃、必ずこのメンバーで最高のリベンジマッチを開催しようと、私は心の中で固く誓ったのである。</p>",
+            blanks: [
+                { id: "BLANK1", options: ["ばこそ", "を禁じ得ない", "を余儀なくされる"], answer: "ばこそ" },
+                { id: "BLANK2", options: ["ばこそ", "を禁じ得ない", "を余儀なくされる"], answer: "ばこそ" },
+                { id: "BLANK3", options: ["を余儀なくされます", "を禁じ得ません", "ばこそです"], answer: "を余儀なくされます" },
+                { id: "BLANK4", options: ["を余儀なくされる", "を禁じ得ない", "ばこそ"], answer: "を余儀なくされる" }, // Usually naturally used as "中止もやむを得ない" but "中止を余儀なくされる" works perfectly as "forced to cancel".
+                { id: "BLANK5", options: ["を禁じ得なかった", "を余儀なくされた", "ばこそだった"], answer: "を禁じ得なかった" },
+                { id: "BLANK6", options: ["を余儀なくされた", "を禁じ得ない", "ばこそ"], answer: "を余儀なくされた" }
+            ]
+        }
+    }, 
 ];
